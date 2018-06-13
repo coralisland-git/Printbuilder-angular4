@@ -1,0 +1,193 @@
+{
+	"name":"regular-vertical-front",
+	"path":" regular-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"regular-vertical-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1575, 
+			"height":2175  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-SemiBold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":140, 
+			"name":"txt_9", 
+			"x":714, 
+			"y":1164, 
+			"width":696, 
+			"height":118 , 
+			"text":"dream job?"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Light",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":140, 
+			"name":"txt_8", 
+			"x":714, 
+			"y":995, 
+			"width":658, 
+			"height":117 , 
+			"text":"Looking for"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xFFFFFF", 
+			"size":42, 
+			"name":"txt_7", 
+			"x":749, 
+			"y":1410, 
+			"width":700, 
+			"height":336 , 
+			"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation \rullamco laboris nisi ut aliquip ex ea commodo consequat. "  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0xFFFFFF", 
+			"size":42, 
+			"name":"txt_6", 
+			"x":945, 
+			"y":1816, 
+			"width":267, 
+			"height":104 , 
+			"text":"Your text here"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0xFFFFFF", 
+			"size":42, 
+			"name":"txt_5", 
+			"x":961, 
+			"y":1874, 
+			"width":267, 
+			"height":104 , 
+			"text":"Your text here"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0xFFFFFF", 
+			"size":42, 
+			"name":"txt_3", 
+			"x":978, 
+			"y":1932, 
+			"width":267, 
+			"height":104 , 
+			"text":"Your text here"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0xFFFFFF", 
+			"size":42, 
+			"name":"txt_4", 
+			"x":995, 
+			"y":1991, 
+			"width":267, 
+			"height":104 , 
+			"text":"Your text here"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/icon_check.png", 
+			"name":"icon_check", 
+			"x":856, 
+			"y":1821, 
+			"width":39, 
+			"height":33  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/icon_check_1.png", 
+			"name":"icon_check_1", 
+			"x":872, 
+			"y":1878, 
+			"width":39, 
+			"height":33  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/icon_check_2.png", 
+			"name":"icon_check_2", 
+			"x":890, 
+			"y":1936, 
+			"width":39, 
+			"height":33  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/icon_check_3.png", 
+			"name":"icon_check_3", 
+			"x":906, 
+			"y":1995, 
+			"width":39, 
+			"height":33  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Light",
+			"justification":"left",
+			"color":"0x343434", 
+			"size":157, 
+			"name":"txt_2", 
+			"x":162, 
+			"y":1714, 
+			"width":378, 
+			"height":128 , 
+			"text":"We Are"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Alamain",
+			"justification":"left",
+			"color":"0xC60036", 
+			"size":94, 
+			"name":"txt_1", 
+			"x":241, 
+			"y":1879, 
+			"width":362, 
+			"height":200 , 
+			"text":"Hiring"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/log.png", 
+			"name":"log", 
+			"x":151, 
+			"y":116, 
+			"width":563, 
+			"height":118  
+		}
+
+	]
+}

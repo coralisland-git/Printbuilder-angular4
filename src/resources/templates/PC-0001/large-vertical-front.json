@@ -1,0 +1,135 @@
+{
+	"name":"large-vertical-front",
+	"path":" jumbo-vertical-front/jumbo-vertical-back/jumbo-horizontal-front/jumbo-horizontal-back/large-horizontal-back/large-horizontal-front/large-vertical-back/large-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"large-vertical-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1875, 
+			"height":2775  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/camera_3.png", 
+			"name":"camera_3", 
+			"x":174, 
+			"y":551, 
+			"width":1526, 
+			"height":1265  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/img_1.png", 
+			"name":"img_1", 
+			"x":935, 
+			"y":1662, 
+			"width":684, 
+			"height":177  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeue",
+			"justification":"left",
+			"color":"0xB8202D", 
+			"size":79, 
+			"name":"text_3", 
+			"x":1006, 
+			"y":1721, 
+			"width":297, 
+			"height":58 , 
+			"text":"Offering at"  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeue",
+			"justification":"left",
+			"color":"0xB8202D", 
+			"size":79, 
+			"name":"l_price", 
+			"x":1318, 
+			"y":1719, 
+			"width":230, 
+			"height":63 , 
+			"text":"$250.000"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Raleway-Bold",
+			"justification":"left",
+			"color":"0xB8202D", 
+			"size":97, 
+			"name":"text_2", 
+			"x":891, 
+			"y":298, 
+			"width":409, 
+			"height":71 , 
+			"text":"MODERN"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Raleway-Regular",
+			"justification":"left",
+			"color":"0xB8202D", 
+			"size":97, 
+			"name":"text_1", 
+			"x":1339, 
+			"y":299, 
+			"width":375, 
+			"height":70 , 
+			"text":"BEAUTY"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Raleway-SemiBold",
+			"justification":"left",
+			"color":"0xB8202D", 
+			"size":45, 
+			"name":"l_address", 
+			"x":891, 
+			"y":421, 
+			"width":818, 
+			"height":41 , 
+			"text":"1224 MONTANA AVE | SANTA MONICA"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/camera_2.png", 
+			"name":"camera_2", 
+			"x":180, 
+			"y":1949, 
+			"width":742, 
+			"height":529  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":953, 
+			"y":1949, 
+			"width":742, 
+			"height":531  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":179, 
+			"y":313, 
+			"width":588, 
+			"height":124  
+		}
+
+	]
+}

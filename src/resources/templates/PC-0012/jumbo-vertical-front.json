@@ -1,0 +1,65 @@
+{
+	"name":"jumbo-vertical-front",
+	"path":" jumbo-horizontal-front/jumbo-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-vertical-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1875, 
+			"height":3375  
+		},
+		{ 
+			"type":"text", 
+			"font":"VeryBerryPro-Regular",
+			"justification":"center",
+			"color":"0x2B2B2B", 
+			"size":79, 
+			"name":"text_1", 
+			"x":242, 
+			"y":1355, 
+			"width":1385, 
+			"height":193 , 
+			"text":"A day to honor the hard work that you have put in,\rA day to relax and enjoy!"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/img_2.png", 
+			"name":"img_2", 
+			"x":220, 
+			"y":1672, 
+			"width":1426, 
+			"height":169  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/img_1.png", 
+			"name":"img_1", 
+			"x":232, 
+			"y":1582, 
+			"width":1408, 
+			"height":54  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":142, 
+			"y":3059, 
+			"width":759, 
+			"height":159  
+		}
+
+	]
+}

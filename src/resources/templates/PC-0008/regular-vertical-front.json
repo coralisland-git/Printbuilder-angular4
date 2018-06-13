@@ -1,0 +1,168 @@
+{
+	"name":"regular-vertical-front",
+	"path":" regular-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"regular-vertical-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1575, 
+			"height":2175  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":-4, 
+			"y":-12, 
+			"width":1581, 
+			"height":1103  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/img_1.png", 
+			"name":"img_1", 
+			"x":43, 
+			"y":1040, 
+			"width":1493, 
+			"height":400  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Light",
+			"style":"italic",
+			"justification":"left",
+			"lineHeight":41,
+			"color":"0xFFFFFF", 
+			"size":150, 
+			"name":"text_1", 
+			"x":257, 
+			"y":1117, 
+			"width":1077, 
+			"height":105 , 
+			"text":"HOME VALUES IS ON"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Bold",
+			"justification":"left",
+			"lineHeight":41,
+			"color":"0xFFFFFF", 
+			"size":200, 
+			"name":"text_2", 
+			"x":417, 
+			"y":1253, 
+			"width":719, 
+			"height":132 , 
+			"text":"THE RISE"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Bold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0x4D4D4E", 
+			"size":67, 
+			"name":"text_3", 
+			"x":159, 
+			"y":1540, 
+			"width":455, 
+			"height":136 , 
+			"text":"Now is the time\rto sell!"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Light",
+			"style":"italic",
+			"justification":"left",
+			"uppercase":true,
+			"lineHeight":41,
+			"color":"0xFFFFFF", 
+			"size":53, 
+			"name":"text_4", 
+			"x":706, 
+			"y":1962, 
+			"width":716, 
+			"height":47 , 
+			"text":"Your selling opportunity is here!"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Bold",
+			"justification":"left",
+			"uppercase":true,
+			"lineHeight":41,
+			"color":"0xC52234", 
+			"size":58, 
+			"name":"website", 
+			"x":697, 
+			"y":2030, 
+			"width":791, 
+			"height":50 , 
+			"text":"JohnSONB.KELLERWILLIAMS.COM"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":90, 
+			"y":1944, 
+			"width":435, 
+			"height":135  
+		},
+		{ 
+			"type":"text", 
+			"font":"OpenSans-Light",
+			"justification":"left",
+			"lineHeight":29,
+			"color":"0x000000", 
+			"size":43, 
+			"name":"feature_3", 
+			"x":790, 
+			"y":1696, 
+			"width":655, 
+			"height":108 , 
+			"text":"Homes in your neighborhoods are\rhigh in demand"  
+		},
+		{ 
+			"type":"text", 
+			"font":"OpenSans-Light",
+			"justification":"left",
+			"lineHeight":41,
+			"color":"0x000000", 
+			"size":43, 
+			"name":"feature_2", 
+			"x":791, 
+			"y":1617, 
+			"width":467, 
+			"height":44 , 
+			"text":"Multiple offers for sellers"  
+		},
+		{ 
+			"type":"text", 
+			"font":"OpenSans-Light",
+			"justification":"left",
+			"lineHeight":41,
+			"color":"0x000000", 
+			"size":43, 
+			"name":"feature_1", 
+			"x":791, 
+			"y":1537, 
+			"width":290, 
+			"height":44 , 
+			"text":"Inventory is low"  
+		}
+
+	]
+}

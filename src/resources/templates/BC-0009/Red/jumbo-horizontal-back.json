@@ -1,0 +1,60 @@
+{
+	"name":"jumbo-horizontal-back",
+	"path":" jumbo-horizontal-back/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-horizontal-back",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-back/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1088, 
+			"height":653  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xFFFFFF", 
+			"size":25, 
+			"name":"text_1", 
+			"x":624, 
+			"y":343, 
+			"width":201, 
+			"height":17 , 
+			"text":"Real Estate Agent"  
+		},
+		{ 
+			"type":"text", 
+			"font":"GeometricSlab703BT-Medium",
+			"justification":"left",
+			"color":"0xFFFFFF", 
+			"size":40, 
+			"name":"name", 
+			"x":625, 
+			"y":297, 
+			"width":198, 
+			"height":35 , 
+			"text":"John Smith"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-back/logo.png", 
+			"name":"logo", 
+			"x":188, 
+			"y":298, 
+			"width":374, 
+			"height":78  
+		}
+
+	]
+}

@@ -1,0 +1,162 @@
+{
+	"name":"large-vertical-front",
+	"path":" large-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"large-vertical-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1875, 
+			"height":2775  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/camera_4.png", 
+			"name":"camera_4", 
+			"x":0, 
+			"y":0, 
+			"width":1875, 
+			"height":1256  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/camera_3.png", 
+			"name":"camera_3", 
+			"x":87, 
+			"y":1319, 
+			"width":547, 
+			"height":380  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/camera_2.png", 
+			"name":"camera_2", 
+			"x":664, 
+			"y":1318, 
+			"width":546, 
+			"height":381  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":1240, 
+			"y":1318, 
+			"width":547, 
+			"height":380  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":91, 
+			"y":107, 
+			"width":750, 
+			"height":233  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/img_1.png", 
+			"name":"img_1", 
+			"x":0, 
+			"y":1128, 
+			"width":1067, 
+			"height":164  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeueBold",
+			"justification":"center",
+			"color":"0xD31E47", 
+			"size":200, 
+			"name":"text_3", 
+			"x":611, 
+			"y":1918, 
+			"width":458, 
+			"height":143 , 
+			"text":"Beauty"  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeueLight",
+			"justification":"center",
+			"color":"0x000000", 
+			"size":200, 
+			"name":"text_2", 
+			"x":112, 
+			"y":1918, 
+			"width":453, 
+			"height":142 , 
+			"text":"Modern "  
+		},
+		{ 
+			"type":"text", 
+			"font":"Roboto-Light",
+			"justification":"left",
+			"lineHeight":41,
+			"alpha":0.5, 
+			"color":"0x000000", 
+			"size":40, 
+			"name":"text_4", 
+			"x":111, 
+			"y":2338, 
+			"width":1616, 
+			"height":296 , 
+			"text":"Perched atop the coveted Huntington area of the Pacific Palisades, this oceanside manor is nothing short of presidential - a rare composition of remarkable stonework flush with ivy and backlit by the crimson blue of the Pacific. Entering through wrought iron gates and a palatial motor court, one is greeted by a grand entry hall, guiding you into a medley of impeccably outfitted spaces."  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeueBold",
+			"justification":"center",
+			"lineHeight":58,
+			"color":"0x4E4E4F", 
+			"size":120, 
+			"name":"addr_multiline", 
+			"x":113, 
+			"y":2185, 
+			"width":1643, 
+			"height":97 , 
+			"text":"123 wilshire blvd, santa monica ca 90402"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-LightItalic",
+			"justification":"left",
+			"lineHeight":94,
+			"color":"0xFFFFFF", 
+			"size":86, 
+			"name":"text_1", 
+			"x":86, 
+			"y":1179, 
+			"width":462, 
+			"height":62 , 
+			"text":"OFFERED AT "  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-BoldItalic",
+			"justification":"left",
+			"lineHeight":94,
+			"color":"0xFFFFFF", 
+			"size":86, 
+			"name":"price", 
+			"x":566, 
+			"y":1174, 
+			"width":409, 
+			"height":79 , 
+			"text":"$1.250.000"  
+		}
+
+	]
+}

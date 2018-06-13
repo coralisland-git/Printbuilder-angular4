@@ -1,0 +1,34 @@
+{
+	"name":"jumbo-horizontal-back",
+	"path":" jumbo-horizontal-front/jumbo-horizontal-back/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-horizontal-back",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-back/background.png", 
+			"name":"background", 
+			"x":-4, 
+			"y":-4, 
+			"width":1096, 
+			"height":646  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-back/logo.png", 
+			"name":"logo", 
+			"x":91, 
+			"y":219, 
+			"width":905, 
+			"height":199  
+		}
+
+	]
+}

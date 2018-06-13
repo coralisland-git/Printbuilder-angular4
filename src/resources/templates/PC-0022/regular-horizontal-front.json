@@ -1,0 +1,70 @@
+{
+	"name":"regular-horizontal-front",
+	"path":" regular-horizontal-front/regular-vertical-front/regular-vertical-back/regular-horizontal-back/",
+	"info":{
+		"description":"Normal",
+		"file":"regular-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":2175, 
+			"height":1575  
+		},
+		{ 
+			"type":"text", 
+			"font":"Falco-Black-Inline-Negative",
+			"justification":"center",
+			"color":"0xC60036", 
+			"size":139, 
+			"name":"text_2", 
+			"x":1208, 
+			"y":415, 
+			"width":720, 
+			"height":437 , 
+			"text":"Happy\rMother's \rDay "  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/img_1.png", 
+			"name":"img_1", 
+			"x":1098, 
+			"y":263, 
+			"width":947, 
+			"height":927  
+		},
+		{ 
+			"type":"text", 
+			"font":"Alamain",
+			"justification":"center",
+			"lineHeight":58,
+			"color":"0x76AB20", 
+			"size":45, 
+			"name":"text_1", 
+			"x":1373, 
+			"y":904, 
+			"width":386, 
+			"height":197 , 
+			"text":"We honnor and \rlove you"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":465, 
+			"y":1301, 
+			"width":232, 
+			"height":49  
+		}
+
+	]
+}

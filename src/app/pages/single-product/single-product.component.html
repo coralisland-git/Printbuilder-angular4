@@ -1,0 +1,80 @@
+<div class="single-product-container col">
+  <div class="row h-100">
+    <div class="left-panel col-3">
+      <div class="row flex-column h-100">
+        <nav class="nav nav-pills nav-justified">
+          <label>{{getCardType()}} Cards</label>
+        </nav>
+
+        <ul class="left-panel-list" [hidden]="getPBRightStep() == 'review-order'">
+          <li [ngClass]="{'active' : getPBLeftStep() == 'templates-panel'}" (click)="setPBLeftStep('templates-panel')">
+            <span class="icon">
+              <i class="templates" aria-hidden="true"></i>
+            </span>
+          </li>
+
+          <li [ngClass]="{'active' : getPBLeftStep() == 'texts-panel'}" (click)="setPBLeftStep('texts-panel')">
+            <span class="icon">
+              <i class="texts" aria-hidden="true"></i>
+            </span>
+          </li>
+          <li [ngClass]="{'active' : getPBLeftStep() == 'images-panel'}" (click)="setPBLeftStep('images-panel')">
+            <span class="icon">
+              <i class="images" aria-hidden="true"></i>
+            </span>
+          </li>
+          <li [ngClass]="{'active' : getPBLeftStep() == 'listings-panel'}" (click)="setPBLeftStep('listings-panel')">
+            <span class="icon">
+              <i class="properties" aria-hidden="true"></i>
+            </span>
+          </li>
+          <li [ngClass]="{'active' : getPBLeftStep() == 'layers-panel'}" (click)="setPBLeftStep('layers-panel')">
+            <span class="icon">
+              <i class="layers" aria-hidden="true"></i>
+            </span>
+          </li>
+        </ul>
+
+        <div class="panels-container" [hidden]="getPBRightStep() == 'review-order'">
+          <pb-templates-panel [hidden]="getPBLeftStep() != 'templates-panel'" (templateSelect)="templateSelect($event)" (addImageElement)="addImageElement($event)"></pb-templates-panel>
+          <pb-texts-panel [hidden]="getPBLeftStep() != 'texts-panel'" (addTextElement)="addTextElement($event)"></pb-texts-panel>
+          <pb-images-panel [hidden]="getPBLeftStep() != 'images-panel'" (addImageElement)="addImageElement($event)"></pb-images-panel>
+          <pb-listings-panel [hidden]="getPBLeftStep() != 'listings-panel'"></pb-listings-panel>
+          <pb-layers-panel [hidden]="getPBLeftStep() != 'layers-panel'" (layerUpdated)="updateCardCanvasObjects($event)"></pb-layers-panel>
+        </div>
+
+        <div class="panels-container no-panel-list" [hidden]="getPBRightStep() != 'review-order'">
+          <pb-options-panel></pb-options-panel>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-panel col-9">
+      <div class="row flex-column h-100">
+        <nav class="nav nav-pills nav-justified">
+          <button class="step prev mat-elevation-z" mat-raised-button (click)="changeStep('prev')">
+            <i class="fa fa-chevron-left"></i>
+          </button>
+
+          <a class="nav-item nav-link disable-hover" [ngClass]="{'active' : getPBRightStep() == 'front-builder'}">
+            <span>Customize Front</span>
+          </a>
+          <a class="nav-item nav-link disable-hover" [ngClass]="{'active' : getPBRightStep() == 'back-builder'}" *ngIf="getCardType() != 'flyer'">
+            <span>Customize Back</span>
+          </a>
+          <a class="nav-item nav-link disable-hover" [ngClass]="{'active' : getPBRightStep() == 'review-order'}">
+            <span>Review Product</span>
+          </a>
+
+          <button class="step next mat-elevation-z" mat-raised-button (click)="changeStep('next')">
+            <i class="fa fa-chevron-right"></i>
+          </button>
+          <mat-progress-bar class="example-margin" [value]="getProgressValue()"></mat-progress-bar>
+        </nav>
+
+        <pb-card-editor (cardEditorUpdated)="cardEditorUpdated($event)" [hidden]="getPBRightStep() == 'review-order'"></pb-card-editor>
+        <pb-review-order (cardEditorUpdated)="cardEditorUpdated($event)" [hidden]="getPBRightStep() != 'review-order'"></pb-review-order>
+      </div>
+    </div>
+  </div>
+</div>

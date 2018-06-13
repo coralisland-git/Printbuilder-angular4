@@ -1,0 +1,71 @@
+{
+	"name":"jumbo-vertical-front",
+	"path":" jumbo-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-vertical-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":653, 
+			"height":1088  
+		},
+		{ 
+			"type":"text", 
+			"font":"Roboto-Bold",
+			"justification":"right",
+			"lineHeight":66,
+			"color":"0xC32033", 
+			"size":42, 
+			"name":"name", 
+			"x":123, 
+			"y":197, 
+			"width":213, 
+			"height":33 , 
+			"text":"John Smith"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":66, 
+			"y":68, 
+			"width":497, 
+			"height":100  
+		},
+		{ 
+			"type":"text", 
+			"font":"Roboto-Light",
+			"justification":"right",
+			"lineHeight":66,
+			"color":"0x555555", 
+			"size":33, 
+			"name":"text_1", 
+			"x":412, 
+			"y":205, 
+			"width":117, 
+			"height":25 , 
+			"text":"Realtor"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/userimg_camera.png", 
+			"name":"userimg_camera", 
+			"x":0, 
+			"y":293, 
+			"width":654, 
+			"height":744  
+		}
+
+	]
+}

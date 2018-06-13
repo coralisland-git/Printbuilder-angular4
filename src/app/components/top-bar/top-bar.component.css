@@ -1,0 +1,86 @@
+.row {
+  box-shadow: inset 0px 0px 0px 1px #efefef;
+}
+
+.search-input-container {
+  width: 20%;
+  margin: auto 3rem;
+  position: relative;
+}
+
+.search-input-container input {
+  border-radius: 20px;
+}
+
+.search-input-container::after {
+  content: " ";
+  background-color: #ababab;
+  -webkit-mask-image: url(/assets/images/icons/search.svg);
+  -webkit-mask-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 6px;
+  right: 12px;
+}
+
+.notifications span {
+  color: #ababab;
+  cursor: pointer;
+}
+
+.notifications span:hover {
+  color: #4f6877
+}
+
+.message,
+.bell {
+  border-right: 1px solid #d4d4d4
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+}
+
+.dropdown-menu {
+  border-radius: 0px;
+  margin-top: -1px;
+  margin-left: 6px;
+}
+
+button.btn.user-profile {
+  color: #444444;
+  height: 65px;
+  overflow: hidden;
+}
+
+button.btn.user-profile>* {
+  cursor: pointer;
+}
+
+button.btn.user-profile:active,
+button.btn.user-profile:hover,
+button.btn.user-profile:focus {
+  background: #fafafa;
+  box-shadow: none;
+  color: #444444;
+}
+
+button.btn.user-profile label {
+  position: relative;
+}
+
+button.btn.user-profile label::after {
+  top: 45%;
+  right: -12px;
+  border: solid transparent;
+  content: " ";
+  border-top-color: #444444;
+  border-width: 4px;
+  position: absolute;
+}
+
+button.btn.user-profile img {
+  max-height: 100%;
+}

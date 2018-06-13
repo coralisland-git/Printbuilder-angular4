@@ -1,0 +1,307 @@
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/BebasNeue/BebasNeue.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BebasNeueBold';
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/BebasNeue/BebasNeueBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BebasNeueLight';
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/BebasNeue/BebasNeueLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN-Light';
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/DINPro/DINPro-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINPro-Light';
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/DINPro/DINPro-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINPro-LightItalic';
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/DINPro/DINPro-LightItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINBold';
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/DINPro/DINPro-BoldItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINPro-Bold';
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/DINPro/DINPro-BoldItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINPro-BoldItalic';
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/DINPro/DINPro-BoldItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Roboto/Roboto-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaNova-RegularIt";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/ProximaNova/ProximaNova-RegItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaNova-Regular";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/ProximaNova/ProximaNova-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaNova-Bold";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/ProximaNova/ProximaNova-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaNova-Semibold";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/ProximaNova/ProximaNova-Semibold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GeometricSlab703BT-Medium";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/GeometricSlabMedium/GeometricSlab-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Georgia/Georgia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oswald-Regular";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Oswald/Oswald-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oswald-Light";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Oswald/Oswald-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oswald-SemiBold";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Oswald/Oswald-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/MyriadPro/MyriadPro-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/OpenSans/OpenSans-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/OpenSans/OpenSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Semibold";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/OpenSans/OpenSans-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSansLight-Italic";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/OpenSans/OpenSans-LightItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway-SemiBold";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Raleway/Raleway-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "VeryBerryPro-Regular";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/VeryBerryPro/VeryBerryPro-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alamain";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Alamain/Alamain.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Falco-Black-Inline-Negative";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Falco-Black/Falco-Black-Inline-Negative.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nexa-Light";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Nexa/Nexa-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NexaBlack";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Nexa/NexaBlack.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NexaRustSlab-BlackShadow01";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Nexa%20Rust/NexaRustSlab-BlackShadow01.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FreestyleScript-Regular";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Freestyle%20Script/Freestyle%20Script%20Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MuseoSans-100";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Museo Sans/MuseoSans-100.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MuseoSlab-700";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Museo Slab/Museo_Slab_700.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MuseoSlab-900";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Museo Slab/Museo_Slab_900.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alice-Regular";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Alice/Alice-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nexa-Book";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Nexa/Nexa-Book.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nexa-Bold";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Nexa/Nexa-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aldine-Regular";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Aldine/Aldine.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AbrahamLincoln";
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/AbrahamLincoln/AbrahamLincoln.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

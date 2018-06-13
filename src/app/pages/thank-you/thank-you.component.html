@@ -1,0 +1,102 @@
+<div class="thank-you-container row mx-0">
+  <h1 class="page-title col-12 text-center mt-5 mb-3">Thanks for your order</h1>
+
+  <div class="left">
+    <h4 class="title col-12 mb-4">Your order was completed successfully</h4>
+    <p class="col-12">An email reciept including the details about your order has been sent to the email address provided</p>
+    <p class="col-12">Please keept it for your records.</p>
+
+
+    <ng-container *ngFor="let cardProduct of getProducts();">
+      <hr class="w-100 my-5" />
+
+      <div class="row mx-0 no-gutters">
+        <div class="col-7">
+          <div class="row no-gutters card-images">
+            <div class="col image mx-2 page-curl-shadow" *ngFor="let imgURL of getCardImages(cardProduct);">
+              <img class="img-fluid" [src]="imgURL" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-5 pl-3">
+          <div class="row no-gutters options h-100">
+            <div class="col-8 d-flex flex-column align-items-center">
+              <p class="w-100 mb-0 font-weight-bold">{{cardProduct['productLabel']}}</p>
+
+              <p class="text-capitalize w-100">{{getCardType(cardProduct)}} cards</p>
+              <p class="w-100">
+                <span>Qty: </span>
+                <span>{{getRunsize(cardProduct)}}</span>
+              </p>
+            </div>
+
+            <div class="col-4">
+              <h4 class="font-weight-bold line-total">{{ getLineTotal(cardProduct) | currency : 'USD' : true }}</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+
+  </div>
+
+  <div class="right">
+    <div class="payment-info-container row flex-column mx-0">
+      <div class="shipping row flex-column mx-0">
+        <h4>Delivery</h4>
+
+        <hr class="w-100" />
+
+        <ng-container>
+          <label class="font-weight-bold">{{getShippingUserName()}}</label>
+
+          <p class="mb-0">{{getShippingCompanyName()}}</p>
+          <p class="mb-0">{{getShippingAddress()}}<br/>{{getShippingCityStateZipcode()}}</p>
+        </ng-container>
+
+        <hr class="w-100" />
+      </div>
+
+      <div class="payment row flex-column mx-0">
+        <h4>Payment</h4>
+
+        <hr class="w-100" />
+        <label class="font-weight-bold">{{getBillingCardName()}}</label>
+        <p>
+          {{getCreditCardType()}} Ending {{getCreditCardNumber()}}
+        </p>
+
+        <hr class="w-100" />
+      </div>
+
+      <div class="order-total row flex-column mx-0">
+        <h4>Order Total</h4>
+
+        <hr class="w-100" />
+
+        <p>
+          Sub Total
+          <span class="ml-auto">{{getSubTotal() | currency: 'USD' : true}}</span>
+        </p>
+
+        <p>
+          Sales Tax Total
+          <span class="ml-auto">{{getSalesTaxTotal() | currency: 'USD' : true}}</span>
+        </p>
+
+        <p>
+          Discount(Promocode)
+          <span class="ml-auto">{{getDiscount() | currency: 'USD' : true}}</span>
+        </p>
+
+        <hr class="w-100 my-2" />
+
+        <h5>
+          Total
+          <span class="ml-auto">{{getTotal() | currency: 'USD' : true}}</span>
+        </h5>
+      </div>
+    </div>
+  </div>
+</div>

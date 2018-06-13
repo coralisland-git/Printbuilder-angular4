@@ -1,0 +1,55 @@
+<div class="category-selector-container form-group">
+  <label for="category-selector" class="col-4 text-center mb-0">Category : </label>
+  <select id="category-selector" class="form-control col-8" (change)="category = $event.target.value">
+    <option [value]="category" *ngFor="let category of getAllCategories()">{{category}}</option>
+  </select>
+</div>
+
+<div class="col-12 templates-list-container ">
+  <div class="row no-gutters">
+    <div class="template col-6" *ngFor="let template of getFilteredTemplates(); let index = index" [attr.lineNo]="getMathFloor(index / 2)">
+      <loading-icon *ngIf="!template['previewLoaded']"></loading-icon>
+
+      <div class="preview-container" (click)="openAllPreviewImages(template, index)" [hidden]="!template['previewLoaded']">
+        <div class="page-curl-shadow">
+          <span class="number-of-template">1</span>
+          <img class="img-fluid" [src]="template['previewImgURL']" (load)="template['previewLoaded'] = true">
+        </div>
+      </div>
+
+      <div class="all-preview-images" [attr.tplNo]="index" [ngClass]="selectedTplNo == index ? 'expanded' : 'collapsed'">
+        <button type="button" class="close" (click)="selectedTplNo = -1">
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+        <div class="row no-gutters p-3 flex-column">
+          <h5 class="w-100">{{template.title}}</h5>
+          <p class="w-100">{{template.subtitle}}</p>
+
+          <mat-radio-group class="row no-gutters" *ngIf="template['options']['colors'].length">
+            <ng-container *ngFor="let color of template['options']['colors']; let o_index = index">
+              <mat-radio-button [value]="color" class="col-6" (change)="template['selectedColor'] = color; template['tplSummaries'] = []" [checked]="o_index === 0">{{color}}</mat-radio-button>
+            </ng-container>
+          </mat-radio-group>
+
+          <div class="images-container row no-gutters " *ngIf="selectedTplNo == index">
+            <div class="col-6 p-1" *ngFor="let tplInfo of getTemplateSummaries(template);">
+              <loading-icon *ngIf="!tplInfo['previewLoaded']"></loading-icon>
+              <img class="img-fluid w-100" [src]="tplInfo['previewImgURL']" (click)="tplSelect(tplInfo, template['selectedColor'])" (load)="tplInfo['previewLoaded'] = true"
+                [ngClass]="{'hidden' : tplInfo['previewLoaded']}">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="template col-6">
+      <div class="custom-design page-curl-shadow h-100 d-flex align-items-center">
+        <label class="m-auto">
+          <i class="fa fa-upload" aria-hidden="true"></i> Custom Design
+        </label>
+        <input type="file" accept=".pdf,image/*" (change)="uploadCustomDesign($event)" />
+      </div>
+    </div>
+  </div>
+</div>

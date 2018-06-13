@@ -1,0 +1,100 @@
+{
+	"name":"jumbo-vertical-front",
+	"path":" jumbo-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-vertical-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":653, 
+			"height":1088  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/userimg_camera.png", 
+			"name":"userimg_camera", 
+			"x":103, 
+			"y":231, 
+			"width":457, 
+			"height":589  
+		},
+		{ 
+			"type":"text", 
+			"font":"MuseoSlab-900",
+			"justification":"right",
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":25, 
+			"name":"website", 
+			"x":106, 
+			"y":997, 
+			"width":440, 
+			"height":23 , 
+			"text":"JohnsonBarry.KellerWilliams.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Roboto-Light",
+			"justification":"right",
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":25, 
+			"name":"text_1", 
+			"x":272, 
+			"y":965, 
+			"width":108, 
+			"height":20 , 
+			"text":"Visit us at"  
+		},
+		{ 
+			"type":"text", 
+			"font":"MuseoSans-100",
+			"justification":"left",
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":33, 
+			"name":"text_2", 
+			"x":266, 
+			"y":893, 
+			"width":119, 
+			"height":25 , 
+			"text":"Realtor"  
+		},
+		{ 
+			"type":"text", 
+			"font":"MuseoSlab-700",
+			"justification":"left",
+			"uppercase":true,
+			"lineHeight":66,
+			"color":"0xC32033", 
+			"size":46, 
+			"name":"name", 
+			"x":171, 
+			"y":848, 
+			"width":311, 
+			"height":34 , 
+			"text":"john smith"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":215, 
+			"y":99, 
+			"width":221, 
+			"height":101  
+		}
+
+	]
+}

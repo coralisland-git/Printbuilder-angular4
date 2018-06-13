@@ -1,0 +1,86 @@
+.review-order {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card-rotator {
+  position: relative;
+  height: calc(100% - 145px);
+  display: flex;
+  align-items: center;
+}
+
+.flip-card-container {
+  margin: 15px auto;
+  position: relative;
+  font-size: .8em;
+  perspective: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.front-container,
+.back-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  transform: rotateX(0deg) rotateY(0deg);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transition: all ease;
+  margin: auto;
+  border: 1px solid #ababab;
+  overflow: hidden;
+}
+
+.front-container.corner-rounded,
+.back-container.corner-rounded {
+  border-radius: 20px;
+}
+
+.back-container {
+  transform: rotateX(0deg) rotateY(-180deg);
+  position: absolute;
+}
+
+.slider {
+  position: absolute;
+}
+
+.slider.horizontal {
+  bottom: -60px;
+  left: -25px;
+  right: -25px;
+}
+
+.flip-card-container.horizontal .slider.horizontal {
+  bottom: -100px;
+}
+
+.slider.vertical {
+  right: -60px;
+  top: -25px;
+  bottom: -25px;
+}
+
+.flip-card-container.horizontal .slider.vertical {
+  right: -100px;
+}
+
+.front-container {
+  z-index: 10;
+  opacity: 1;
+  transform: rotateY(0deg);
+}
+
+.back-container {
+  z-index: -1;
+  opacity: 0;
+  transform: rotateY(-180deg);
+}

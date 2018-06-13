@@ -1,0 +1,127 @@
+{
+	"name":"regular-horizontal-front",
+	"path":" regular-vertical-front/large-vertical-front/regular-horizontal-back/regular-horizontal-front/large-vertical-back/jumbo-horizontal-back/jumbo-horizontal-front/regular-vertical-back/",
+	"info":{
+		"description":"Normal",
+		"file":"regular-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":2175, 
+			"height":1575  
+		},
+		{ 
+			"type":"text", 
+			"font":"Raleway",
+			"justification":"center",
+			"color":"0xC60036", 
+			"size":89, 
+			"name":"text_1", 
+			"x":1260, 
+			"y":368, 
+			"width":380, 
+			"height":64 , 
+			"text":"We Have"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Raleway",
+			"justification":"center",
+			"color":"0xC60036", 
+			"size":89, 
+			"name":"text_3", 
+			"x":1270, 
+			"y":785, 
+			"width":635, 
+			"height":64 , 
+			"text":"For Your Home!"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Bold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0x2E2E2E", 
+			"size":121, 
+			"name":"text_2", 
+			"x":1264, 
+			"y":499, 
+			"width":611, 
+			"height":228 , 
+			"text":"Qualified \rBuyers"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xFFFFFF", 
+			"size":33, 
+			"name":"text_4", 
+			"x":1268, 
+			"y":1125, 
+			"width":761, 
+			"height":189 , 
+			"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor."  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":0, 
+			"y":0, 
+			"width":1065, 
+			"height":888  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/camera_2.png", 
+			"name":"camera_2", 
+			"x":161, 
+			"y":918, 
+			"width":441, 
+			"height":441  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/camera_3.png", 
+			"name":"camera_3", 
+			"x":624, 
+			"y":918, 
+			"width":441, 
+			"height":441  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"color":"0xFFFFFF", 
+			"size":42, 
+			"name":"website", 
+			"x":825, 
+			"y":1447, 
+			"width":523, 
+			"height":36 , 
+			"text":"www.kellerwiliamsrealty.com"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":246, 
+			"y":192, 
+			"width":585, 
+			"height":123  
+		}
+
+	]
+}

@@ -1,0 +1,192 @@
+{
+	"name":"jumbo-horizontal-front",
+	"path":" jumbo-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1168, 
+			"height":675  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x555555", 
+			"size":29, 
+			"name":"brenumber", 
+			"x":715, 
+			"y":223, 
+			"width":118, 
+			"height":20 , 
+			"text":"01987561"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x555555", 
+			"size":29, 
+			"name":"bre_", 
+			"x":645, 
+			"y":223, 
+			"width":67, 
+			"height":20 , 
+			"text":"BRE#"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x555555", 
+			"size":29, 
+			"name":"text_2", 
+			"x":534, 
+			"y":223, 
+			"width":100, 
+			"height":21 , 
+			"text":"Realtor |"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Bold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0x4E4E4E", 
+			"size":42, 
+			"name":"name", 
+			"x":532, 
+			"y":177, 
+			"width":238, 
+			"height":28 , 
+			"text":"Jane Smith"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"addr_multiline", 
+			"x":533, 
+			"y":476, 
+			"width":272, 
+			"height":80 , 
+			"text":"2701 Ocean Park Blvd Suite 140\rSanta Monica, CA 90405"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":17, 
+			"name":"text_1", 
+			"x":535, 
+			"y":579, 
+			"width":360, 
+			"height":35 , 
+			"text":"Keller Williams Realty BRE #01499010\rEach office is independently owned and operated"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/userimg_camera.png", 
+			"name":"userimg_camera", 
+			"x":0, 
+			"y":0, 
+			"width":441, 
+			"height":678  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":535, 
+			"y":71, 
+			"width":321, 
+			"height":67  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"website", 
+			"x":535, 
+			"y":394, 
+			"width":221, 
+			"height":17 , 
+			"text":"www.realestate.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"email", 
+			"x":536, 
+			"y":364, 
+			"width":191, 
+			"height":22 , 
+			"text":"agent@email.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"mobile", 
+			"x":536, 
+			"y":333, 
+			"width":162, 
+			"height":23 , 
+			"text":"(123) 555 3489"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"phone", 
+			"x":536, 
+			"y":303, 
+			"width":160, 
+			"height":23 , 
+			"text":"(123) 555-0100"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/img_2.png", 
+			"name":"img_2", 
+			"x":943, 
+			"y":581, 
+			"width":36, 
+			"height":35  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/img_1.png", 
+			"name":"img_1", 
+			"x":989, 
+			"y":581, 
+			"width":64, 
+			"height":33  
+		}
+
+	]
+}

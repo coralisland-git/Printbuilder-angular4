@@ -1,0 +1,127 @@
+{
+	"name":"large-vertical-front",
+	"path":" jumbo-vertcial-back/large-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"large-vertical-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1875, 
+			"height":2775  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"color":"0xFFFFFF", 
+			"size":40, 
+			"name":"text_4", 
+			"x":135, 
+			"y":2349, 
+			"width":1601, 
+			"height":129 , 
+			"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "  
+		},
+		{ 
+			"type":"text", 
+			"font":"Raleway",
+			"justification":"center",
+			"color":"0xB8202D", 
+			"size":106, 
+			"name":"text_3", 
+			"x":881, 
+			"y":1915, 
+			"width":756, 
+			"height":76 , 
+			"text":"For Your Home!"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Bold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0x2E2E2E", 
+			"size":155, 
+			"name":"text_2", 
+			"x":875, 
+			"y":1533, 
+			"width":785, 
+			"height":293 , 
+			"text":"Qualified \rBuyers"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Raleway",
+			"justification":"center",
+			"color":"0xB8202D", 
+			"size":106, 
+			"name":"text_1", 
+			"x":870, 
+			"y":1363, 
+			"width":452, 
+			"height":76 , 
+			"text":"We Have"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"color":"0xFFFFFF", 
+			"size":50, 
+			"name":"website", 
+			"x":625, 
+			"y":2624, 
+			"width":623, 
+			"height":43 , 
+			"text":"www.kellerwiliamsrealty.com"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/camera_2.png", 
+			"name":"camera_2", 
+			"x":142, 
+			"y":1187, 
+			"width":504, 
+			"height":504  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/camera_3.png", 
+			"name":"camera_3", 
+			"x":142, 
+			"y":1739, 
+			"width":504, 
+			"height":504  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":0, 
+			"y":0, 
+			"width":1875, 
+			"height":1126  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":560, 
+			"y":185, 
+			"width":781, 
+			"height":164  
+		}
+
+	]
+}

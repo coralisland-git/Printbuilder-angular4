@@ -1,0 +1,77 @@
+{
+	"name":"jumbo-horizontal-front",
+	"path":" jumbo-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1088, 
+			"height":653  
+		},
+		{ 
+			"type":"text", 
+			"font":"Roboto-Light",
+			"justification":"right",
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":42, 
+			"name":"website", 
+			"x":316, 
+			"y":549, 
+			"width":455, 
+			"height":42 , 
+			"text":"Maryj.KellerWilliams.com"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":246, 
+			"y":87, 
+			"width":597, 
+			"height":273  
+		},
+		{ 
+			"type":"text", 
+			"font":"Roboto-Bold",
+			"justification":"right",
+			"uppercase":true,
+			"lineHeight":66,
+			"color":"0xC32033", 
+			"size":48, 
+			"name":"name", 
+			"x":249, 
+			"y":390, 
+			"width":364, 
+			"height":35 , 
+			"text":"MARY JAMESON"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Roboto-Light",
+			"justification":"right",
+			"lineHeight":66,
+			"color":"0x808285", 
+			"size":44, 
+			"name":"text_1", 
+			"x":689, 
+			"y":391, 
+			"width":155, 
+			"height":34 , 
+			"text":"Realtor"  
+		}
+
+	]
+}

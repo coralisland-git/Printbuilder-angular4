@@ -1,0 +1,192 @@
+{
+	"name":"jumbo-vertical-front",
+	"path":" jumbo-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-vertical-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":653, 
+			"height":1088  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x636363", 
+			"size":29, 
+			"name":"brenumber", 
+			"x":303, 
+			"y":702, 
+			"width":130, 
+			"height":20 , 
+			"text":"01998060"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x636363", 
+			"size":29, 
+			"name":"bre_", 
+			"x":233, 
+			"y":702, 
+			"width":67, 
+			"height":20 , 
+			"text":"BRE#"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x636363", 
+			"size":29, 
+			"name":"text_2", 
+			"x":122, 
+			"y":702, 
+			"width":100, 
+			"height":21 , 
+			"text":"Realtor |"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Bold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0x4E4E4E", 
+			"size":42, 
+			"name":"name", 
+			"x":121, 
+			"y":654, 
+			"width":248, 
+			"height":28 , 
+			"text":"John Smith"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"addr_multiline", 
+			"x":122, 
+			"y":931, 
+			"width":284, 
+			"height":50 , 
+			"text":"3963 West Side Avenue\rNew Brunswick, NJ 08901"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"website", 
+			"x":157, 
+			"y":863, 
+			"width":220, 
+			"height":17 , 
+			"text":"www.realestate.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"email", 
+			"x":158, 
+			"y":833, 
+			"width":191, 
+			"height":22 , 
+			"text":"agent@email.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"mobile", 
+			"x":158, 
+			"y":803, 
+			"width":163, 
+			"height":22 , 
+			"text":"(123) 505-3489"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"phone", 
+			"x":157, 
+			"y":767, 
+			"width":161, 
+			"height":22 , 
+			"text":"(301) 555-0100"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":176, 
+			"y":75, 
+			"width":321, 
+			"height":67  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/userimg_camera.png", 
+			"name":"userimg_camera", 
+			"x":0, 
+			"y":202, 
+			"width":653, 
+			"height":407  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":17, 
+			"name":"text_1", 
+			"x":125, 
+			"y":1024, 
+			"width":360, 
+			"height":35 , 
+			"text":"Keller Williams Realty BRE #01499010\rEach office is independently owned and operated"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/img_1.png", 
+			"name":"img_1", 
+			"x":508, 
+			"y":1026, 
+			"width":36, 
+			"height":35  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/img_2.png", 
+			"name":"img_2", 
+			"x":554, 
+			"y":1026, 
+			"width":64, 
+			"height":33  
+		}
+
+	]
+}

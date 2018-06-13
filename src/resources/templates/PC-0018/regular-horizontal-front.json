@@ -1,0 +1,105 @@
+{
+	"name":"regular-horizontal-front",
+	"path":" large-vertical-front/regular-horizontal-front/regular-vertical-back/jumbo-horizontal-back/jumbo-vertical-front/jumbo-vertical-back/jumbo-horizontal-front/large-horizontal-front/large-horizontal-back/large-vertical-back/",
+	"info":{
+		"description":"Normal",
+		"file":"regular-horizontal-front",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":2175, 
+			"height":1575  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"center",
+			"uppercase":true,
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":202, 
+			"name":"text_3", 
+			"x":576, 
+			"y":492, 
+			"width":1022, 
+			"height":145 , 
+			"text":"4th July"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"center",
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":81, 
+			"name":"text_2", 
+			"x":578, 
+			"y":662, 
+			"width":1017, 
+			"height":74 , 
+			"text":"Happy Independence day"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Light",
+			"justification":"center",
+			"color":"0xFFFFFF", 
+			"size":42, 
+			"name":"text_1", 
+			"x":578, 
+			"y":831, 
+			"width":1016, 
+			"height":42 , 
+			"text":"Wishing you a fun-filled holiday with your loved one!"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Book",
+			"justification":"right",
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":42, 
+			"name":"website", 
+			"x":1499, 
+			"y":1449, 
+			"width":583, 
+			"height":31 , 
+			"text":"JohnsonB.KellerWilliams.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"left",
+			"uppercase":true,
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":58, 
+			"name":"name", 
+			"x":1536, 
+			"y":1391, 
+			"width":546, 
+			"height":43 , 
+			"text":"Johnson Barry"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":837, 
+			"y":119, 
+			"width":502, 
+			"height":92  
+		}
+
+	]
+}

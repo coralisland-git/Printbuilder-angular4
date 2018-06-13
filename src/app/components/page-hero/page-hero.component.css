@@ -1,0 +1,79 @@
+/* Carousel CSS */
+
+.carousel-item {
+    background-color: #ffffff;
+}
+
+.carousel-indicators li {
+    cursor: pointer;
+    background-color: #636363;
+    height: 10px;
+    max-width: 10px;
+    border-radius: 10px;
+    margin: 0px 0.5rem;
+}
+
+.carousel-indicators li.active {
+    background-color: #1d1d1d;
+}
+
+.carousel-content {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 5rem 6rem;
+}
+
+label.feature {
+    position: relative;
+}
+
+label.feature span {
+    position: absolute;
+    right: 0px;
+    top: -15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444444;
+}
+
+p.summary {
+    font-size: 1.2rem;
+    width: 40rem;
+}
+
+
+#welcome label.feature {
+    color: #124d7c
+}
+
+#printbuilder label.feature {
+    color: #f37400
+}
+
+#crm label.feature {
+    color: #e9c215
+}
+
+#events label.feature {
+    color: #32c2fe;
+}
+
+/* Carousel CSS */
+
+
+/* Banner CSS */
+
+#banner .img-container img {
+    width: 500px;
+    margin-left: auto;
+    display: block;
+}
+
+
+/* Banner CSS */

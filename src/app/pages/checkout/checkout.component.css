@@ -1,0 +1,26 @@
+.page-title {
+  color: #114e7d;
+  font-weight: bold;
+}
+
+.left {
+  width: 70%;
+}
+
+.right {
+  width: calc(30% - 60px);
+}
+
+.left,
+.right {
+  margin: 15px;
+  outline: 1px solid #0000001a;
+}
+
+loading-icon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

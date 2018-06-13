@@ -1,0 +1,61 @@
+{
+	"name":"large-horizontal-front",
+	"path":" large-horizontal-back/large-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"large-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":2775, 
+			"height":1875  
+		},
+		{ 
+			"type":"text", 
+			"font":"Falco-Black-Inline-Negative",
+			"justification":"center",
+			"color":"0xC60036", 
+			"size":162, 
+			"name":"text_1", 
+			"x":1592, 
+			"y":381, 
+			"width":838, 
+			"height":510 , 
+			"text":"Happy\rMother's \rDay "  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/img_1.png", 
+			"name":"img_1", 
+			"x":1455, 
+			"y":206, 
+			"width":1098, 
+			"height":1075  
+		},
+		{ 
+			"type":"text", 
+			"font":"Alamain",
+			"justification":"center",
+			"lineHeight":58,
+			"color":"0x76AB20", 
+			"size":52, 
+			"name":"text_2", 
+			"x":1785, 
+			"y":950, 
+			"width":448, 
+			"height":230 , 
+			"text":"We honnor and \rlove you"  
+		}
+
+	]
+}

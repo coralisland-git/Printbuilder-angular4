@@ -1,0 +1,27 @@
+<pb-edit-bar (elementUpdated)="updateCardCanvasObjects($event)"></pb-edit-bar>
+
+<div class="card-editor d-flex align-items-center ">
+  <canvas id="canvas" [width]="getScaledInfo('width')" [height]="getScaledInfo('height')"></canvas>
+</div>
+
+<loading-icon [ngClass]="{'loading' : !isElementsLoaded()}"></loading-icon>
+
+<div class="zoom-btn-group text-right">
+  <div class="btn-group" role="group">
+    <button type="button" class="zoom-out btn btn-secondary" (click)="updateCardCanvasSize('zoom_out')" [disabled]="-1 * zoomLimit >= zoomCount">
+      <i class="fa fa-minus" aria-hidden="true"></i>
+    </button>
+
+    <button type="button" class="zoom-reset btn btn-secondary" (click)="updateCardCanvasSize('reset')">
+      &nbsp;&nbsp;
+      <i class="fa fa-undo" aria-hidden="true"></i>
+      &nbsp;&nbsp;
+    </button>
+
+    <button type="button" class="zoom-in btn btn-secondary" (click)="updateCardCanvasSize('zoom_in')" [disabled]="zoomCount >= zoomLimit">
+      <i class="fa fa-plus" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+
+<input type="file" id="imageUploader" accept="image/*" (change)="uploadImageViaCamera($event)" [hidden]="true">

@@ -1,0 +1,37 @@
+<div class="review-order px-5">
+  <div class="row mx-0">
+    <h3 class="col-12 font-weight-bold">Final Review</h3>
+    <p class="text-center col-12">Things to check for:</p>
+
+    <p class="row w-100 no-gutters justify-content-center">
+      <span class="col-4">
+        <i class="fa fa-caret-right" aria-hidden="true"></i> Information is accurate and spelled correctly</span>
+      <span class="col-4">
+        <i class="fa fa-caret-right" aria-hidden="true"></i> Images are cler and don't appear blurry</span>
+    </p>
+
+    <p class="row w-100 no-gutters justify-content-center">
+      <span class="col-4">
+        <i class="fa fa-caret-right" aria-hidden="true"></i> Text is legible and contrasts against background</span>
+      <span class="col-4">
+        <i class="fa fa-caret-right" aria-hidden="true"></i> Nothing is overlapping or too close to the margins</span>
+    </p>
+  </div>
+
+  <div class="card-rotator">
+    <div class="flip-card-container mx-auto" [style.max-width]="flipContainerWidth" [ngClass]="layout">
+      <div class="front-container" [ngClass]="getCornerClass()">
+        <canvas id="front-canvas" class="canvas front"></canvas>
+      </div>
+
+      <div class="back-container" [ngClass]="getCornerClass()">
+        <canvas id="back-canvas" class="canvas back"></canvas>
+      </div>
+
+      <mat-slider thumbLabel class="slider horizontal" min="0" max="180" step="1" value="0" (input)="lrValue = $event.value; swipeCard();"
+        [ngClass]="getSliderVisibleClass()"></mat-slider>
+      <mat-slider thumbLabel class="slider vertical" min="0" max="180" step="1" value="0" vertical (input)="tbValue = $event.value; swipeCard();"
+        [ngClass]="getSliderVisibleClass()"></mat-slider>
+    </div>
+  </div>
+</div>

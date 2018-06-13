@@ -1,0 +1,108 @@
+{
+	"name":"regular-vertical-front",
+	"path":" jumbo-horizontal-back/jumbo-horizontal-front/jumbo-vertical-back/jumbo-vertical-front/large-vertical-back/large-horizontal-front/large-horizontal-back/large-vertical-front/regular-horizontal-back/regular-vertical-front/regular-horizontal-front/regular-vertical-back/",
+	"info":{
+		"description":"Normal",
+		"file":"regular-vertical-front",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1575, 
+			"height":2175  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":440, 
+			"y":182, 
+			"width":696, 
+			"height":146  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Book",
+			"justification":"center",
+			"lineHeight":118,
+			"color":"0x4D4D4F", 
+			"size":125, 
+			"name":"txt_4", 
+			"x":298, 
+			"y":675, 
+			"width":982, 
+			"height":92 , 
+			"text":"DISCOVERING A"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Book",
+			"justification":"center",
+			"lineHeight":118,
+			"color":"0x4D4D4F", 
+			"size":105, 
+			"name":"txt_3", 
+			"x":297, 
+			"y":1017, 
+			"width":983, 
+			"height":77 , 
+			"text":"REWARDING YOUR"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"center",
+			"lineHeight":118,
+			"color":"0xC60036", 
+			"size":229, 
+			"name":"txt_2", 
+			"x":299, 
+			"y":807, 
+			"width":977, 
+			"height":168 , 
+			"text":"CAREER"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"center",
+			"lineHeight":118,
+			"color":"0xC60036", 
+			"size":237, 
+			"name":"txt_1", 
+			"x":299, 
+			"y":1131, 
+			"width":980, 
+			"height":171 , 
+			"text":"FUTURE"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/img_2.png", 
+			"name":"img_2", 
+			"x":189, 
+			"y":567, 
+			"width":200, 
+			"height":201  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/img_1.png", 
+			"name":"img_1", 
+			"x":1188, 
+			"y":1216, 
+			"width":200, 
+			"height":201  
+		}
+
+	]
+}

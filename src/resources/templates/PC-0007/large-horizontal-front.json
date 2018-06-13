@@ -1,0 +1,145 @@
+{
+	"name":"large-horizontal-front",
+	"path":" jumbo-horizontal-back/jumbo-horizontal-front/large-horizontal-back/jumbo-vertical-front/large-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"large-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":2775, 
+			"height":1875  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":0, 
+			"y":0, 
+			"width":2277, 
+			"height":1875  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/img_1.png", 
+			"name":"img_1", 
+			"x":1310, 
+			"y":922, 
+			"width":1497, 
+			"height":1047  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Semibold",
+			"justification":"left",
+			"lineHeight":45,
+			"color":"0xFFFFFF", 
+			"size":65, 
+			"name":"website", 
+			"x":1677, 
+			"y":1678, 
+			"width":847, 
+			"height":56 , 
+			"text":"www.kellerwilliamsrealty.com"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/img_2.png", 
+			"name":"img_2", 
+			"x":1547, 
+			"y":0, 
+			"width":1228, 
+			"height":922  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":1858, 
+			"y":146, 
+			"width":635, 
+			"height":133  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"lineHeight":45,
+			"color":"0xFFFFFF", 
+			"size":40, 
+			"name":"text_5", 
+			"x":1677, 
+			"y":1225, 
+			"width":837, 
+			"height":365 , 
+			"text":"Lorem ipsum dolor sit amet, consectetur \radipiscing elit, sed do eiusmod tempor \rincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation \rullamco laboris nisi ut aliquip ex ea commodo \rconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Bold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":65, 
+			"name":"text_4", 
+			"x":1683, 
+			"y":1056, 
+			"width":829, 
+			"height":44 , 
+			"text":"Which is right for you?"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Regular",
+			"justification":"center",
+			"lineHeight":90,
+			"color":"0xB8202D", 
+			"size":211, 
+			"name":"text_3", 
+			"x":1966, 
+			"y":628, 
+			"width":552, 
+			"height":225 , 
+			"text":"Buying"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Regular",
+			"justification":"center",
+			"lineHeight":90,
+			"color":"0x404040", 
+			"size":211, 
+			"name":"text_2", 
+			"x":2461, 
+			"y":449, 
+			"width":175, 
+			"height":136 , 
+			"text":"vs"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Regular",
+			"justification":"center",
+			"lineHeight":90,
+			"color":"0xB8202D", 
+			"size":211, 
+			"name":"text_1", 
+			"x":1792, 
+			"y":398, 
+			"width":628, 
+			"height":225 , 
+			"text":"Renting"  
+		}
+
+	]
+}

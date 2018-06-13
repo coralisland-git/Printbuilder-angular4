@@ -1,0 +1,105 @@
+{
+	"name":"large-vertical-front",
+	"path":" large-vertical-front/regular-horizontal-front/regular-vertical-back/jumbo-horizontal-back/jumbo-vertical-front/jumbo-vertical-back/jumbo-horizontal-front/large-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"large-vertical-front",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1875, 
+			"height":2775  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"center",
+			"uppercase":true,
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":298, 
+			"name":"text_3", 
+			"x":182, 
+			"y":703, 
+			"width":1510, 
+			"height":214 , 
+			"text":"4th July"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"center",
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":120, 
+			"name":"text_2", 
+			"x":185, 
+			"y":953, 
+			"width":1503, 
+			"height":109 , 
+			"text":"Happy Independence day"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Light",
+			"justification":"center",
+			"color":"0xFFFFFF", 
+			"size":62, 
+			"name":"text_1", 
+			"x":185, 
+			"y":1202, 
+			"width":1501, 
+			"height":62 , 
+			"text":"Wishing you a fun-filled holiday with your loved one!"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":639, 
+			"y":171, 
+			"width":598, 
+			"height":110  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Book",
+			"justification":"right",
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":50, 
+			"name":"website", 
+			"x":558, 
+			"y":1709, 
+			"width":758, 
+			"height":36 , 
+			"text":"JohnsonB.KellerWilliams.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"left",
+			"uppercase":true,
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":69, 
+			"name":"name", 
+			"x":611, 
+			"y":1616, 
+			"width":651, 
+			"height":52 , 
+			"text":"Johnson Barry"  
+		}
+
+	]
+}

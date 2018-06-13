@@ -1,0 +1,95 @@
+<div class="options-panel pt-5">
+  <h4 class="w-100 px-3">Card Finishing Options</h4>
+
+  <div class="paper-types row mx-0 justify-content-center mt-3">
+    <h5 class="col-12">Paper Type</h5>
+
+    <button mat-button class="paper col-6 mb-2" *ngFor="let paper of getPaperList()" [ngClass]="getClasses(paper, 'paper')" (click)="setCardOption(paper, 'paper')">
+      <label class="type justify-content-center">{{paper.replace('_', ' ')}}</label>
+
+      <span class="weight text-center">{{getPaperWeight(paper)}}</span>
+    </button>
+  </div>
+
+  <div class="corners row mx-0 justify-content-center mt-3">
+    <h5 class="col-12">Corner</h5>
+
+    <button mat-button class="corner col-6 mb-2" *ngFor="let corner of getPaperCorners()" [ngClass]="getClasses(corner, 'corner')"
+      (click)="setCardOption(corner, 'corner')">
+      <label class="justify-content-center mb-0">{{corner}}</label>
+    </button>
+  </div>
+
+  <div class="finishes row mx-0 justify-content-center mt-3">
+    <h5 class="col-12">Finishes</h5>
+
+    <button mat-button class="finish col-6 mb-2" *ngFor="let finish of getPaperFinishes()" [ngClass]="getClasses(finish, 'finish')"
+      (click)="setCardOption(finish, 'finish')">
+      <label class="justify-content-center mb-0">{{finish}}</label>
+    </button>
+  </div>
+
+  <ng-container *ngIf="is4OverProduct()">
+    <div class="four_over-options row mx-0 mt-3">
+      <p class="option w-100 mb-0">
+        <label class="add-colon">Card Label</label>
+        <mat-form-field [floatLabel]="'never'">
+          <input matInput placeholder="Card Product Label" [value]="getProductLabel()" (change)="setProductLabel($event.target.value)">
+        </mat-form-field>
+      </p>
+
+      <p class="option w-100 mb-0">
+        <label class="add-colon">Quantity</label>
+        <mat-form-field>
+          <mat-select [(ngModel)]="cardOptions['runsize_uuid']" (change)="changeRunsize($event.value)" *ngIf="cardOptions['runsize_uuid'] !== ''">
+            <mat-option [value]="runsize['option_uuid']" *ngFor="let runsize of cardOptions['runsizes']">{{runsize["option_description"]}}</mat-option>
+          </mat-select>
+
+          <mat-select value="xx" *ngIf="cardOptions['runsize_uuid'] === ''">
+            <mat-option value="xx">Loading...</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </p>
+
+      <p class="option w-100 mb-0">
+        <label class="add-colon">Delivery Time</label>
+        <mat-form-field>
+          <mat-select [(ngModel)]="cardOptions['turnaround_time_uuid']" (change)="changeTurnAroundTime($event.value)" *ngIf="cardOptions['turnaround_time_uuid'] !== ''">
+            <mat-option [value]="turnaround_time['option_uuid']" *ngFor="let turnaround_time of cardOptions['turnaround_times']">{{turnaround_time["option_description"]}}</mat-option>
+          </mat-select>
+
+          <mat-select value="xx" *ngIf="cardOptions['turnaround_time_uuid'] === ''">
+            <mat-option value="xx">Loading...</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </p>
+    </div>
+
+    <hr class="w-100 my-2" />
+
+    <p class="w-100 d-flex font-weight-bold mb-0 px-3">
+      <label class="add-colon">Base Price</label>
+      <label class="ml-auto">{{ getBasePrice(cardProduct) | currency : "USD" }}</label>
+    </p>
+  </ng-container>
+
+  <ng-container *ngIf="!is4OverProduct()">
+
+    <div class="row mx-0 mt-3">
+      <p class="option w-100 mb-0">
+        <label class="add-colon">Available Classes</label>
+        <mat-form-field>
+          <mat-select [(ngModel)]="cardOptions['turnaround_time']" (change)="updateCardOptions(true)">
+            <mat-option value="First Class">First Class</mat-option>
+            <mat-option value="Standard Class">Standard Class</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </p>
+    </div>
+
+  </ng-container>
+
+  <ng-container *ngIf="is4OverProduct()">
+    <loading-icon [hidden]="isValid4OverOptions()"></loading-icon>
+  </ng-container>
+</div>

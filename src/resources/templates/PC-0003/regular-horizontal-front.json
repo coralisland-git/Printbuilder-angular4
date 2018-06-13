@@ -1,0 +1,157 @@
+{
+	"name":"regular-horizontal-front",
+	"path":" regular-vertical-front/regular-vertical-back/regular-horizontal-back/regular-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"regular-horizontal-front",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":2775, 
+			"height":2009  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":0, 
+			"y":201, 
+			"width":2775, 
+			"height":1328  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/img_2.png", 
+			"name":"img_2", 
+			"x":0, 
+			"y":1280, 
+			"width":2775, 
+			"height":729  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/img_1.png", 
+			"name":"img_1", 
+			"x":0, 
+			"y":0, 
+			"width":2775, 
+			"height":495  
+		},
+		{ 
+			"type":"text", 
+			"font":"Roboto-Light",
+			"justification":"left",
+			"alpha":0.5, 
+			"color":"0x000000", 
+			"size":32, 
+			"name":"l_desc", 
+			"x":1529, 
+			"y":1672, 
+			"width":1135, 
+			"height":184 , 
+			"text":"Perched atop the coveted Huntington area of the Pacific Palisades, this oceanside manor is nothing short of presidential - a rare composition of remarkable stonework flush with ivy and backlit by the crimson blue of the Pacific. Entering through wrought iron gates and a palatial motor court, one is greeted by a grand entry hall, guiding you into a medley of impeccably outfitted spaces."  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":966, 
+			"y":115, 
+			"width":843, 
+			"height":172  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeueLight",
+			"justification":"left",
+			"color":"0x000000", 
+			"size":149, 
+			"name":"modern", 
+			"x":1536, 
+			"y":1487, 
+			"width":711, 
+			"height":107 , 
+			"text":"Modern Beauty"  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeueLight",
+			"justification":"left",
+			"color":"0x000000", 
+			"size":149, 
+			"name":"beatury", 
+			"x":1536, 
+			"y":1488, 
+			"width":711, 
+			"height":107 , 
+			"text":"Modern Beauty"  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeueLight",
+			"justification":"center",
+			"color":"0x000000", 
+			"size":139, 
+			"name":"txt_1", 
+			"x":251, 
+			"y":1744, 
+			"width":475, 
+			"height":99 , 
+			"text":"OFFERED AT"  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeueBold",
+			"justification":"center",
+			"color":"0xE31A37", 
+			"size":139, 
+			"name":"l_price", 
+			"x":761, 
+			"y":1737, 
+			"width":485, 
+			"height":111 , 
+			"text":"$1.250.000"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINBold",
+			"justification":"center",
+			"uppercase":true,
+			"lineHeight":58,
+			"color":"0x333333", 
+			"size":95, 
+			"name":"l_addr", 
+			"x":394, 
+			"y":1495, 
+			"width":854, 
+			"height":68 , 
+			"text":"123 wilshire blvd"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DIN-Light",
+			"justification":"center",
+			"uppercase":true,
+			"lineHeight":58,
+			"color":"0x333333", 
+			"size":74, 
+			"name":"l_csz", 
+			"x":400, 
+			"y":1585, 
+			"width":839, 
+			"height":52 , 
+			"text":"santa monica ca 90402"  
+		}
+
+	]
+}

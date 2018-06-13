@@ -1,0 +1,88 @@
+.product-list-container {
+  padding: 2rem 4rem;
+}
+
+h4 {
+  color: #114e7d;
+  font-weight: bold;
+}
+
+.card-images {
+  padding-right: 1rem;
+}
+
+.card-images .image {
+  border: 1px solid #ababab;
+}
+
+.card-images .image:first-child {
+  margin-right: .5rem;
+}
+
+.card-images .image:last-child {
+  margin-left: .5rem;
+}
+
+.card-images .image.corner-rounded {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.page-curl-shadow {
+  align-items: center;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.page-curl-shadow::before,
+.page-curl-shadow::after {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  left: 9px;
+  bottom: 18px;
+  width: 40%;
+  max-width: 300px;
+  max-height: 100px;
+  height: 30%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: skew(-20deg) rotate(-15deg);
+}
+
+.page-curl-shadow::after {
+  left: auto;
+  right: 16px;
+  transform: skew(20deg) rotate(15deg);
+}
+
+label.add-colon {
+  min-width: 140px;
+  width: 140px;
+  margin-bottom: 0px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+label.add-colon::after {
+  content: ":";
+  position: absolute;
+  right: 10px;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+p>label:last-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+
+.btn-green {
+  background-color: #37993e;
+  color: #ffffff;
+}

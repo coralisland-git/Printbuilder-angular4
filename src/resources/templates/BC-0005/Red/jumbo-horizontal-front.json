@@ -1,0 +1,201 @@
+{
+	"name":"jumbo-horizontal-front",
+	"path":" jumbo-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-horizontal-front",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1125, 
+			"height":675  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xFFFFFF", 
+			"size":25, 
+			"name":"addr_multiline", 
+			"x":690, 
+			"y":458, 
+			"width":283, 
+			"height":50 , 
+			"text":"3963 West Side Avenue\rNew Brunswick, NJ 08901"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/location_icon.png", 
+			"name":"location_icon", 
+			"x":620, 
+			"y":462, 
+			"width":28, 
+			"height":43  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xFFFFFF", 
+			"size":25, 
+			"name":"email", 
+			"x":690, 
+			"y":381, 
+			"width":243, 
+			"height":19 , 
+			"text":"emmanuel@email.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xFFFFFF", 
+			"size":25, 
+			"name":"website", 
+			"x":690, 
+			"y":411, 
+			"width":220, 
+			"height":17 , 
+			"text":"www.realestate.com"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/email_site_icon.png", 
+			"name":"email_site_icon", 
+			"x":616, 
+			"y":383, 
+			"width":36, 
+			"height":36  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xFFFFFF", 
+			"size":25, 
+			"name":"c_phone", 
+			"x":690, 
+			"y":302, 
+			"width":161, 
+			"height":22 , 
+			"text":"(301) 555-0100"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xFFFFFF", 
+			"size":25, 
+			"name":"h_phone", 
+			"x":690, 
+			"y":332, 
+			"width":169, 
+			"height":17 , 
+			"text":"077 5005 3489"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/phone_call.png", 
+			"name":"phone_call", 
+			"x":615, 
+			"y":306, 
+			"width":37, 
+			"height":38  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xC62038", 
+			"size":27, 
+			"name":"txt_1", 
+			"x":619, 
+			"y":233, 
+			"width":202, 
+			"height":20 , 
+			"text":"REALTOR | BRE#"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xC62038", 
+			"size":27, 
+			"name":"brenumber", 
+			"x":829, 
+			"y":234, 
+			"width":121, 
+			"height":18 , 
+			"text":"01998060"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Bold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":44, 
+			"name":"name", 
+			"x":620, 
+			"y":185, 
+			"width":259, 
+			"height":30 , 
+			"text":"Jhon Smith"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xFFFFFF", 
+			"size":21, 
+			"name":"company_name", 
+			"x":621, 
+			"y":551, 
+			"width":250, 
+			"height":14 , 
+			"text":"Better Homes And Gardens"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xFFFFFF", 
+			"size":21, 
+			"name":"brokerlicense", 
+			"x":621, 
+			"y":576, 
+			"width":142, 
+			"height":14 , 
+			"text":"BRE #01499010"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/userimg_camera.png", 
+			"name":"userimg_camera", 
+			"x":0, 
+			"y":0, 
+			"width":546, 
+			"height":675  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":615, 
+			"y":28, 
+			"width":382, 
+			"height":79  
+		}
+
+	]
+}

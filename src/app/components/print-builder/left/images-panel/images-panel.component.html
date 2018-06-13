@@ -1,0 +1,63 @@
+<div class="btn-group col-12" role="group">
+  <button type="button" class="btn btn-secondary col" [ngClass]="{'active' : imgTab == 'img-upload'}" (click)="imgTab = 'img-upload'">
+    <i class=" fa fa-cloud-upload " aria-hidden="true "></i>
+    Upload
+  </button>
+
+  <button type="button " class="btn btn-secondary col " [ngClass]="{ 'active' : imgTab=='img-resources' }" (click)="imgTab = 'img-resources'; searchImages()">
+    <i class="fa fa-search " aria-hidden="true "></i>
+    Resources
+  </button>
+</div>
+
+<div class="col-12 images-container ">
+  <div class="upload-container" [hidden]="imgTab != 'img-upload'">
+    <div class="dropzone my-2">
+      <input type="file" (change)="uploadImage($event)" accept="image/*" />
+
+      <span>
+        <i class=" fa fa-cloud-upload " aria-hidden="true "></i>
+      </span>
+      <p>
+        Click or drop images here
+      </p>
+    </div>
+
+    <div class="uploaded-image-list card-columns">
+      <div class="image card" *ngFor="let image of uploadedImgList;" (click)="addImageElementToCanvas(image)">
+        <img [src]="image.imgURL" class="img-fluid w-100">
+      </div>
+    </div>
+  </div>
+
+  <div class="resources-container" [hidden]="imgTab != 'img-resources'">
+    <div class="input-group my-2">
+      <input type="text" class="form-control" placeholder="Search" (change)="searchImages()" [(ngModel)]="resourceKeyword" name="resourceKeyword"
+        [disabled]="selectedFeed == 'facebook' || selectedFeed == 'instagram'">
+
+      <select class="input-group-addon" (change)="selectedFeed = $event.target.value; searchImages();">
+        <option value="pixabay">Pixabay</option>
+        <option value="unsplash">Unsplash</option>
+        <option value="facebook">Facebook</option>
+        <option value="instagram">Instagram</option>
+      </select>
+    </div>
+
+    <div class="col-12 text-center" [hidden]="selectedFeed != 'facebook' || hideLoginButton('facebook')">
+      <button href="#" (click)="facebookLogin()" class="btn btn-social-login btn-facebook btn-secondary col-8">
+        <i class="fa fa-facebook fa-fw"></i> Login with Facebook</button>
+    </div>
+
+    <div class="col-12 text-center" [hidden]="selectedFeed != 'instagram' || hideLoginButton('instagram')">
+      <button href="#" (click)="instagramLogin()" class="btn btn-social-login btn-instagram btn-secondary col-8">
+        <i class="fa fa-instagram fa-fw"></i> Login with Instagram</button>
+    </div>
+
+    <div class="resource-image-list card-columns">
+      <div class="image card" *ngFor="let image of resourceImgList[selectedFeed];" (click)="addImageElementToCanvas(image)">
+        <img [src]="getPreviewImgURL(image)" class="img-fluid w-100">
+        <span class="desc">{{getImageInfo(image)}}</span>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="loading-icon w-100 h-100 d-flex align-items-center" *ngIf="getLoadingIconType() != 'cloud'">
+  <i class="fa fa-circle-o-notch fa-spin fa-2x fa-fw mx-auto"></i>
+  <span class="sr-only">Loading...</span>
+</div>
+
+<div class="loading-icon cloud w-100 h-100 d-flex align-items-center" *ngIf="getLoadingIconType() == 'cloud'">
+  <img [ngClass]="size" src="/assets/images/icons/loading-icon.gif">
+</div>

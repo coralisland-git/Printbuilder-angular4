@@ -1,0 +1,90 @@
+{
+	"name":"large-vertical-front",
+	"path":" jumbo-horizontal-front/jumbo-vertical-front/jumbo-horizontal-back/jumbo-vertical-back/large-vertical-back/large-horizontal-front/large-horizontal-back/large-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"large-vertical-front",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1875, 
+			"height":2775  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Book",
+			"justification":"right",
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":50, 
+			"name":"website", 
+			"x":1097, 
+			"y":1385, 
+			"width":694, 
+			"height":36 , 
+			"text":"JohnsonB.KellerWilliams.com"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":1108, 
+			"y":111, 
+			"width":682, 
+			"height":138  
+		},
+		{ 
+			"type":"text", 
+			"font":"Aldine-Regular",
+			"justification":"right",
+			"lineHeight":36,
+			"color":"0xC32035", 
+			"size":387, 
+			"name":"text_2", 
+			"x":101, 
+			"y":481, 
+			"width":1682, 
+			"height":598 , 
+			"text":"Happy memorial\rday!"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Light",
+			"justification":"right",
+			"color":"0xFFFFFF", 
+			"size":69, 
+			"name":"text_1", 
+			"x":551, 
+			"y":848, 
+			"width":619, 
+			"height":134 , 
+			"text":"Land of the free,\rHome of the brave."  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"left",
+			"uppercase":true,
+			"lineHeight":66,
+			"color":"0xC32034", 
+			"size":69, 
+			"name":"name", 
+			"x":1140, 
+			"y":1311, 
+			"width":651, 
+			"height":52 , 
+			"text":"Johnson Barry"  
+		}
+
+	]
+}

@@ -1,0 +1,65 @@
+{
+	"name":"regular-horizontal-front",
+	"path":" regular-vertical-front/regular-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"regular-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":2175, 
+			"height":1575  
+		},
+		{ 
+			"type":"text", 
+			"font":"VeryBerryPro-Regular",
+			"justification":"center",
+			"color":"0x2B2B2B", 
+			"size":61, 
+			"name":"text_1", 
+			"x":552, 
+			"y":539, 
+			"width":1067, 
+			"height":148 , 
+			"text":"A day to honor the hard work that you have put in,\rA day to relax and enjoy!"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/img_2.png", 
+			"name":"img_2", 
+			"x":532, 
+			"y":783, 
+			"width":1103, 
+			"height":134  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/img_1.png", 
+			"name":"img_1", 
+			"x":545, 
+			"y":714, 
+			"width":1084, 
+			"height":42  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":1618, 
+			"y":1364, 
+			"width":441, 
+			"height":93  
+		}
+
+	]
+}

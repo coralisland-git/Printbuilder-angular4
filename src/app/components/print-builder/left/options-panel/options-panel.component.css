@@ -1,0 +1,146 @@
+h4 {
+  text-transform: uppercase;
+  color: #f38112;
+}
+
+h5 {
+  text-transform: uppercase;
+  color: #0e3e66;
+  font-size: 1.1rem;
+}
+
+.options-panel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow-y: auto;
+}
+
+button {
+  height: 50px;
+  background-color: #ffffff;
+  border: 1px solid #ababab;
+  position: relative;
+  max-width: calc(50% - 15px);
+  margin: auto;
+  border-radius: 0px !important;
+}
+
+button:nth-child(2n) {
+  margin-left: 15px;
+}
+
+button:nth-child(2n+1) {
+  margin-right: 15px;
+  border-left: none;
+}
+
+button label {
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: capitalize;
+  display: flex;
+  line-height: 1.25rem;
+}
+
+button label::before {
+  content: ' ';
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+button:hover::after,
+button.active::after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background-color: #f38112;
+}
+
+.paper.original .type::before {
+  background-image: url(/assets/images/icons/sp-icon1.png);
+}
+
+.paper.luxe .type::before {
+  background-image: url(/assets/images/icons/sp-icon3.png);
+}
+
+.paper.premium .type::before {
+  background-image: url(/assets/images/icons/sp-icon7.png);
+}
+
+.paper.standard .type::before,
+.paper.super .type::before {
+  background-image: url(/assets/images/icons/sp-icon2.png);
+}
+
+.paper .weight {
+  font-size: 0.75rem;
+  display: block;
+  line-height: 0.8rem;
+}
+
+.corner.standard label::before {
+  background-image: url(/assets/images/icons/sp-icon5.png);
+}
+
+.corner.rounded label::before {
+  background-image: url(/assets/images/icons/sp-icon6.png);
+}
+
+.finish label::before {
+  display: none;
+}
+
+p.option {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+label.add-colon {
+  min-width: 140px;
+  width: 140px;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+label.add-colon::after {
+  content: ":";
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+p>label:last-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+
+p>mat-form-field {
+  width: calc(100% - 140px);
+}
+
+loading-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+h4.pricing {
+  color: #114e7d;
+  font-weight: bold;
+}

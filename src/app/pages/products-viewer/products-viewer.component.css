@@ -1,0 +1,73 @@
+section {
+  background-color: #ffffff;
+}
+
+section:nth-child(2n) {
+  background-color: #efefef;
+}
+
+section .content {
+  padding: 6rem 1.5rem;
+}
+
+section h2 {
+  color: #1a3e56;
+  font-weight: 300;
+  font-size: 2rem;
+  border-top: 1px solid #9da8ae;
+  border-bottom: 1px solid #9da8ae;
+  text-align: center;
+  padding: 1.5rem 0.5rem;
+  display: inline-block;
+}
+
+.eseential-image {
+  height: 180px;
+  width: auto;
+  margin: auto;
+  display: block;
+}
+
+a:not(.coming-soon) .eseential-image {
+  box-shadow: 0px 5px 2px 0px rgba(0, 0, 0, 0.24);
+}
+
+a:not(.coming-soon) .eseential-image:hover {
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.essential-title {
+  font-size: 1.333em;
+  color: #193e55;
+}
+
+section .row.flex-nowrap {
+  overflow-x: auto;
+}
+
+.coming-soon {
+  position: relative;
+}
+
+.coming-soon::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.coming-soon::after{
+    content: "Coming soon";
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 40%;
+    font-weight: bold;
+    font-size: 1.5rem;
+}

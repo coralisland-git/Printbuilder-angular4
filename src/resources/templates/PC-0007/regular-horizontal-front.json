@@ -1,0 +1,131 @@
+{
+	"name":"regular-horizontal-front",
+	"path":" regular-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"regular-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":2175, 
+			"height":1575  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":0, 
+			"y":0, 
+			"width":1738, 
+			"height":1575  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/img_2.png", 
+			"name":"img_2", 
+			"x":1259, 
+			"y":0, 
+			"width":916, 
+			"height":789  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/img_1.png", 
+			"name":"img_1", 
+			"x":1081, 
+			"y":789, 
+			"width":1094, 
+			"height":786  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Semibold",
+			"justification":"left",
+			"lineHeight":45,
+			"color":"0xFFFFFF", 
+			"size":52, 
+			"name":"website", 
+			"x":1330, 
+			"y":1389, 
+			"width":677, 
+			"height":44 , 
+			"text":"www.kellerwilliamsrealty.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"lineHeight":45,
+			"color":"0xFFFFFF", 
+			"size":32, 
+			"name":"text_4", 
+			"x":1333, 
+			"y":1031, 
+			"width":670, 
+			"height":293 , 
+			"text":"Lorem ipsum dolor sit amet, consectetur \radipiscing elit, sed do eiusmod tempor \rincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation \rullamco laboris nisi ut aliquip ex ea commodo \rconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Bold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":52, 
+			"name":"text_3", 
+			"x":1337, 
+			"y":898, 
+			"width":662, 
+			"height":35 , 
+			"text":"Which is right for you?"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Regular",
+			"justification":"center",
+			"lineHeight":90,
+			"color":"0xB8202D", 
+			"size":143, 
+			"name":"text_2", 
+			"x":1581, 
+			"y":523, 
+			"width":376, 
+			"height":153 , 
+			"text":"Buying"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Regular",
+			"justification":"center",
+			"lineHeight":90,
+			"color":"0xB8202D", 
+			"size":143, 
+			"name":"text_1", 
+			"x":1463, 
+			"y":368, 
+			"width":572, 
+			"height":153 , 
+			"text":"Renting vs"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":1486, 
+			"y":156, 
+			"width":480, 
+			"height":101  
+		}
+
+	]
+}

@@ -1,0 +1,76 @@
+{
+	"name":"jumbo-horizontal-front",
+	"path":" jumbo-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-horizontal-front",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1088, 
+			"height":653  
+		},
+		{ 
+			"type":"text", 
+			"font":"Roboto-Bold",
+			"justification":"left",
+			"lineHeight":66,
+			"color":"0xC32033", 
+			"size":42, 
+			"name":"name", 
+			"x":81, 
+			"y":277, 
+			"width":214, 
+			"height":33 , 
+			"text":"John Smith"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Roboto-Light",
+			"justification":"right",
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":33, 
+			"name":"website", 
+			"x":85, 
+			"y":547, 
+			"width":327, 
+			"height":25 , 
+			"text":"JohnsonB.Remax.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Roboto-Light",
+			"justification":"right",
+			"lineHeight":66,
+			"color":"0x555555", 
+			"size":33, 
+			"name":"text_1", 
+			"x":82, 
+			"y":326, 
+			"width":117, 
+			"height":25 , 
+			"text":"Realtor"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":83, 
+			"y":102, 
+			"width":278, 
+			"height":127  
+		}
+
+	]
+}

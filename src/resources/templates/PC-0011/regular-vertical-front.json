@@ -1,0 +1,143 @@
+{
+	"name":"regular-vertical-front",
+	"path":" jumbo-vertical-front/jumbo-horizontal-back/jumbo-horizontal-front/jumbo-vertical-back/large-vertical-back/large-horizontal-front/large-horizontal-back/regular-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"regular-vertical-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1575, 
+			"height":2175  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":118, 
+			"y":282, 
+			"width":1338, 
+			"height":868  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/img_2.png", 
+			"name":"img_2", 
+			"x":786, 
+			"y":1044, 
+			"width":723, 
+			"height":181  
+		},
+		{ 
+			"type":"text", 
+			"font":"Alice-Regular",
+			"justification":"center",
+			"color":"0xFFFFFF", 
+			"size":75, 
+			"name":"text_6", 
+			"x":879, 
+			"y":1131, 
+			"width":494, 
+			"height":56 , 
+			"text":"You're Invited!"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"lineHeight":61,
+			"color":"0x383838", 
+			"size":26, 
+			"name":"text_5", 
+			"x":745, 
+			"y":1404, 
+			"width":653, 
+			"height":534 , 
+			"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud \rexercitation ullamco laboris nisi ut aliquip ex ea \rcommodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. Lorem ipsum dolor sit amet, consectetur adipiscing elit.\r\rLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud \rexercitation ullamco laboris nisi ut aliquip ex ea \rcommodo consequat. "  
+		},
+		{ 
+			"type":"text", 
+			"font":"Alamain",
+			"justification":"center",
+			"lineHeight":38,
+			"color":"0xB8202D", 
+			"size":34, 
+			"name":"text_4", 
+			"x":746, 
+			"y":1282, 
+			"width":438, 
+			"height":53 , 
+			"text":"Your Text Goes Here"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/img_1.png", 
+			"name":"img_1", 
+			"x":160, 
+			"y":1086, 
+			"width":522, 
+			"height":989  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"lineHeight":38,
+			"color":"0xFFFFFF", 
+			"size":29, 
+			"name":"text_3", 
+			"x":296, 
+			"y":1625, 
+			"width":256, 
+			"height":68 , 
+			"text":"Wednesday, July 25\r5pm-7pm"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"lineHeight":38,
+			"color":"0xFFFFFF", 
+			"size":29, 
+			"name":"text_2", 
+			"x":321, 
+			"y":1894, 
+			"width":206, 
+			"height":68 , 
+			"text":"12345 Anystreet\rAnycity"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Alice-Regular",
+			"justification":"center",
+			"color":"0xFFFFFF", 
+			"size":81, 
+			"name":"text_1", 
+			"x":203, 
+			"y":1161, 
+			"width":438, 
+			"height":172 , 
+			"text":"Twilight \rOpen House"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":564, 
+			"y":117, 
+			"width":447, 
+			"height":94  
+		}
+
+	]
+}

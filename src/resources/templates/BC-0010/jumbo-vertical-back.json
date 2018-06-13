@@ -1,0 +1,34 @@
+{
+	"name":"jumbo-vertical-back",
+	"path":" jumbo-horizontal-front/jumbo-vertical-back/jumbo-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-vertical-back",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-back/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":653, 
+			"height":1088  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-back/logo.png", 
+			"name":"logo", 
+			"x":94, 
+			"y":332, 
+			"width":467, 
+			"height":213  
+		}
+
+	]
+}

@@ -1,0 +1,16 @@
+.loading-icon {
+  min-height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f38112;
+  z-index: 10;
+}
+
+.loading-icon.cloud img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.loading-icon.cloud img.normal {
+  width: 450px;
+}

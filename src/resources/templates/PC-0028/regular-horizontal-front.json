@@ -1,0 +1,90 @@
+{
+	"name":"regular-horizontal-front",
+	"path":" jumbo-horizontal-back/jumbo-horizontal-front/jumbo-vertical-back/jumbo-vertical-front/large-vertical-back/large-horizontal-front/large-horizontal-back/large-vertical-front/regular-horizontal-back/regular-vertical-front/regular-horizontal-front/regular-vertical-back/",
+	"info":{
+		"description":"Normal",
+		"file":"regular-horizontal-front",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":2175, 
+			"height":1575  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Book",
+			"justification":"center",
+			"lineHeight":118,
+			"color":"0x4E4E4F", 
+			"size":125, 
+			"name":"txt", 
+			"x":261, 
+			"y":473, 
+			"width":1015, 
+			"height":92 , 
+			"text":"DISCOVERING  A"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"center",
+			"lineHeight":118,
+			"color":"0xC62039", 
+			"size":125, 
+			"name":"txt_1", 
+			"x":1348, 
+			"y":473, 
+			"width":566, 
+			"height":103 , 
+			"text":"CAREER,"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Book",
+			"justification":"center",
+			"lineHeight":118,
+			"color":"0x4E4E4F", 
+			"size":125, 
+			"name":"txt_2", 
+			"x":226, 
+			"y":606, 
+			"width":1167, 
+			"height":92 , 
+			"text":"REWARDING YOUR"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"center",
+			"lineHeight":118,
+			"color":"0xC62039", 
+			"size":125, 
+			"name":"txt_3", 
+			"x":1433, 
+			"y":611, 
+			"width":555, 
+			"height":91 , 
+			"text":"FUTURE."  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":705, 
+			"y":130, 
+			"width":771, 
+			"height":162  
+		}
+
+	]
+}

@@ -1,0 +1,168 @@
+<div class="payment-info-container row flex-column mx-0">
+  <div class="shipping row flex-column mx-0">
+    <h4>Delivery To</h4>
+
+    <hr class="w-100" />
+
+    <div class="shipping-info" [ngClass]="{'editing' : editingShippingInfo}">
+      <label class="font-weight-bold">{{getShippingFullName()}}</label>
+
+      <p class="mb-0">{{getShippingCompanyName()}}</p>
+      <p class="mb-0">
+        {{getShippingAddress()}}
+        <br/> {{getShippingCityStateZipcode()}}
+      </p>
+    </div>
+
+    <form class="shipping-info" [ngClass]="{'editing' : editingShippingInfo}">
+      <div class="form-group mb-0 row no-gutters">
+        <mat-form-field class="col-12">
+          <input matInput placeholder="Company Name" name="shippingInfo['company']" [(ngModel)]="shippingInfo['company']">
+        </mat-form-field>
+      </div>
+
+      <div class="form-group mb-0 row no-gutters">
+        <mat-form-field class="col-6 pr-2">
+          <input matInput placeholder="First Name" name="shippingInfo['firstname']" [(ngModel)]="shippingInfo['firstname']">
+        </mat-form-field>
+
+        <mat-form-field class="col-6 pl-2">
+          <input matInput placeholder="Last Name" name="shippingInfo['lastname']" [(ngModel)]="shippingInfo['lastname']">
+        </mat-form-field>
+      </div>
+
+      <div class="form-group mb-0 row no-gutters">
+        <mat-form-field class="col-12">
+          <input matInput placeholder="Email" name="shippingInfo['email']" [(ngModel)]="shippingInfo['email']">
+        </mat-form-field>
+      </div>
+
+      <div class="form-group mb-0 row no-gutters">
+        <mat-form-field class="col-12">
+          <input matInput placeholder="Phone" name="shippingInfo['phone']" [(ngModel)]="shippingInfo['phone']">
+        </mat-form-field>
+      </div>
+
+      <div class="form-group mb-0 row no-gutters">
+        <mat-form-field class="col-12">
+          <input matInput placeholder="Address 1" name="shippingInfo['address']" [(ngModel)]="shippingInfo['address']">
+        </mat-form-field>
+      </div>
+
+      <div class="form-group mb-0 row no-gutters">
+        <mat-form-field class="col-12">
+          <input matInput placeholder="Address 2" name="shippingInfo[ 'address2']" [(ngModel)]="shippingInfo['address2']">
+        </mat-form-field>
+      </div>
+
+      <div class="form-group mb-0 row no-gutters">
+        <mat-form-field class="col-4 pr-2">
+          <input matInput placeholder="City" name="shippingInfo['city']" [(ngModel)]="shippingInfo['city']">
+        </mat-form-field>
+
+        <mat-form-field class="col-4 px-2">
+          <input matInput placeholder="State" name="shippingInfo['state']" [(ngModel)]="shippingInfo['state']">
+        </mat-form-field>
+
+        <mat-form-field class="col-4 pr-2">
+          <input matInput placeholder="Zip Code" name="shippingInfo['zipcode']" [(ngModel)]="shippingInfo['zipcode']">
+        </mat-form-field>
+      </div>
+    </form>
+
+    <button mat-raised-button class="text-uppercase px-5 mat-raised-button mr-auto my-3" (click)="updateShippingInfo()">{{editingShippingInfo ?"Save" :"Edit"}}</button>
+    <hr class="w-100" />
+  </div>
+
+  <div class="order-total row flex-column mx-0">
+    <h4>Order Total</h4>
+
+    <hr class="w-100" />
+
+    <p>
+      Sub Total
+      <span class="ml-auto">{{getSubTotal() | currency:"USD"}}</span>
+    </p>
+
+    <p>
+      Shipping Total
+      <span class="ml-auto">{{getShippingTotal() | currency:"USD"}}</span>
+    </p>
+
+    <p>
+      Sales Tax Total
+      <span class="ml-auto">{{getSalesTaxTotal() | currency:"USD"}}</span>
+    </p>
+
+    <p class="mb-0">
+      <mat-form-field class="w-100">
+        <input matInput placeholder="Enter Promo Code Here">
+      </mat-form-field>
+    </p>
+
+    <p>
+      Discount(Promocode)
+      <span class="ml-auto">{{getDiscount() | currency:"USD"}}</span>
+    </p>
+
+    <hr class="w-100 my-2" />
+
+    <h5>
+      Total
+      <span class="ml-auto">{{getTotal() | currency:"USD"}}</span>
+    </h5>
+
+    <hr class="w-100" />
+
+  </div>
+
+  <div class="payment row flex-column mx-0">
+    <h4>Payment</h4>
+
+    <hr class="w-100" />
+
+    <p>
+      Pay by credit card
+      <span class="ml-auto">
+        <img class="img-fluid" src="/assets/images/cclogo.png" style="height:40px">
+      </span>
+    </p>
+
+    <p class="mb-0">
+      <mat-form-field class="w-100">
+        <input matInput placeholder="Card Number" [(ngModel)]="cardInfo['account_number']">
+      </mat-form-field>
+    </p>
+
+    <p class="mb-0">
+      <mat-form-field class="yy-select">
+        <mat-select placeholder="YY" [(ngModel)]="cardInfo['year']">
+          <mat-option *ngFor="let yy of yyList" [value]="yy">
+            {{ yy }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field class="mm-select">
+        <mat-select placeholder="MM" [(ngModel)]="cardInfo['month']">
+          <mat-option *ngFor="let mm of mmList" [value]="mm">
+            {{ mm }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </p>
+
+    <p class="mb-0">
+      <mat-form-field class="w-100">
+        <input matInput placeholder="CVV" [(ngModel)]="cardInfo['ccv']">
+      </mat-form-field>
+    </p>
+
+    <p>
+      <span class="mr-auto">
+        <img src="/assets/images/norton.png" />
+      </span>
+      <button mat-raised-button class="text-uppercase ml-auto px-5" (click)="checkOut()">Checkout</button>
+    </p>
+  </div>
+</div>

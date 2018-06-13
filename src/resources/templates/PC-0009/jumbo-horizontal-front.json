@@ -1,0 +1,136 @@
+{
+	"name":"jumbo-horizontal-front",
+	"path":" regular-vertical-front/large-vertical-front/regular-horizontal-back/regular-horizontal-front/large-vertical-back/jumbo-horizontal-back/jumbo-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":3375, 
+			"height":1875  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/camera_3.png", 
+			"name":"camera_3", 
+			"x":787, 
+			"y":1052, 
+			"width":550, 
+			"height":550  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/camera_4.png", 
+			"name":"camera_4", 
+			"x":1361, 
+			"y":1052, 
+			"width":550, 
+			"height":550  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/camera_2.png", 
+			"name":"camera_2", 
+			"x":209, 
+			"y":1052, 
+			"width":550, 
+			"height":550  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":0, 
+			"y":57, 
+			"width":1911, 
+			"height":956  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"color":"0xFFFFFF", 
+			"size":58, 
+			"name":"website", 
+			"x":1321, 
+			"y":1719, 
+			"width":731, 
+			"height":51 , 
+			"text":"www.kellerwiliamsrealty.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xFFFFFF", 
+			"size":42, 
+			"name":"text_4", 
+			"x":2162, 
+			"y":1308, 
+			"width":997, 
+			"height":236 , 
+			"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, \rsed do eiusmod tempor incididunt ut labore et dolore\rmagna aliqua. Ut enim ad minim veniam, quis nostrud \rexercitation ullamco l aboris nisi ut aliquip ex ea \rconsequat. Duis aute irure dolor in reprehenderit tur."  
+		},
+		{ 
+			"type":"text", 
+			"font":"Raleway",
+			"justification":"center",
+			"color":"0xB8202D", 
+			"size":111, 
+			"name":"text_3", 
+			"x":2165, 
+			"y":886, 
+			"width":795, 
+			"height":80 , 
+			"text":"For Your Home!"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Bold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0x2E2E2E", 
+			"size":151, 
+			"name":"text_2", 
+			"x":2159, 
+			"y":529, 
+			"width":764, 
+			"height":286 , 
+			"text":"Qualified \rBuyers"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Raleway",
+			"justification":"center",
+			"color":"0xB8202D", 
+			"size":111, 
+			"name":"text_1", 
+			"x":2154, 
+			"y":367, 
+			"width":474, 
+			"height":80 , 
+			"text":"We Have"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":552, 
+			"y":144, 
+			"width":641, 
+			"height":134  
+		}
+
+	]
+}

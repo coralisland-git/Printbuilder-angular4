@@ -1,0 +1,144 @@
+{
+	"name":"large-horizontal-front",
+	"path":" jumbo-horizontal-back/jumbo-horizontal-front/jumbo-vertical-back/jumbo-vertical-front/large-horizontal-back/large-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"large-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":-7, 
+			"width":2778, 
+			"height":2019  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/img_1.png", 
+			"name":"img_1", 
+			"x":-20, 
+			"y":422, 
+			"width":1170, 
+			"height":246  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-BoldItalic",
+			"justification":"left",
+			"lineHeight":94,
+			"color":"0xD31E47", 
+			"size":138, 
+			"name":"price", 
+			"x":99, 
+			"y":1156, 
+			"width":656, 
+			"height":127 , 
+			"text":"$1.250.000"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Roboto-Light",
+			"justification":"left",
+			"lineHeight":41,
+			"alpha":0.5, 
+			"color":"0x000000", 
+			"size":43, 
+			"name":"text_4", 
+			"x":96, 
+			"y":1360, 
+			"width":933, 
+			"height":413 , 
+			"text":"Perched atop the coveted Huntington area of the Pacific Palisades, this oceanside manor is nothing short of presidential - a rare composition of remarkable stonework flush with ivy and backlit by the crimson blue of the Pacific. Entering through wrought iron gates and a palatial motor court, one is greeted by a grand entry hall, guiding you into a medley of impeccably outfitted spaces."  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-Light",
+			"justification":"left",
+			"lineHeight":94,
+			"color":"0x4E4E4F", 
+			"size":85, 
+			"name":"text_3", 
+			"x":96, 
+			"y":1080, 
+			"width":473, 
+			"height":62 , 
+			"text":"OFFERED AT"  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeueBold",
+			"justification":"center",
+			"color":"0xFFFFFF", 
+			"size":187, 
+			"name":"text_2", 
+			"x":571, 
+			"y":480, 
+			"width":427, 
+			"height":135 , 
+			"text":"Beauty"  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeueLight",
+			"justification":"center",
+			"color":"0xFFFFFF", 
+			"size":187, 
+			"name":"text_1", 
+			"x":104, 
+			"y":480, 
+			"width":423, 
+			"height":133 , 
+			"text":"Modern"  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeueBold",
+			"justification":"center",
+			"lineHeight":62,
+			"color":"0x4E4E4F", 
+			"size":153, 
+			"name":"addr_multiline", 
+			"x":98, 
+			"y":771, 
+			"width":883, 
+			"height":228 , 
+			"text":"123 wilshire blvd santa monica ca 90402"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":1224, 
+			"y":90, 
+			"width":1436, 
+			"height":826  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/camera_2.png", 
+			"name":"camera_2", 
+			"x":1224, 
+			"y":964, 
+			"width":1436, 
+			"height":825  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":97, 
+			"y":114, 
+			"width":662, 
+			"height":205  
+		}
+
+	]
+}

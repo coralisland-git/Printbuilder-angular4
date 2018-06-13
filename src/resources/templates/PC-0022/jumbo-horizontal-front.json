@@ -1,0 +1,70 @@
+{
+	"name":"jumbo-horizontal-front",
+	"path":" jumbo-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":3375, 
+			"height":1875  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/img_1.png", 
+			"name":"img_1", 
+			"x":1596, 
+			"y":244, 
+			"width":1364, 
+			"height":1334  
+		},
+		{ 
+			"type":"text", 
+			"font":"Falco-Black-Inline-Negative",
+			"justification":"center",
+			"color":"0xC60036", 
+			"size":201, 
+			"name":"text_2", 
+			"x":1756, 
+			"y":459, 
+			"width":1042, 
+			"height":633 , 
+			"text":"Happy\rMother's \rDay "  
+		},
+		{ 
+			"type":"text", 
+			"font":"Alamain",
+			"justification":"center",
+			"lineHeight":58,
+			"color":"0x76AB20", 
+			"size":64, 
+			"name":"text_1", 
+			"x":1995, 
+			"y":1166, 
+			"width":559, 
+			"height":286 , 
+			"text":"We honnor and \rlove you"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":718, 
+			"y":1604, 
+			"width":311, 
+			"height":65  
+		}
+
+	]
+}

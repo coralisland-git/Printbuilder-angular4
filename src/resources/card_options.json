@@ -1,0 +1,101 @@
+{
+  "post": {
+    "original": {
+      "weight": "14pt",
+      "corners": [
+        "standard"
+      ],
+      "finishes": {
+        "standard": [
+          "Gloss",
+          "Matte"
+        ]
+      }
+    },
+    "luxe": {
+      "weight": "16pt",
+      "corners": [
+        "standard"
+      ],
+      "finishes": {
+        "standard": [
+          "Gloss",
+          "Matte"
+        ]
+      }
+    }
+  },
+  "flyer": {
+    "original": {
+      "weight": "100lb Glass Cover",
+      "corners": [
+        "standard"
+      ],
+      "finishes": {
+        "standard": [
+          "No AQ",
+          "w/ AQ",
+          "w/ Satin AQ"
+        ]
+      }
+    }
+  },
+  "business": {
+    "original": {
+      "weight": "14pt",
+      "corners": [
+        "standard",
+        "rounded"
+      ],
+      "finishes": {
+        "standard": [
+          "Uncoated",
+          "Matte",
+          "Gloss/UV",
+          "Pearl Metallic"
+        ],
+        "rounded": [
+          "Uncoated",
+          "Matte",
+          "Gloss/UV",
+          "Pearl Metallic"
+        ]
+      }
+    },
+    "luxe": {
+      "weight": "16pt",
+      "corners": [
+        "standard",
+        "rounded"
+      ],
+      "finishes": {
+        "standard": [
+          "Matte",
+          "Gloss/UV",
+          "Satin/AQ",
+          "Suade",
+          "Silk"
+        ],
+        "rounded": [
+          "Matte",
+          "Gloss/UV",
+          "Satin/AQ",
+          "Suade",
+          "Silk"
+        ]
+      }
+    },
+    "premium": {
+      "weight": "18pt",
+      "corners": [
+        "standard"
+      ],
+      "finishes": {
+        "standard": [
+          "Uncoated",
+          "Gloss/UV Front"
+        ]
+      }
+    }
+  }
+}

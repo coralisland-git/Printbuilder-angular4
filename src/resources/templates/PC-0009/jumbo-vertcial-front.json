@@ -1,0 +1,127 @@
+{
+	"name":"jumbo-vertcial-front",
+	"path":" regular-vertical-back/jumbo-vertcial-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-vertcial-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertcial-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1875, 
+			"height":3375  
+		},
+		{ 
+			"type":"text", 
+			"font":"Raleway",
+			"justification":"center",
+			"color":"0xB8202D", 
+			"size":112, 
+			"name":"text_1", 
+			"x":876, 
+			"y":1686, 
+			"width":478, 
+			"height":80 , 
+			"text":"We Have"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Bold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0x2E2E2E", 
+			"size":164, 
+			"name":"text_2", 
+			"x":882, 
+			"y":1858, 
+			"width":829, 
+			"height":310 , 
+			"text":"Qualified \rBuyers"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Raleway",
+			"justification":"center",
+			"color":"0xB8202D", 
+			"size":112, 
+			"name":"text_3", 
+			"x":889, 
+			"y":2263, 
+			"width":800, 
+			"height":80 , 
+			"text":"For Your Home!"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"color":"0xFFFFFF", 
+			"size":50, 
+			"name":"text_4", 
+			"x":105, 
+			"y":2732, 
+			"width":1597, 
+			"height":343 , 
+			"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea \rcommodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat \rcupidatat non proident."  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertcial-front/camera_3.png", 
+			"name":"camera_3", 
+			"x":105, 
+			"y":2076, 
+			"width":534, 
+			"height":534  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertcial-front/camera_2.png", 
+			"name":"camera_2", 
+			"x":105, 
+			"y":1490, 
+			"width":534, 
+			"height":533  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertcial-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":0, 
+			"y":0, 
+			"width":1875, 
+			"height":1448  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"color":"0xFFFFFF", 
+			"size":53, 
+			"name":"website", 
+			"x":608, 
+			"y":3228, 
+			"width":659, 
+			"height":46 , 
+			"text":"www.kellerwiliamsrealty.com"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertcial-front/logo.png", 
+			"name":"logo", 
+			"x":548, 
+			"y":247, 
+			"width":827, 
+			"height":174  
+		}
+
+	]
+}

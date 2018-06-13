@@ -1,0 +1,59 @@
+.payment-info-container {
+  padding: 2rem 4rem;
+  position: relative;
+}
+
+.payment-info-container::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 15px;
+  background-color: #f38112;
+}
+
+h4,
+h5 {
+  color: #114e7d;
+  font-weight: bold;
+  display: flex;
+}
+
+button {
+  min-width: 125px;
+}
+
+p {
+  display: flex;
+  align-items: center;
+}
+
+.yy-select,
+.mm-select {
+  width: 45%;
+}
+
+.yy-select {
+  margin-right: auto;
+}
+
+.mm-select {
+  margin-left: auto;
+}
+
+div.shipping-info,
+form.shipping-info,
+form.shipping-info.editing {
+  transition: all .5s;
+  overflow: hidden;
+  transform-origin: top;
+  transform: scaleY(1);
+  height: auto;
+}
+
+div.shipping-info.editing,
+form.shipping-info {
+  transform: scaleY(0);
+  height: 0px;
+}

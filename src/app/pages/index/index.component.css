@@ -1,0 +1,92 @@
+.box-container {
+  background-color: #efeff0
+}
+
+.box a {
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 15px 0px;
+  cursor: pointer;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.box a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  -webkit-transform: scaleX(0.0001);
+  transform: scaleX(0.0001);
+  background: transparent;
+  transition: transform 0.25s ease-in-out, background-color .25s ease, -webkit-transform 0.25s ease-in-out;
+}
+
+.box a:hover::after {
+  transform: scaleX(1);
+}
+
+.box#leads a:hover::after {
+  background: #e6b509;
+}
+
+.box#print-builder a:hover::after {
+  background: #f38112;
+}
+
+.box#website-builder a:hover::after {
+  background: #ff5454;
+}
+
+.box#email-marketing a:hover::after {
+  background: #d570ff;
+}
+
+.box#transactions a:hover::after {
+  background: #60cd0b;
+}
+
+.box#events a:hover::after {
+  background: #36beff;
+}
+
+.box img,
+.box label {
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.box label {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+hr {
+  width: 30%;
+  border-color: #b2b2b2;
+}
+
+.comming-soon {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  top: 15px;
+  bottom: 15px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .5);
+  transition: all .3s;
+}
+
+.comming-soon label {
+  color: #ffffff;
+  margin: auto;
+  font-size: 2rem;
+  text-transform: uppercase;
+}

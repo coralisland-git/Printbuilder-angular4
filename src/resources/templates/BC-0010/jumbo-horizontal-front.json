@@ -1,0 +1,192 @@
+{
+	"name":"jumbo-horizontal-front",
+	"path":" jumbo-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1088, 
+			"height":653  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4D4D4E", 
+			"size":17, 
+			"name":"text_1", 
+			"x":581, 
+			"y":545, 
+			"width":206, 
+			"height":35 , 
+			"text":"Each office is independently \rowned and operated"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/img_1.png", 
+			"name":"img_1", 
+			"x":437, 
+			"y":541, 
+			"width":67, 
+			"height":35  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/img_2.png", 
+			"name":"img_2", 
+			"x":514, 
+			"y":541, 
+			"width":37, 
+			"height":36  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"addr_multiline", 
+			"x":509, 
+			"y":295, 
+			"width":283, 
+			"height":50 , 
+			"text":"3963 West Side Avenue\rNew Brunswick, NJ 08901"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"website", 
+			"x":548, 
+			"y":472, 
+			"width":221, 
+			"height":17 , 
+			"text":"www.realestate.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"email", 
+			"x":549, 
+			"y":442, 
+			"width":243, 
+			"height":19 , 
+			"text":"emmanuel@email.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"mobile", 
+			"x":549, 
+			"y":412, 
+			"width":169, 
+			"height":17 , 
+			"text":"077 5005 3489"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"phone", 
+			"x":549, 
+			"y":381, 
+			"width":161, 
+			"height":23 , 
+			"text":"(301) 555-0100"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xC62038", 
+			"size":21, 
+			"name":"brenumber", 
+			"x":671, 
+			"y":249, 
+			"width":94, 
+			"height":14 , 
+			"text":"01998060"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Bold",
+			"justification":"left",
+			"color":"0xC62038", 
+			"size":21, 
+			"name":"bre_", 
+			"x":613, 
+			"y":249, 
+			"width":51, 
+			"height":14 , 
+			"text":"BRE#"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xC62038", 
+			"size":21, 
+			"name":"text_2", 
+			"x":508, 
+			"y":248, 
+			"width":97, 
+			"height":16 , 
+			"text":"REALTOR |"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Bold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0x4E4E4E", 
+			"size":31, 
+			"name":"name", 
+			"x":508, 
+			"y":215, 
+			"width":186, 
+			"height":21 , 
+			"text":"John Smith"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":508, 
+			"y":80, 
+			"width":405, 
+			"height":85  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/userimg_camera.png", 
+			"name":"userimg_camera", 
+			"x":50, 
+			"y":43, 
+			"width":363, 
+			"height":537  
+		}
+
+	]
+}

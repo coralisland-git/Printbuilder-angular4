@@ -1,0 +1,70 @@
+{
+	"name":"jumbo-vertical-back",
+	"path":" jumbo-horizontal-front/jumbo-vertical-back/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-vertical-back",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-back/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":653, 
+			"height":1088  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-back/userimg_camera.png", 
+			"name":"userimg_camera", 
+			"x":0, 
+			"y":213, 
+			"width":653, 
+			"height":736  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xD11F44", 
+			"size":29, 
+			"name":"text_1", 
+			"x":310, 
+			"y":1003, 
+			"width":234, 
+			"height":20 , 
+			"text":"Real Estate Agent"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Bold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":29, 
+			"name":"name", 
+			"x":109, 
+			"y":1003, 
+			"width":190, 
+			"height":20 , 
+			"text":"Jhon Smith -"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-back/logo.png", 
+			"name":"logo", 
+			"x":107, 
+			"y":65, 
+			"width":438, 
+			"height":91  
+		}
+
+	]
+}

@@ -1,0 +1,193 @@
+{
+	"name":"jumbo-vertical-front",
+	"path":" jumbo-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-vertical-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1875, 
+			"height":3375  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Light",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":167, 
+			"name":"txt_8", 
+			"x":877, 
+			"y":1862, 
+			"width":784, 
+			"height":137 , 
+			"text":"Looking for"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-SemiBold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":167, 
+			"name":"txt_9", 
+			"x":876, 
+			"y":2060, 
+			"width":831, 
+			"height":141 , 
+			"text":"dream job?"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xFFFFFF", 
+			"size":50, 
+			"name":"txt_7", 
+			"x":882, 
+			"y":2335, 
+			"width":843, 
+			"height":401 , 
+			"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation \rullamco laboris nisi ut aliquip ex ea commodo consequat. "  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0xFFFFFF", 
+			"size":50, 
+			"name":"txt_3", 
+			"x":1138, 
+			"y":2849, 
+			"width":320, 
+			"height":74 , 
+			"text":"Your text here"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0xFFFFFF", 
+			"size":50, 
+			"name":"txt__", 
+			"x":1160, 
+			"y":2919, 
+			"width":320, 
+			"height":74 , 
+			"text":"Your text here"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0xFFFFFF", 
+			"size":50, 
+			"name":"txt_4", 
+			"x":1182, 
+			"y":2990, 
+			"width":320, 
+			"height":74 , 
+			"text":"Your text here"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0xFFFFFF", 
+			"size":50, 
+			"name":"txt_6", 
+			"x":1205, 
+			"y":3058, 
+			"width":320, 
+			"height":74 , 
+			"text":"Your text here"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/icon_check.png", 
+			"name":"icon_check", 
+			"x":1034, 
+			"y":2854, 
+			"width":47, 
+			"height":39  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/icon_check_1.png", 
+			"name":"icon_check_1", 
+			"x":1053, 
+			"y":2924, 
+			"width":47, 
+			"height":39  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/icon_check_2.png", 
+			"name":"icon_check_2", 
+			"x":1073, 
+			"y":2993, 
+			"width":47, 
+			"height":39  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/icon_check_3.png", 
+			"name":"icon_check_3", 
+			"x":1092, 
+			"y":3062, 
+			"width":47, 
+			"height":39  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Light",
+			"justification":"left",
+			"color":"0x343434", 
+			"size":223, 
+			"name":"txt_2", 
+			"x":296, 
+			"y":2282, 
+			"width":245, 
+			"height":450 , 
+			"text":"We \rAre"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Alamain",
+			"justification":"left",
+			"color":"0xC60036", 
+			"size":134, 
+			"name":"txt_1", 
+			"x":161, 
+			"y":2836, 
+			"width":515, 
+			"height":286 , 
+			"text":"Hiring"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":161, 
+			"y":154, 
+			"width":671, 
+			"height":141  
+		}
+
+	]
+}

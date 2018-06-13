@@ -1,0 +1,191 @@
+<div class="row mx-0 edit-bar-container" *ngIf="selectedObj">
+  <div class="font-family option" *ngIf="isType('text')">
+    <select class="custom-select" data-toggle="tooltip" data-animation="false" data-placement="bottom" title="Font Family" (mouseenter)="showTooltip($event.target)"
+      (change)="setFontFamily($event.target.value)" (click)="openedTooltip = ''">
+      <option *ngFor="let fontItem of fontItemList" [value]="fontItem.family" [selected]="fontItem.family == getFontFamily()">{{fontItem.family}}</option>
+    </select>
+
+    <div class="custom-tooltip-container">
+      <span class="icon edit-text" data-toggle="tooltip" data-animation="false" data-placement="bottom" title="Text, Spacing, Size"
+        (mouseenter)="showTooltip($event.target)" (click)="setOpenTooltip('edit-text')" [ngClass]="{'active' : openedTooltip == 'edit-text'}">
+        <i class="fa" aria-hidden="true">T</i>
+        <i class="fa fa-i-cursor" aria-hidden="true"></i>
+      </span>
+
+      <div class="custom-tooltip edit-text" [hidden]="openedTooltip != 'edit-text'">
+        <h5 class="text-uppercase">Text, Size, Spacing, Height</h5>
+
+        <div class="attr-group text-area">
+          <textarea class="" matInput placeholder="Text of element" (input)="setTextContent($event.target.value)">{{getTextContent()}}</textarea>
+        </div>
+
+        <div class="attr-group slider">
+          <label>Font Size:</label>
+          <mat-slider class="col" min="20" max="300" step="1" [value]="getFontSize()" (input)="setFontSize($event.value)"></mat-slider>
+          <span class="value">{{getFontSize()}} px</span>
+        </div>
+
+        <div class="attr-group slider">
+          <label>Letter Spacing:</label>
+          <mat-slider class="col" min="0" max="100" step="1" [value]="getLetterSpacing()" (input)="setLetterSpacing($event.value)"></mat-slider>
+          <span class="value">{{getLetterSpacing()}} px</span>
+        </div>
+
+        <div class="attr-group slider">
+          <label>Line Height:</label>
+          <mat-slider class="col" min="0" [max]="30" step="0.25" [value]="getLineHeight()" (input)="setLineHeight($event.value)"></mat-slider>
+          <span class="value">{{getLineHeight()}} px</span>
+        </div>
+
+        <button type="button" class="close" (click)="openedTooltip = ''">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="font-transform option" *ngIf="isType('text')">
+    <div class="custom-tooltip-container">
+      <span class="icon text-align" data-toggle="tooltip" data-animation="false" data-placement="bottom" title="Text Alignments"
+        (mouseenter)="showTooltip($event.target)" (click)="setOpenTooltip('text-align')" [ngClass]="{'active' : openedTooltip == 'text-align'}">
+        <i class="fa fa-align-{{getTextAlign()}}" aria-hidden="true"></i>
+      </span>
+
+      <div class="custom-tooltip text-align" [hidden]="openedTooltip != 'text-align'">
+        <h5 class="text-uppercase">Text alignments</h5>
+
+        <div class="row mx-0">
+          <span class="icon text-align mx-auto col" (click)="setTextAlign('left')" [ngClass]="{'active' : getTextAlign() == 'left'}">
+            <i class="fa fa-align-left" aria-hidden="true"></i>
+          </span>
+          <span class="icon text-align mx-auto col" (click)="setTextAlign('center')" [ngClass]="{'active' : getTextAlign() == 'center'}">
+            <i class="fa fa-align-center" aria-hidden="true"></i>
+          </span>
+          <span class="icon text-align mx-auto col" (click)="setTextAlign('right')" [ngClass]="{'active' : getTextAlign() == 'right'}">
+            <i class="fa fa-align-right" aria-hidden="true"></i>
+          </span>
+          <span class="icon text-align mx-auto col" (click)="setTextAlign('justify')" [ngClass]="{'active' : getTextAlign() == 'justify'}">
+            <i class="fa fa-align-justify" aria-hidden="true"></i>
+          </span>
+        </div>
+
+        <button type="button" class="close" (click)="openedTooltip = ''">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+
+    <span class="icon uppercase" data-toggle="tooltip" data-animation="false" data-placement="bottom" title="Upper / Lowercase"
+      (mouseenter)="showTooltip($event.target)" (click)="textUppercase = !textUppercase; convertCase();" [ngClass]="{'active' : textUppercase}">
+      <i class="fa" aria-hidden="true">A</i>
+      <i class="fa" aria-hidden="true">A</i>
+    </span>
+
+    <span class="icon bold" data-toggle="tooltip" data-animation="false" data-placement="bottom" title="Bold" (mouseenter)="showTooltip($event.target)"
+      [ngClass]="{'active' : isBold()}" (click)="setBold();">
+      <i class="fa fa-bold" aria-hidden="true"></i>
+    </span>
+
+    <span class="icon italic" data-toggle="tooltip" data-animation="false" data-placement="bottom" title="Italic" (mouseenter)="showTooltip($event.target)"
+      [ngClass]="{'active' : isItalicStyle()}" (click)="setItalicStyle()">
+      <i class="fa fa-italic" aria-hidden="true"></i>
+    </span>
+
+    <span class="icon underline" data-toggle="tooltip" data-animation="false" data-placement="bottom" title="Underline" (mouseenter)="showTooltip($event.target)"
+      [ngClass]="{'active' : isUnderline()}" (click)="setUnderline()">
+      <i class="fa fa-underline" aria-hidden="true"></i>
+    </span>
+  </div>
+
+  <div class="option" *ngIf="!isType('text')">
+    <span class="icon img-cropper" data-toggle="tooltip" data-animation="false" data-placement="bottom" title="Image Cropper"
+      (mouseenter)="showTooltip($event.target)" (click)="openImageCropper()" [ngClass]="{'active' : openedTooltip == 'img-cropper'}">
+      <i class="fa fa-crop" aria-hidden="true"></i>
+    </span>
+  </div>
+
+  <div class="global option" [hidden]="!isType()">
+    <span class="icon settings" data-toggle="tooltip" data-animation="false" data-placement="bottom" title="Remove" (mouseenter)="showTooltip($event.target)"
+      (click)="removeItem($event.target)">
+      <i class="fa fa-trash" aria-hidden="true"></i>
+    </span>
+
+    <ng-container *ngIf="false">
+      <div class="custom-tooltip-container">
+        <span class="icon fill" data-toggle="tooltip" data-animation="false" data-placement="bottom" title="Fill Color" (mouseenter)="showTooltip($event.target)"
+          (click)="setOpenTooltip('fill')" [ngClass]="{'active' : openedTooltip == 'fill'}">
+          <i class="fa fa-fill" aria-hidden="true"></i>
+        </span>
+
+        <div class="custom-tooltip fill" [hidden]="openedTooltip != 'fill'">
+          <h5 class="text-uppercase">Fill Color</h5>
+
+          <div class="attr-group">
+            <label class="col px-0">Fill Color:</label>
+            <input class="col" [colorPicker]="fill" (colorPickerChange)="fill = $event; setFill()" [style.background-color]="fill" [style.color]="getInvertColor()"
+              [value]="fill" [cpPosition]="'bottom'" />
+          </div>
+
+          <button type="button" class="close" (click)="openedTooltip = ''">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="custom-tooltip-container">
+        <span class="icon arr-layers" data-toggle="tooltip" data-animation="false" data-placement="bottom" title="Arrange Layers"
+          (mouseenter)="showTooltip($event.target)" (click)="setOpenTooltip('arr-layers')" [ngClass]="{'active' : openedTooltip == 'arr-layers'}">
+          <i class="fa fa-arr-layers" aria-hidden="true"></i>
+        </span>
+
+        <div class="custom-tooltip fill" [hidden]="openedTooltip != 'arr-layers'">
+          <div class="attr-group mt-3">
+            <button class="col mr-2" mat-raised-button (click)="sendBackwards()" color="primary">- Back</button>
+            <button class="col ml-2" mat-raised-button (click)="bringForward()" color="primary">+ Forward</button>
+          </div>
+
+          <button type="button" class="close" (click)="openedTooltip = ''">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div>
+    </ng-container>
+
+
+    <div class="custom-tooltip-container">
+      <span class="icon settings" data-toggle="tooltip" data-animation="false" data-placement="bottom" title="More Options" (mouseenter)="showTooltip($event.target)"
+        (click)="setOpenTooltip('settings')" [ngClass]="{'active' : openedTooltip == 'settings'}">
+        <i class="fa fa-sliders" aria-hidden="true"></i>
+      </span>
+
+      <div class="custom-tooltip settings" [hidden]="openedTooltip != 'settings'">
+        <div class="attr-group slider">
+          <label>Rotate:</label>
+          <mat-slider class="col" min="0" max="360" step="1" [value]="getAngle()" (input)="setAngle($event.value)"></mat-slider>
+          <span class="value">{{getAngle()}}°</span>
+        </div>
+
+        <div class="attr-group slider">
+          <label>Skew X:</label>
+          <mat-slider class="col" min="-30" max="30" step="1" [value]="getSkew('x')" (input)="setSkew('x', $event.value)"></mat-slider>
+          <span class="value">{{getSkew('x')}}</span>
+        </div>
+
+        <div class="attr-group slider">
+          <label>Skew Y:</label>
+          <mat-slider class="col" min="-30" max="30" step="1" [value]="getSkew('y')" (input)="setSkew('y', $event.value)"></mat-slider>
+          <span class="value">{{getSkew('y')}}</span>
+        </div>
+
+        <div class="attr-group slide-toggle">
+          <mat-slide-toggle class="w-50" labelPosition="before" (change)="setFlip('x')" [checked]="getFlip('x')">Flip X</mat-slide-toggle>
+          <mat-slide-toggle class="w-50" labelPosition="before" (change)="setFlip('y')" [checked]="getFlip('y')">Flip Y</mat-slide-toggle>
+        </div>
+
+        <button type="button" class="close" (click)="openedTooltip = ''">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

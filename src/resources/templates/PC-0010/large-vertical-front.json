@@ -1,0 +1,138 @@
+{
+	"name":"large-vertical-front",
+	"path":" jumbo-vertcial-back/large-vertical-front/large-horizontal-front/jumbo-vertcial-front/jumbo-horizontal-back/jumbo-horizontal-front/jumbo-vertical-back/regular-vertical-front/jumbo-vertical-front/large-horizontal-back/large-vertical-back/regular-vertical-back/",
+	"info":{
+		"description":"Normal",
+		"file":"large-vertical-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1875, 
+			"height":2775  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":0, 
+			"y":0, 
+			"width":1875, 
+			"height":1769  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/img_1.png", 
+			"name":"img_1", 
+			"x":0, 
+			"y":1513, 
+			"width":1875, 
+			"height":1266  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":104, 
+			"y":100, 
+			"width":537, 
+			"height":237  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-CondensedBold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":63, 
+			"name":"text_5", 
+			"x":868, 
+			"y":2547, 
+			"width":506, 
+			"height":45 , 
+			"text":"free MARKET ANALYSIS"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-CondensedLight",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":63, 
+			"name":"text_4", 
+			"x":502, 
+			"y":2547, 
+			"width":350, 
+			"height":45 , 
+			"text":"Contact me for A"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-Light",
+			"justification":"center",
+			"lineHeight":26,
+			"color":"0xFFFFFF", 
+			"size":40, 
+			"name":"text_3", 
+			"x":131, 
+			"y":2175, 
+			"width":1607, 
+			"height":236 , 
+			"text":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.\rAenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur\rridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.\r\rDonec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,\rimperdiet a, venenatis vitae, justo."  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-CondensedBold",
+			"justification":"center",
+			"uppercase":true,
+			"lineHeight":61,
+			"color":"0xFFFFFF", 
+			"size":76, 
+			"name":"text_2", 
+			"x":399, 
+			"y":2030, 
+			"width":1077, 
+			"height":55 , 
+			"text":"GET THE MOST OUT OF YOUR HOUSE TODAY!"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-CondensedBold",
+			"justification":"center",
+			"uppercase":true,
+			"lineHeight":61,
+			"color":"0xFFFFFF", 
+			"size":139, 
+			"name":"text_1", 
+			"x":213, 
+			"y":1702, 
+			"width":1446, 
+			"height":240 , 
+			"text":"Your home worth more than You think"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-CondensedBold",
+			"justification":"center",
+			"uppercase":true,
+			"color":"0xC52234", 
+			"size":76, 
+			"name":"website", 
+			"x":312, 
+			"y":2614, 
+			"width":1249, 
+			"height":55 , 
+			"text":"www.johnsonb.kellerwiliams.com"  
+		}
+
+	]
+}

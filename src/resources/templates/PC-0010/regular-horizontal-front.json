@@ -1,0 +1,136 @@
+{
+	"name":"regular-horizontal-front",
+	"path":" regular-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"regular-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":2175, 
+			"height":1575  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":799, 
+			"y":0, 
+			"width":1376, 
+			"height":1575  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/img_1.png", 
+			"name":"img_1", 
+			"x":0, 
+			"y":0, 
+			"width":1183, 
+			"height":1575  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-CondensedBold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xC52233", 
+			"size":50, 
+			"name":"website", 
+			"x":72, 
+			"y":1453, 
+			"width":678, 
+			"height":71 , 
+			"text":"www.johnsonb.kellerwiliams.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-CondensedBold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":42, 
+			"name":"text_5", 
+			"x":315, 
+			"y":1398, 
+			"width":334, 
+			"height":30 , 
+			"text":"free MARKET ANALYSIS"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-CondensedLight",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":42, 
+			"name":"text_4", 
+			"x":74, 
+			"y":1398, 
+			"width":231, 
+			"height":30 , 
+			"text":"Contact me for A"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-Light",
+			"justification":"left",
+			"color":"0xFFFFFF", 
+			"size":33, 
+			"name":"text_3", 
+			"x":72, 
+			"y":912, 
+			"width":837, 
+			"height":352 , 
+			"text":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.\r\rDonec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-CondensedBold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":50, 
+			"name":"text_2", 
+			"x":87, 
+			"y":805, 
+			"width":710, 
+			"height":36 , 
+			"text":"GET THE MOST OUT OF YOUR HOUSE TODAY!"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-CondensedBold",
+			"justification":"left",
+			"uppercase":true,
+			"lineHeight":78,
+			"color":"0xFFFFFF", 
+			"size":121, 
+			"name":"text_1", 
+			"x":71, 
+			"y":404, 
+			"width":934, 
+			"height":208 , 
+			"text":"Your home worth\rmore than you think"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":72, 
+			"y":97, 
+			"width":609, 
+			"height":189  
+		}
+
+	]
+}

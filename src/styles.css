@@ -1,0 +1,206 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "./assets/css/angular-material-customized.css";
+@import url('./assets/css/fonts.css');
+@font-face {
+  font-family: 'Lato';
+  src: url('https://s3-us-west-1.amazonaws.com/agent-cloud/print-builder/fonts/Lato/Lato-Regular.ttf') format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+html,
+body {
+  height: 100vh;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.05em;
+  color: #444444;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+button,
+select {
+  cursor: pointer;
+}
+
+/* Nav Pills */
+
+.nav-pills {
+  border-bottom: 5px solid #f38112;
+  transition: all 0.1s ease;
+  width: 100%;
+}
+
+.nav-pills.fixed {
+  position: fixed;
+  left: 200px;
+  right: 0px;
+  top: 0px;
+  z-index: 15;
+  width: auto;
+}
+
+.nav-pills label,
+.nav-pills .nav-link {
+  position: relative;
+  color: #444444;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border-radius: 0;
+  border-top: 1px solid #d4d4d4;
+  border-left: 1px solid #d4d4d4;
+  height: 65px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.nav-pills label {
+  margin-bottom: 0px;
+  border-color: transparent;
+  width: 100%;
+  padding: 0px 3rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.nav-pills .nav-link.active:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  position: absolute;
+  pointer-events: none;
+}
+
+.nav-pills .nav-link.active:after {
+  border-color: rgba(243, 129, 18, 0);
+  border-top-color: #f38112;
+  border-width: 15px;
+  margin-left: -15px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:not(.disable-hover):hover {
+  background-color: #efefef;
+  color: #444444;
+}
+
+.nav-pills .nav-link span {
+  margin: auto;
+}
+
+/* Nav Pills */
+
+/* Scrolls */
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #adadad;
+}
+
+/* Scrolls */
+
+/* canvas container */
+
+.card-editor .canvas-container {
+  margin: auto;
+}
+
+.card-editor .canvas-container canvas {
+  outline: 1px solid #ababab;
+}
+
+/* canvas container */
+
+/* colors for angular material */
+
+.layers-container .mat-button-wrapper,
+.nav-link .mat-button-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.layers-container .mat-button-wrapper>* {
+  margin: auto;
+}
+
+.review-order .mat-accent .mat-slider-thumb {
+  background-image: url(/assets/images/icons/rotate-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px;
+  transform: scale(1.5);
+}
+
+.import-contacts-tabs .mat-tab-label {
+  width: 50%;
+  opacity: 1;
+}
+
+/* colors for angular material */
+
+/* layers templates */
+
+.actions button span {
+  line-height: initial;
+  margin: auto;
+}
+
+/* layers templates */
+
+/* cropper modal in image cropper */
+
+.img-cropper-dlg .cropper-modal {
+  opacity: .2;
+}
+
+/* cropper modal in image cropper */
+
+/* review order */
+
+.review-order .canvas-container:after {
+  content: "";
+  backface-visibility: hidden;
+  position: absolute;
+  transform: rotateY(90deg);
+  z-index: 9999;
+  transform-style: preserve-3d;
+  transition: all ease;
+  background: #6c757d;
+  height: 100%;
+}
+
+.back-container .canvas-container:after {
+  transform: rotateY(-90deg);
+}
+
+/* review order */
+
+
+@media (max-width: 1440px) {
+  .nav-pills label{
+    padding: 0 1rem;
+  }
+}

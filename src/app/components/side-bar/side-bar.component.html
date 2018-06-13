@@ -1,0 +1,33 @@
+<div class="logo col-12">
+  <a class="d-block" routerLink="/">
+    <img src="/assets/images/logo.png" class="img-fluid" alt="" />
+  </a>
+</div>
+
+<ul class="nav flex-column">
+  <li class="menu-item" [ngClass]="item.class" *ngFor="let item of menuItems" [class.expanded]="item.class == openedItemClass">
+    <button mat-raised-button class="nav-link mat-elevation-z" (click)="redirectTo(item)" [class.active]="isActiveLink(item.link)">
+      <i class="feature-icon" [ngClass]="item.icon"></i>
+      <span class="nav-text">{{item.text}}</span>
+      <i class="fa ml-auto" *ngIf="item.child_menu" [ngClass]="openedItemClass == item.class ? 'fa-minus' : 'fa-plus'"></i>
+    </button>
+
+    <ul *ngIf="item.child_menu" class="nav child-nav">
+      <li class="menu-item" *ngFor="let child_item of item.child_menu">
+        <a href="javascript:void(0)" class="nav-link" (click)="redirectTo(child_item)" [class.active]="isActiveLink(child_item.link)">
+          <span class="nav-text">{{child_item.text}}</span>
+        </a>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<div class="d-flex flex-column pl-5">
+  <a class="d-block mt-3 privacy-policy" href="https://agentcloud.com/privacy-policy" target="_blank">
+    <i class="fa fa-lock" aria-hidden="true"></i> Privacy and Policy
+  </a>
+
+  <a class="d-block mt-3 change-log" href="https://agentcloud.com/change-log/" target="_blank">
+    <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Change Log
+  </a>
+</div>

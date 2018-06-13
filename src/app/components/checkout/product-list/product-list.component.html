@@ -1,0 +1,84 @@
+<div class="product-list-container row flex-column mx-0">
+  <h4 class="title col-12">Your Cart</h4>
+
+  <ng-container *ngFor="let cardProduct of getProducts();">
+    <hr class="w-100 my-5" />
+
+    <div class="row mx-0 no-gutters">
+      <div class="col-8 d-flex align-items-center card-images">
+        <div class="col-6 mx-auto px-0 image page-curl-shadow" [ngClass]="getCornerClass(cardProduct)" *ngFor="let imgURL of getCardImages(cardProduct);">
+          <img class="img-fluid" [src]="imgURL" />
+        </div>
+      </div>
+
+      <div class="col-4 d-flex align-items-center flex-column">
+        <div class="w-100 pr-0 d-flex mb-2" *ngIf="!is4OverProduct(cardProduct)">
+          <button mat-raised-button class="text-uppercase col mr-2 btn-green" (click)="uploadCSV(cardProduct)">Upload CSV</button>
+          <button mat-raised-button class="text-uppercase col btn-green" (click)="getContactsList(cardProduct)">Get Contacts List</button>
+        </div>
+
+        <p class="w-100 d-flex font-weight-bold mb-0">
+          <label class="add-colon">Card Label</label>
+          <label class="ml-auto">{{ getCardLabel(cardProduct) }}</label>
+        </p>
+
+        <p class="w-100 d-flex font-weight-bold mb-0">
+          <label class="add-colon">Quantity</label>
+          <label class="ml-auto">{{ getRunsize(cardProduct) }}</label>
+        </p>
+
+        <p class="w-100 d-flex font-weight-bold mb-0" *ngIf="is4OverProduct(cardProduct)">
+          <label class="add-colon">Delivery</label>
+          <label class="ml-auto">{{ getTurnAroundTime(cardProduct) }}</label>
+        </p>
+
+        <p class="w-100 d-flex font-weight-bold mb-0" *ngIf="!is4OverProduct(cardProduct)">
+          <label class="add-colon">Class</label>
+          <label class="ml-auto">{{ getTurnAroundTime(cardProduct) }}</label>
+        </p>
+
+        <p class="w-100 d-flex font-weight-bold mb-0" *ngIf="is4OverProduct(cardProduct)">
+          <label class="add-colon">Shipping Service</label>
+
+          <mat-form-field class="ml-auto">
+            <mat-select [value]="getShippingServiceCode(cardProduct)" (change)="changeShippingService(cardProduct, $event.value)" *ngIf="getShippingServiceCode(cardProduct)">
+              <mat-option [value]="shipping_service['service_code']" *ngFor="let shipping_service of cardProduct['options']['shipping_options']">{{shipping_service["service_name"]}}</mat-option>
+            </mat-select>
+
+            <mat-select value="xx" *ngIf="!getShippingServiceCode(cardProduct)">
+              <mat-option value="xx">Loading...</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </p>
+
+        <hr class="w-100 my-2" />
+
+        <p class="w-100 d-flex font-weight-bold mb-0">
+          <label class="add-colon">Base Price</label>
+          <label class="ml-auto">{{ getBasePrice(cardProduct) | currency : "USD" }}</label>
+        </p>
+
+        <p class="w-100 d-flex font-weight-bold mb-0" *ngIf="is4OverProduct(cardProduct)">
+          <label class="add-colon">Shipping Price</label>
+          <label class="ml-auto">{{ getShippingPrice(cardProduct) | currency : "USD" }}</label>
+        </p>
+
+        <hr class="w-100 my-2" />
+
+        <h4 class="w-100 d-flex font-weight-bold">
+          <label class="add-colon">Price</label>
+          <label class="ml-auto">{{ getPrice(cardProduct) | currency : "USD" }}</label>
+        </h4>
+
+        <div class="w-100 pr-0 d-flex">
+          <button mat-raised-button class="text-uppercase col mr-2" (click)="redirectTo('review-order', cardProduct)">View</button>
+          <button mat-raised-button class="text-uppercase col mr-2" (click)="redirectTo('front-builder', cardProduct)">Edit</button>
+          <button mat-raised-button class="text-uppercase col" (click)="removeProduct(cardProduct)">Remove</button>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+
+  <hr class="w-100 my-5" />
+  <button mat-raised-button class="text-uppercase mx-auto px-5" (click)="redirectTo('shopping', null)">Continue Shopping</button>
+</div>

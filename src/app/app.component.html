@@ -1,0 +1,10 @@
+<mat-sidenav-container class="sidenav-container" [hidden]="!isVisible()">
+    <mat-sidenav #sidenav [mode]="'side'" class="sidenav">
+        <side-bar></side-bar>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+        <top-bar></top-bar>
+        <router-outlet (activate)="onActivate()"></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

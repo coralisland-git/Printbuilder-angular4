@@ -1,0 +1,47 @@
+<div class="panel-container " *ngIf="templateElements.length">
+  <div class="actions row mx-3">
+    <button mat-raised-button class="mat-elevation-z col-lg-6 mat-raised-button col-xl" (click)="submitUpdatedLayers('undo')">
+      <i class="fa fa-undo" aria-hidden="true"></i>
+    </button>
+
+    <button mat-raised-button class="mat-elevation-z col-lg-6 mat-raised-button col-xl" (click)="submitUpdatedLayers('redo')">
+      <i class="fa fa-repeat" aria-hidden="true"></i>
+    </button>
+
+    <button mat-raised-button class="mat-elevation-z col-lg-6 mat-raised-button col-xl" (click)="submitUpdatedLayers('sendBackwards')">
+      <i class="icon-send-to back" aria-hidden="true"></i>
+    </button>
+    <button mat-raised-button class="mat-elevation-z col-lg-6 mat-raised-button col-xl" (click)="submitUpdatedLayers('bringForward')">
+      <i class="icon-send-to front" aria-hidden="true"></i>
+    </button>
+  </div>
+
+  <div class="layers-container">
+    <div class="layer row mx-3 mb-2" *ngFor="let element of templateElements">
+      <div class="type">
+        <span class="icon">
+          <i aria-hidden="true" class="fa fa-font" [hidden]="!isType(element, 'text')"></i>
+          <i aria-hidden="true" class="fa fa-picture-o" [hidden]="!isType(element, 'image')"></i>
+        </span>
+      </div>
+
+      <div class="content">
+        <label>{{getContent(element)}}</label>
+      </div>
+
+      <div class="eye">
+        <span class="icon action" (click)="setHideAction(element)" [ngClass]="{'disabled' : isUnusable(element)}">
+          <i class="fa fa-eye" aria-hidden="true" [hidden]="isHidden(element)"></i>
+          <i class="fa fa-eye-slash" aria-hidden="true" [hidden]="!isHidden(element)"></i>
+        </span>
+      </div>
+
+      <div class="lock">
+        <span class="icon action" (click)="setLockAction(element)" [ngClass]="{'disabled' : isUnusable(element)}">
+          <i class="fa fa-lock" aria-hidden="true" [hidden]="!isLocked(element)"></i>
+          <i class="fa fa-unlock-alt" aria-hidden="true" [hidden]="isLocked(element)"></i>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

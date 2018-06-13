@@ -1,0 +1,13 @@
+<div class="checkout-container row mx-0">
+  <h1 class="page-title col-12 text-center mt-5 mb-3">Shopping Cart</h1>
+
+  <div class="left">
+    <product-list></product-list>
+  </div>
+
+  <div class="right">
+    <payment-info></payment-info>
+  </div>
+</div>
+
+<loading-icon [hidden]="!showLoadingIcon()"></loading-icon>

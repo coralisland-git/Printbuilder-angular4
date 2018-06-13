@@ -1,0 +1,39 @@
+<page-hero heroType="banner"></page-hero>
+
+<div class="col-12">
+  <div class="row">
+    <nav class="nav nav-pills nav-justified">
+      <a class="nav-item nav-link active" id="listing-link" href="#listing">
+        <span>Listing Essentials</span>
+      </a>
+      <a class="nav-item nav-link" id="prospecting-link" href="#prospecting">
+        <span>Prospecting Essentials</span>
+      </a>
+      <a class="nav-item nav-link" id="branding-link" href="#branding">
+        <span>Branding Essentials</span>
+      </a>
+    </nav>
+  </div>
+</div>
+
+<section *ngFor="let section of sectionItems" [id]="section['id']">
+  <div class="col-12 content">
+    <h2 class="text-uppercase mb-4">{{section['id'] + (section['id'] == "all" ? " Products" : " Essentials")}}</h2>
+    <p class="" *ngIf="section['summary'] != ''">{{section['summary']}}</p>
+
+    <div class="row flex-nowrap">
+      <div class="col-3 essential" *ngFor="let item of getFilteredEssentialItems(section['id'])">
+
+        <a class="d-block" href="javascript:void(0)" (click)="redirectToSingleProduct(item['imgURL'], item['id'])" *ngIf="!isComingSoon(item)">
+          <img class="eseential-image" [src]="item['imgURL']">
+        </a>
+
+        <a class="d-block coming-soon" href="javascript:void(0)" *ngIf="isComingSoon(item)">
+          <img class="eseential-image" [src]="item['imgURL']">
+        </a>
+
+        <h3 class="essential-title text-uppercase mt-4 text-center">{{item.title}}</h3>
+      </div>
+    </div>
+  </div>
+</section>

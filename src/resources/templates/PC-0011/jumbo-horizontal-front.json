@@ -1,0 +1,106 @@
+{
+	"name":"jumbo-horizontal-front",
+	"path":" jumbo-vertical-front/jumbo-horizontal-back/jumbo-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":3375, 
+			"height":1875  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":920, 
+			"y":272, 
+			"width":2312, 
+			"height":1473  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/shape_2.png", 
+			"name":"shape_2", 
+			"x":2477, 
+			"y":1470, 
+			"width":817, 
+			"height":205  
+		},
+		{ 
+			"type":"text", 
+			"font":"Alice-Regular",
+			"justification":"center",
+			"color":"0xFFFFFF", 
+			"size":85, 
+			"name":"text_4", 
+			"x":2582, 
+			"y":1571, 
+			"width":560, 
+			"height":62 , 
+			"text":"You're Invited!"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"lineHeight":38,
+			"color":"0xFFFFFF", 
+			"size":45, 
+			"name":"text_3", 
+			"x":315, 
+			"y":1080, 
+			"width":400, 
+			"height":107 , 
+			"text":"Wednesday, July 25\r5pm-7pm"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"lineHeight":38,
+			"color":"0xFFFFFF", 
+			"size":45, 
+			"name":"text_2", 
+			"x":352, 
+			"y":1489, 
+			"width":323, 
+			"height":107 , 
+			"text":"12345 Anystreet\rAnycity"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Alice-Regular",
+			"justification":"center",
+			"color":"0xFFFFFF", 
+			"size":114, 
+			"name":"text_1", 
+			"x":204, 
+			"y":381, 
+			"width":622, 
+			"height":244 , 
+			"text":"Twilight \rOpen House"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":1391, 
+			"y":90, 
+			"width":592, 
+			"height":124  
+		}
+
+	]
+}

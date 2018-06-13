@@ -1,0 +1,73 @@
+{
+	"name":"jumbo-vertical-front",
+	"path":" jumbo-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-vertical-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":653, 
+			"height":1088  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/userimg_camera.png", 
+			"name":"userimg_camera", 
+			"x":-1, 
+			"y":223, 
+			"width":654, 
+			"height":640  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":78, 
+			"y":74, 
+			"width":497, 
+			"height":100  
+		},
+		{ 
+			"type":"text", 
+			"font":"Roboto-Bold",
+			"justification":"center",
+			"uppercase":true,
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":54, 
+			"name":"name", 
+			"x":172, 
+			"y":936, 
+			"width":309, 
+			"height":40 , 
+			"text":"Jane Smith"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Roboto-Light",
+			"justification":"right",
+			"uppercase":true,
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":42, 
+			"name":"text_1", 
+			"x":231, 
+			"y":992, 
+			"width":189, 
+			"height":31 , 
+			"text":"Realtor"  
+		}
+
+	]
+}

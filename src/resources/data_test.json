@@ -1,0 +1,339 @@
+[{
+  "type": "Business",
+  "sku": "BC-0001",
+  "title": "Modern Business Card 1",
+  "subtitle": "2 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": ["Gray", "Red"],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Business",
+  "sku": "BC-0002",
+  "title": "Modern Business Card 2",
+  "subtitle": "2 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": ["Gray", "Red"],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Business",
+  "sku": "BC-0003",
+  "title": "Modern Business Card 3",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Business",
+  "sku": "BC-0004",
+  "title": "Modern Business Card 4",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Business",
+  "sku": "BC-0005",
+  "title": "Modern Business Card 5",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": ["Red"],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Business",
+  "sku": "BC-0006",
+  "title": "Modern Business Card 6",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": ["Red"],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Business",
+  "sku": "BC-0009",
+  "title": "Modern Business Card 9",
+  "subtitle": "2 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": ["Gray", "Red"],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Business",
+  "sku": "BC-0010",
+  "title": "Modern Business Card 10",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Business",
+  "sku": "BC-OAK",
+  "title": "Modern Business Card for Oakland",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": ["Gray", "Red"],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Post",
+  "sku": "PC-0001",
+  "title": "Modern Post Card 1",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Post",
+  "sku": "PC-0003",
+  "title": "Modern Post Card 3",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Post",
+  "sku": "PC-0005",
+  "title": "Modern Post Card 5",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Post",
+  "sku": "PC-0007",
+  "title": "Modern Post Card 7",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Post",
+  "sku": "PC-0008",
+  "title": "Modern Post Card 8",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Post",
+  "sku": "PC-0009",
+  "title": "Modern Post Card 9",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Post",
+  "sku": "PC-0010",
+  "title": "Modern Post Card 10",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Post",
+  "sku": "PC-0011",
+  "title": "Modern Post Card 11",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Post",
+  "sku": "PC-0012",
+  "title": "Modern Post Card 12",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Post",
+  "sku": "PC-0013",
+  "title": "Modern Post Card 13",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Post",
+  "sku": "PC-0018",
+  "title": "Modern Post Card 18",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Post",
+  "sku": "PC-0020",
+  "title": "Modern Post Card 20",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Post",
+  "sku": "PC-0022",
+  "title": "Modern Post Card 22",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Post",
+  "sku": "PC-0025",
+  "title": "Modern Post Card 25",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+}, {
+  "type": "Post",
+  "sku": "PC-0027",
+  "title": "Modern Post Card 27",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+},  {
+  "type": "Post",
+  "sku": "PC-0028",
+  "title": "Modern Post Card 28",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["horizontal", "vertical"]
+  }
+},{
+  "type": "Flyer",
+  "sku": "FC-0001",
+  "title": "Modern Flyer Card 1",
+  "subtitle": "1 layouts from Agent Cloud",
+  "categories": [
+    "New",
+    "Horizontal"
+  ],
+  "options": {
+    "colors": [],
+    "layouts": ["vertical"]
+  }
+}]

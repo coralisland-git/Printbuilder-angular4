@@ -1,0 +1,132 @@
+.btn-group {
+    margin-bottom: 15px;
+    height: 35px;
+}
+
+button:hover,
+button.active {
+    background-color: #14a2e8;
+    color: #ffffff;
+    border-color: #14a2e8;
+}
+
+button:focus {
+    box-shadow: 0 0 2px #14a2e8;
+}
+
+button.active::after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(243, 129, 18, 0);
+    border-top-color: #14a2e8;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+.btn-social-login {
+    border-radius: 4px;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.btn-social-login:link,
+.btn-social-login:visited,
+.btn-social-login:active,
+.btn-social-login:hover {
+    color: #fff;
+}
+
+.btn-facebook,
+.btn-facebook:active,
+.btn-facebook:hover {
+    background: #3B5998;
+    border-color: #263961;
+}
+
+.btn-instagram,
+.btn-instagram:active,
+.btn-instagram:hover {
+    background-color: #e13e5f;
+    border-color: #e13e5f;
+}
+
+.images-container {
+    height: calc(100% - 50px);
+    overflow-y: scroll;
+}
+
+.dropzone {
+    display: flex;
+    align-items: center;
+    min-height: 120px;
+    position: relative;
+    cursor: pointer;
+    flex-direction: column;
+    border: 2px dashed #444444;
+}
+
+.dropzone:hover {
+    border: 2px dashed #14a2e8;
+    color: #14a2e8;
+}
+
+.dropzone input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.dropzone span,
+.dropzone p {
+    margin: 0px auto;
+    font-size: 1.25rem;
+}
+
+.dropzone span {
+    margin-top: auto;
+    font-size: 2.5rem;
+}
+
+.dropzone p {
+    margin-bottom: auto;
+}
+
+.card-columns {
+    column-count: 2;
+    column-gap: 5px;
+}
+
+.image {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.resource-image-list .desc {
+    display: none;
+    cursor: pointer;
+}
+
+.resource-image-list .image:hover .desc {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #ffffff;
+    font-size: 0.85rem;
+    line-height: 30px;
+    padding: 0px 10px;
+    height: 30px;
+    overflow: hidden;
+}

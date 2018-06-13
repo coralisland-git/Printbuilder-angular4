@@ -1,0 +1,37 @@
+<div id="carousel" class="carousel slide col-12 px-0" data-ride="carousel" data-interval="3000" *ngIf="heroType == 'carousel'">
+  <ol class="carousel-indicators">
+    <li *ngFor="let item of carouselItems; let index = index;" data-target="#carousel" [attr.data-slide-to]="index" [ngClass]="{'active' : index == 0}"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="carousel-item" *ngFor="let item of carouselItems; let index = index;" [ngClass]="{'active' : index == 0}">
+      <img class="img-fluid" [src]="item.imgURL">
+
+      <div class="carousel-content" [id]="item.id">
+        <h1 class="slogan text-uppercase my-3">
+          {{item.slogan.start}}
+          <label class="feature">
+            {{item.slogan.feature}}
+            <span *ngIf="item.slogan.badgeText != ''">{{item.slogan.badgeText}}</span>
+          </label>
+          {{item.slogan.end}}
+        </h1>
+
+        <p class="summary">
+          {{item.summary}}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="banner" class="d-flex flex-nowrap" *ngIf="heroType == 'banner'" [ngClass]="bannerItem.imgType">
+  <div class="col-lg-6 p-5">
+    <h1 class="text-uppercase m-5">{{bannerItem.slogan}}</h1>
+    <p class="ui-text m-5">{{bannerItem.summary}}</p>
+  </div>
+
+  <div class="col-lg-6 img-container pr-0">
+    <img [src]="bannerItem.imgURL" class="img-fluid">
+  </div>
+</div>

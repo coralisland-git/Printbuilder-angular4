@@ -1,0 +1,230 @@
+<div class="modal-overlay" [hidden]="hideShippingBilling()"></div>
+
+<div class="modal-dialog" role="document" [ngClass]="dlgType" [hidden]="hideShippingBilling()">
+  <div class="modal-content">
+    <div class="modal-header pl-5">
+      <h5 class="modal-title text-capitalize">{{getModalTitle()}}</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="cancel()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    <!-- ===========================================================================  -->
+    <!-- ======================== Dlg for Single Product ===========================  -->
+    <!-- ===========================================================================  -->
+    <ng-container *ngIf="checkDlgType('single-product')">
+      <div class="modal-body col-12 px-5">
+        <div class="row">
+          <div class="col-6">
+            <img class="img-fluid" [src]="dlgData.imgURL">
+          </div>
+
+          <div class="col-6">
+            <h4 class="text-capitalize mt-4">{{getModalTitle()}}</h4>
+          </div>
+
+          <hr class="w-100 mt-5 mb-3" />
+
+          <div class="col-12">
+            <h4 class="col-12 text-capitalize mt-4 px-0">Choose Size</h4>
+
+            <div class="row mx-0">
+              <a class="col size" *ngFor="let size of getSizes();" [ngClass]="{
+              'active': size.label == sizeLabel,
+              'regular': size.label == 'regular',
+              'large': size.label == 'large',
+              'jumbo': size.label == 'jumbo'
+            }" (click)="sizeLabel = size.label">
+                <label class="d-block mb-0 font-weight-bold text-capitalize">{{size.label}}</label>
+                <label class="d-block mb-0">{{size.width}}" x {{size.height}}"</label>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button mat-raised-button class="text-uppercase btn-ok mx-auto padding-1-6" (click)="confirm()">{{getOKButtonText()}}</button>
+      </div>
+    </ng-container>
+
+    <!-- ===========================================================================  -->
+    <!-- ===================== Dlg for Checkout in review order ====================  -->
+    <!-- ===========================================================================  -->
+    <ng-container *ngIf="checkDlgType('review-order')">
+      <div class="modal-body col-12 px-5">
+        <div class="row">
+          <h5 class="col-12 text-center my-5">Do you agree with your current design?</h5>
+          <!-- <mat-checkbox class="mx-auto" name="save-draft" [(ngModel)]="saveAsDraft">Save as draft</mat-checkbox> -->
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button mat-raised-button class="text-uppercase btn-ok col padding-1-6" (click)="confirm()">{{getOKButtonText()}}</button>
+        <button mat-raised-button class="text-uppercase btn-cancel col padding-1-6" (click)="cancel()">{{getCancelButtonText()}}</button>
+      </div>
+    </ng-container>
+
+    <!-- ===========================================================================  -->
+    <!-- ===================== Dlg for Checkout in review order ====================  -->
+    <!-- ===========================================================================  -->
+    <ng-container *ngIf="checkDlgType('leave-design')">
+      <div class="modal-body col-12 px-5">
+        <div class="row">
+          <h5 class="col-12 text-center my-5">Are you sure you want to leave your design?</h5>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button mat-raised-button class="text-uppercase btn-ok col padding-1-6" (click)="confirm()">{{getOKButtonText()}}</button>
+        <button mat-raised-button class="text-uppercase btn-cancel col padding-1-6" (click)="cancel()">{{getCancelButtonText()}}</button>
+      </div>
+    </ng-container>
+
+    <!-- ===========================================================================  -->
+    <!-- ========================= Import CSV file in Checkout =====================  -->
+    <!-- ===========================================================================  -->
+    <ng-container *ngIf="checkDlgType('import-contacts')">
+      <div class="modal-body col-12 px-5">
+        <div class="row">
+          <mat-tab-group class="w-100 import-contacts-tabs" [selectedIndex]="csvTabIndex">
+            <mat-tab id="download-csv" label="DOWNLOAD TEMPLATE">
+              <div class="tab-content">
+                <h4 class="w-100 text-center mt-auto">Step 1</h4>
+                <p class="w-100 text-center mb-auto">Download our CSV template to properly organize the addresses you want to mail your campaign to.</p>
+
+                <button mat-raised-button class="text-uppercase btn-green" (click)="downloadCSVTemplate()">Download Template</button>
+              </div>
+            </mat-tab>
+
+            <mat-tab id="import-csv" label="IMPORT CSV">
+              <div class="tab-content">
+                <h4 class="w-100 text-center mt-auto">Step 2</h4>
+                <p class="w-100 text-center mb-auto">Upload your completed CSV file with all of the addresses you would like to send your campaign to. Your final
+                  price will automatically adjust once the file has been uploaded</p>
+
+                <button mat-raised-button class="text-uppercase btn-green" (click)="openCSVUploader()">Import CSV</button>
+                <input id="csv-uploader" class="w-100" type="file" name="datasource_upload" accept=".csv" ngf-max-size="20MB" fd-input (change)="readCSVData($event)"
+                />
+              </div>
+            </mat-tab>
+          </mat-tab-group>
+        </div>
+      </div>
+    </ng-container>
+
+    <!-- ===========================================================================  -->
+    <!-- =========================== Terms of Use Content ==========================  -->
+    <!-- ===========================================================================  -->
+    <ng-container *ngIf="checkDlgType('terms-of-use')">
+      <div class="modal-body row mx-0 flex-direction-column py-4 px-5 my-2">
+        <p class="font-weight-bold mb-4">Hello {{getUserFullName()}},</p>
+
+        <p class="mb-4"></p>
+        <p class="mb-4">We’re thrilled to have you partake in Agent Cloud’s exclusive Beta Test program. While we’re committed to making
+          continuous improvements to the platform, we hope you understand that this technology is newly launched, and you
+          will experience bugs.</p>
+
+        <p class="mb-4"></p>
+        <p class="mb-4">While the Agent Cloud platform operates like a fully-functioning home, our team is silently working in the background
+          to make sure everything runs smoothly. Please expect to see updates to the site daily. If you notice anything out
+          of order, report it directly to
+          <a href="mailto:support@agentcloud.com">support@agentcloud.com</a> or message us via our in-app chat feature. We use this information to make necessary
+          maintenance fixes and keep your experience enjoyable and consistent.</p>
+
+        <p class="mb-4"></p>
+        <p class="mb-4">As Beta Testers, you are given first-rights access to an evolving platform and understand that you will experience
+          bugs in the system. All Agent Cloud property is copyrighted, and information learned and used on the Agent Cloud
+          platform should be kept confidential.</p>
+
+        <p class="mb-4"></p>
+        <p class="mb-4">Thank you for your participation.</p>
+      </div>
+
+      <div class="modal-footer row mx-0">
+        <button mat-raised-button class="text-uppercase btn-ok col-3 ml-auto" (click)="confirm()">{{getOKButtonText()}}</button>
+        <button mat-raised-button class="text-uppercase btn-cancel col-3" (click)="cancel()">{{getCancelButtonText()}}</button>
+      </div>
+    </ng-container>
+
+    <!-- ===========================================================================  -->
+    <!-- ========================= Shipping & Billing Form =========================  -->
+    <!-- ===========================================================================  -->
+    <ng-container *ngIf="checkDlgType('shipping-billing') && userInfo">
+      <div class="row mx-0 px-3 py-5">
+        <form class="shipping-info col-6">
+          <mat-form-field class="col-12">
+            <input matInput placeholder="Company Name" name="shipping_company" [(ngModel)]="userInfo['shipping_company']">
+          </mat-form-field>
+
+          <mat-form-field class="col-12">
+            <input matInput placeholder="First Name" name="shipping_first_name" [(ngModel)]="userInfo['shipping_first_name']">
+          </mat-form-field>
+
+          <mat-form-field class="col-12">
+            <input matInput placeholder="Last Name" name="shipping_last_name" [(ngModel)]="userInfo['shipping_last_name']">
+          </mat-form-field>
+
+          <mat-form-field class="col-12">
+            <input matInput placeholder="Shipping Address" name="shipping_address" [(ngModel)]="userInfo['shipping_address']">
+          </mat-form-field>
+
+          <mat-form-field class="col-12">
+            <input matInput placeholder="Shipping Address 2" name="shipping_address2" [(ngModel)]="userInfo['shipping_address2']">
+          </mat-form-field>
+
+          <mat-form-field class="col-12">
+            <input matInput placeholder="Shipping City" name="shipping_city" [(ngModel)]="userInfo['shipping_city']">
+          </mat-form-field>
+
+          <mat-form-field class="col-12">
+            <input matInput placeholder="Shipping State" name="shipping_state" [(ngModel)]="userInfo['shipping_state']">
+          </mat-form-field>
+
+          <mat-form-field class="col-12">
+            <input matInput placeholder="Shipping Zipcode" name="shipping_zipcode" [(ngModel)]="userInfo['shipping_zipcode']">
+          </mat-form-field>
+        </form>
+
+        <form class="billing-info col-6">
+          <mat-form-field class="col-12">
+            <input matInput placeholder="First Name" name="first_name" [(ngModel)]="userInfo['first_name']">
+          </mat-form-field>
+
+          <mat-form-field class="col-12">
+            <input matInput placeholder="Last Name" name="last_name" [(ngModel)]="userInfo['last_name']">
+          </mat-form-field>
+
+          <mat-form-field class="col-12">
+            <input matInput placeholder="Email" name="email" [(ngModel)]="userInfo['email']">
+          </mat-form-field>
+
+          <mat-form-field class="col-12">
+            <input matInput placeholder="Address" name="address" [(ngModel)]="userInfo['address']">
+          </mat-form-field>
+
+          <mat-form-field class="col-12">
+            <input matInput placeholder="Address 2" name="address2" [(ngModel)]="userInfo['address2']">
+          </mat-form-field>
+
+          <mat-form-field class="col-12">
+            <input matInput placeholder="City" name="city" [(ngModel)]="userInfo['city']">
+          </mat-form-field>
+
+          <mat-form-field class="col-12">
+            <input matInput placeholder="State" name="state" [(ngModel)]="userInfo['state']">
+          </mat-form-field>
+
+          <mat-form-field class="col-12">
+            <input matInput placeholder="Zipcode" name="zipcode" [(ngModel)]="userInfo['zipcode']">
+          </mat-form-field>
+        </form>
+      </div>
+
+      <div class="modal-footer row mx-0">
+        <button mat-raised-button class="text-uppercase btn-cancel col-3 ml-auto mr-2" (click)="cancel()">{{getCancelButtonText()}}</button>
+        <button mat-raised-button class="text-uppercase btn-ok col-3 mr-auto" (click)="confirm()" [disabled]="!isAllShippingBillingInputed()">{{getOKButtonText()}}</button>
+      </div>
+    </ng-container>
+  </div>
+</div>

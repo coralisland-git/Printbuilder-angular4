@@ -1,0 +1,184 @@
+{
+	"name":"jumbo-horizontal-front",
+	"path":" jumbo-horizontal-back/jumbo-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/background.png", 
+			"name":"background", 
+			"x":-8, 
+			"y":-4, 
+			"width":1100, 
+			"height":650  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/img_2.png", 
+			"name":"img_2", 
+			"x":901, 
+			"y":544, 
+			"width":64, 
+			"height":33  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/userimg_camera.png", 
+			"name":"userimg_camera", 
+			"x":84, 
+			"y":68, 
+			"width":270, 
+			"height":378  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":87, 
+			"y":471, 
+			"width":238, 
+			"height":107  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/img_1.png", 
+			"name":"img_1", 
+			"x":972, 
+			"y":543, 
+			"width":34, 
+			"height":34  
+		},
+		{ 
+			"type":"text", 
+			"font":"MyriadPro-Regular",
+			"justification":"left",
+			"color":"0x4D4D4F", 
+			"size":21, 
+			"name":"addr_multiline", 
+			"x":460, 
+			"y":516, 
+			"width":282, 
+			"height":43 , 
+			"text":"2701 Ocean Park Blvd Suite #140 Santa Monica, CA 90405"  
+		},
+		{ 
+			"type":"text", 
+			"font":"MyriadPro-Regular",
+			"justification":"left",
+			"color":"0x4D4D4F", 
+			"size":21, 
+			"name":"text_2", 
+			"x":461, 
+			"y":563, 
+			"width":426, 
+			"height":20 , 
+			"text":"Each Office is independently owned and operated"  
+		},
+		{ 
+			"type":"text", 
+			"font":"MyriadPro-Regular",
+			"justification":"left",
+			"color":"0x4D4D4F", 
+			"size":21, 
+			"name":"brokerlicense", 
+			"x":669, 
+			"y":541, 
+			"width":138, 
+			"height":21 , 
+			"text":"| BRE#01499010"  
+		},
+		{ 
+			"type":"text", 
+			"font":"MyriadPro-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0x9B1F20", 
+			"size":58, 
+			"name":"name", 
+			"x":464, 
+			"y":67, 
+			"width":343, 
+			"height":53 , 
+			"text":"Angie Nimbus"  
+		},
+		{ 
+			"type":"text", 
+			"font":"MyriadPro-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0x4D4D4F", 
+			"size":29, 
+			"name":"text_1", 
+			"x":460, 
+			"y":131, 
+			"width":138, 
+			"height":29 , 
+			"text":"REALTOR  |"  
+		},
+		{ 
+			"type":"text", 
+			"font":"MyriadPro-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0x4D4D4F", 
+			"size":29, 
+			"name":"brenumber", 
+			"x":639, 
+			"y":131, 
+			"width":179, 
+			"height":21 , 
+			"text":"BRE#02040176 "  
+		},
+		{ 
+			"type":"text", 
+			"font":"MyriadPro-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0x4D4D4F", 
+			"size":46, 
+			"name":"phone", 
+			"x":453, 
+			"y":257, 
+			"width":253, 
+			"height":33 , 
+			"text":"123.456.7890"  
+		},
+		{ 
+			"type":"text", 
+			"font":"MyriadPro-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0x4D4D4F", 
+			"size":46, 
+			"name":"email", 
+			"x":453, 
+			"y":312, 
+			"width":458, 
+			"height":42 , 
+			"text":"Agent@agentcloud.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"MyriadPro-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0x4D4D4F", 
+			"size":46, 
+			"name":"website", 
+			"x":453, 
+			"y":366, 
+			"width":351, 
+			"height":42 , 
+			"text":"AngieNimbus.com"  
+		}
+
+	]
+}

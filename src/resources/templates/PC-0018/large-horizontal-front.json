@@ -1,0 +1,105 @@
+{
+	"name":"large-horizontal-front",
+	"path":" large-vertical-front/regular-horizontal-front/regular-vertical-back/jumbo-horizontal-back/jumbo-vertical-front/jumbo-vertical-back/jumbo-horizontal-front/large-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"large-horizontal-front",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":2775, 
+			"height":1875  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"center",
+			"uppercase":true,
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":258, 
+			"name":"text_3", 
+			"x":735, 
+			"y":599, 
+			"width":1304, 
+			"height":184 , 
+			"text":"4th July"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"center",
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":104, 
+			"name":"text_2", 
+			"x":738, 
+			"y":814, 
+			"width":1298, 
+			"height":95 , 
+			"text":"Happy Independence day"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Light",
+			"justification":"center",
+			"color":"0xFFFFFF", 
+			"size":53, 
+			"name":"text_1", 
+			"x":738, 
+			"y":1030, 
+			"width":1296, 
+			"height":54 , 
+			"text":"Wishing you a fun-filled holiday with your loved one!"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Book",
+			"justification":"right",
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":53, 
+			"name":"website", 
+			"x":1912, 
+			"y":1730, 
+			"width":744, 
+			"height":38 , 
+			"text":"JohnsonB.KellerWilliams.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"left",
+			"uppercase":true,
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":74, 
+			"name":"name", 
+			"x":1959, 
+			"y":1655, 
+			"width":698, 
+			"height":55 , 
+			"text":"Johnson Barry"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":1068, 
+			"y":152, 
+			"width":640, 
+			"height":117  
+		}
+
+	]
+}

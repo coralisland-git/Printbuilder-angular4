@@ -1,0 +1,162 @@
+{
+	"name":"regular-vertical-front",
+	"path":" large-vertical-front/regular-horizontal-back/regular-horizontal-front/regular-vertical-back/regular-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"regular-vertical-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1575, 
+			"height":2175  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/camera_4.png", 
+			"name":"camera_4", 
+			"x":79, 
+			"y":989, 
+			"width":456, 
+			"height":317  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/camera_3.png", 
+			"name":"camera_3", 
+			"x":560, 
+			"y":988, 
+			"width":455, 
+			"height":318  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/camera_2.png", 
+			"name":"camera_2", 
+			"x":1041, 
+			"y":988, 
+			"width":456, 
+			"height":317  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":-4, 
+			"y":0, 
+			"width":1579, 
+			"height":878  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/img_1.png", 
+			"name":"img_1", 
+			"x":0, 
+			"y":803, 
+			"width":930, 
+			"height":137  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":86, 
+			"y":95, 
+			"width":625, 
+			"height":194  
+		},
+		{ 
+			"type":"text", 
+			"font":"Roboto-Light",
+			"justification":"left",
+			"lineHeight":41,
+			"alpha":0.5, 
+			"color":"0x000000", 
+			"size":33, 
+			"name":"text_4", 
+			"x":86, 
+			"y":1793, 
+			"width":1346, 
+			"height":247 , 
+			"text":"Perched atop the coveted Huntington area of the Pacific Palisades, this oceanside manor is nothing short of presidential - a rare composition of remarkable stonework flush with ivy and backlit by the crimson blue of the Pacific. Entering through wrought iron gates and a palatial motor court, one is greeted by a grand entry hall, guiding you into a medley of impeccably outfitted spaces."  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeueBold",
+			"justification":"center",
+			"color":"0xD31E48", 
+			"size":167, 
+			"name":"text_3", 
+			"x":503, 
+			"y":1441, 
+			"width":382, 
+			"height":120 , 
+			"text":"Beauty"  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeueLight",
+			"justification":"center",
+			"color":"0x000000", 
+			"size":167, 
+			"name":"text_2", 
+			"x":85, 
+			"y":1442, 
+			"width":378, 
+			"height":119 , 
+			"text":"Modern "  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeueBold",
+			"justification":"center",
+			"lineHeight":58,
+			"color":"0x4E4E4F", 
+			"size":100, 
+			"name":"addr_multiline", 
+			"x":84, 
+			"y":1668, 
+			"width":1369, 
+			"height":81 , 
+			"text":"123 wilshire blvd, santa monica ca 90402"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-LightItalic",
+			"justification":"left",
+			"lineHeight":94,
+			"color":"0xFFFFFF", 
+			"size":75, 
+			"name":"text_1", 
+			"x":85, 
+			"y":848, 
+			"width":403, 
+			"height":54 , 
+			"text":"OFFERED AT "  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-BoldItalic",
+			"justification":"left",
+			"lineHeight":94,
+			"color":"0xFFFFFF", 
+			"size":77, 
+			"name":"price", 
+			"x":499, 
+			"y":841, 
+			"width":369, 
+			"height":71 , 
+			"text":"$1.250.000"  
+		}
+
+	]
+}

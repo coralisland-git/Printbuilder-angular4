@@ -1,0 +1,31 @@
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.modal-dialog {
+    position: fixed;
+    left: 25%;
+    right: 25%;
+    top: 15%;
+    bottom: 15%;
+    max-width: initial;
+}
+
+.modal-content {
+    height: 100%;
+}
+
+.modal-body {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+angular-cropper {
+    margin: auto;
+}

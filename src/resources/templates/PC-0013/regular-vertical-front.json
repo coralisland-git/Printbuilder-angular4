@@ -1,0 +1,104 @@
+{
+	"name":"regular-vertical-front",
+	"path":" large-horizontal-front/large-vertical-front/regular-vertical-back/regular-horizontal-back/regular-horizontal-front/regular-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"regular-vertical-front",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1575, 
+			"height":2175  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Light",
+			"justification":"left",
+			"lineHeight":33,
+			"color":"0xD31E47", 
+			"size":117, 
+			"name":"text_3", 
+			"x":334, 
+			"y":291, 
+			"width":896, 
+			"height":84 , 
+			"text":"WISING YOU AN"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaRustSlab-BlackShadow01",
+			"justification":"left",
+			"lineHeight":33,
+			"color":"0xD31E47", 
+			"size":220, 
+			"name":"text_2", 
+			"x":84, 
+			"y":426, 
+			"width":1411, 
+			"height":178 , 
+			"text":"EGGCITING"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaRustSlab-BlackShadow01",
+			"justification":"left",
+			"lineHeight":33,
+			"color":"0xD31E47", 
+			"size":142, 
+			"name":"text_1", 
+			"x":83, 
+			"y":649, 
+			"width":1411, 
+			"height":115 , 
+			"text":"EASTER SUNDAY"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Light",
+			"justification":"left",
+			"lineHeight":33,
+			"color":"0xFFFFFF", 
+			"size":50, 
+			"name":"website", 
+			"x":800, 
+			"y":2053, 
+			"width":692, 
+			"height":36 , 
+			"text":"JohnsonB.KellerWilliams.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"left",
+			"lineHeight":33,
+			"color":"0xD31E47", 
+			"size":67, 
+			"name":"name", 
+			"x":1002, 
+			"y":1975, 
+			"width":496, 
+			"height":61 , 
+			"text":"Johnson Barry"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":88, 
+			"y":1975, 
+			"width":373, 
+			"height":116  
+		}
+
+	]
+}

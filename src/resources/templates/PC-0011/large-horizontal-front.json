@@ -1,0 +1,134 @@
+{
+	"name":"large-horizontal-front",
+	"path":" jumbo-vertical-front/jumbo-horizontal-back/jumbo-horizontal-front/jumbo-vertical-back/large-vertical-back/large-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"large-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":2775, 
+			"height":1875  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":1056, 
+			"y":273, 
+			"width":1511, 
+			"height":853  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/img_1.png", 
+			"name":"img_1", 
+			"x":1799, 
+			"y":986, 
+			"width":815, 
+			"height":205  
+		},
+		{ 
+			"type":"text", 
+			"font":"Alice-Regular",
+			"justification":"center",
+			"color":"0xFFFFFF", 
+			"size":84, 
+			"name":"text_6", 
+			"x":1903, 
+			"y":1087, 
+			"width":559, 
+			"height":62 , 
+			"text":"You're Invited!"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"lineHeight":61,
+			"color":"0x383838", 
+			"size":32, 
+			"name":"text_5", 
+			"x":1135, 
+			"y":1411, 
+			"width":1345, 
+			"height":216 , 
+			"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. Lorem ipsum dolor sit amet, consectetur adipiscing elit."  
+		},
+		{ 
+			"type":"text", 
+			"font":"Alamain",
+			"justification":"center",
+			"lineHeight":38,
+			"color":"0xB8202D", 
+			"size":47, 
+			"name":"text_4", 
+			"x":1509, 
+			"y":1262, 
+			"width":605, 
+			"height":72 , 
+			"text":"Your Text Goes Here"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"lineHeight":38,
+			"color":"0xFFFFFF", 
+			"size":45, 
+			"name":"text_3", 
+			"x":403, 
+			"y":1079, 
+			"width":399, 
+			"height":107 , 
+			"text":"Wednesday, July 25\r5pm-7pm"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"lineHeight":38,
+			"color":"0xFFFFFF", 
+			"size":45, 
+			"name":"text_2", 
+			"x":441, 
+			"y":1486, 
+			"width":321, 
+			"height":107 , 
+			"text":"12345 Anystreet\rAnycity"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Alice-Regular",
+			"justification":"center",
+			"color":"0xFFFFFF", 
+			"size":114, 
+			"name":"text_1", 
+			"x":292, 
+			"y":381, 
+			"width":619, 
+			"height":244 , 
+			"text":"Twilight \rOpen House"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":1122, 
+			"y":99, 
+			"width":531, 
+			"height":111  
+		}
+
+	]
+}

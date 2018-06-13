@@ -1,0 +1,138 @@
+{
+	"name":"regular-vertical-front",
+	"path":" jumbo-vertcial-back/large-vertical-front/large-horizontal-front/jumbo-vertcial-front/jumbo-horizontal-back/jumbo-horizontal-front/jumbo-vertical-back/regular-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"regular-vertical-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1575, 
+			"height":2175  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":0, 
+			"y":0, 
+			"width":1575, 
+			"height":1371  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/img_1.png", 
+			"name":"img_1", 
+			"x":0, 
+			"y":1112, 
+			"width":1575, 
+			"height":1063  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":87, 
+			"y":84, 
+			"width":452, 
+			"height":199  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-CondensedBold",
+			"justification":"center",
+			"uppercase":true,
+			"color":"0xC52234", 
+			"size":64, 
+			"name":"website", 
+			"x":261, 
+			"y":2036, 
+			"width":1050, 
+			"height":46 , 
+			"text":"www.johnsonb.kellerwiliams.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-CondensedBold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":53, 
+			"name":"text_5", 
+			"x":729, 
+			"y":1980, 
+			"width":426, 
+			"height":38 , 
+			"text":"free MARKET ANALYSIS"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-CondensedLight",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":53, 
+			"name":"text_4", 
+			"x":422, 
+			"y":1980, 
+			"width":294, 
+			"height":38 , 
+			"text":"Contact me for A"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-Light",
+			"justification":"center",
+			"lineHeight":22,
+			"color":"0xFFFFFF", 
+			"size":33, 
+			"name":"text_3", 
+			"x":111, 
+			"y":1667, 
+			"width":1350, 
+			"height":200 , 
+			"text":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.\rAenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur\rridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.\r\rDonec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,\rimperdiet a, venenatis vitae, justo."  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-CondensedBold",
+			"justification":"center",
+			"uppercase":true,
+			"lineHeight":61,
+			"color":"0xFFFFFF", 
+			"size":64, 
+			"name":"text_2", 
+			"x":334, 
+			"y":1547, 
+			"width":905, 
+			"height":46 , 
+			"text":"GET THE MOST OUT OF YOUR HOUSE TODAY!"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINPro-CondensedBold",
+			"justification":"center",
+			"uppercase":true,
+			"lineHeight":51,
+			"color":"0xFFFFFF", 
+			"size":117, 
+			"name":"text_1", 
+			"x":180, 
+			"y":1270, 
+			"width":1213, 
+			"height":202 , 
+			"text":"Your home worth more than You think"  
+		}
+
+	]
+}

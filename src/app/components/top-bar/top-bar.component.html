@@ -1,0 +1,35 @@
+<div class="row no-gutters">
+  <div class="search-input-container">
+    <input type="search" class="form-control" placeholder="" [(ngModel)]="keyword" (keyup.enter)="redirectTo('search')"/>
+  </div>
+
+  <div class="notifications col-xl-8 ml-auto d-flex flex-nowrap align-items-center">
+    <div class="message ml-auto px-4 py-2 invisible">
+      <span>
+        <i class="fa fa-envelope fa-lg"></i>
+      </span>
+    </div>
+
+    <div class="bell px-4 py-2">
+      <span>
+        <i class="fa fa-bell fa-lg"></i>
+      </span>
+    </div>
+
+    <div class="settings pl-4 d-flex align-items-center">
+      <div class="btn-group">
+        <button type="button" class="user-profile btn btn-secondary border-0 p-0" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="fase">
+          <label class="mb-0 mr-3">{{getUserFullName()}}</label>
+          <img [src]="getUserProfileImage()" class="img-fluid" crossOrigin="anonymous">
+        </button>
+
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="javascript:void(0)" (click)="redirectTo('settings')">Settings</a>
+          <div class="dropdown-divider d-none"></div>
+          <a class="dropdown-item" href="javascript:void(0)" (click)="logOut()">Log Out</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,131 @@
+{
+	"name":"jumbo-horizontal-front",
+	"path":" jumbo-horizontal-back/jumbo-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":3375, 
+			"height":1875  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":0, 
+			"y":0, 
+			"width":2661, 
+			"height":1875  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/img_1.png", 
+			"name":"img_1", 
+			"x":1900, 
+			"y":894, 
+			"width":1475, 
+			"height":981  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/img_2.png", 
+			"name":"img_2", 
+			"x":2122, 
+			"y":0, 
+			"width":1253, 
+			"height":895  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Semibold",
+			"justification":"left",
+			"lineHeight":45,
+			"color":"0xFFFFFF", 
+			"size":66, 
+			"name":"website", 
+			"x":2252, 
+			"y":1667, 
+			"width":870, 
+			"height":57 , 
+			"text":"www.kellerwilliamsrealty.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"lineHeight":45,
+			"color":"0xFFFFFF", 
+			"size":41, 
+			"name":"text_4", 
+			"x":2255, 
+			"y":1206, 
+			"width":861, 
+			"height":377 , 
+			"text":"Lorem ipsum dolor sit amet, consectetur \radipiscing elit, sed do eiusmod tempor \rincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation \rullamco laboris nisi ut aliquip ex ea commodo \rconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Bold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":67, 
+			"name":"text_3", 
+			"x":2261, 
+			"y":1033, 
+			"width":852, 
+			"height":45 , 
+			"text":"Which is right for you?"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Regular",
+			"justification":"center",
+			"lineHeight":90,
+			"color":"0xB8202D", 
+			"size":182, 
+			"name":"text_2", 
+			"x":2460, 
+			"y":612, 
+			"width":478, 
+			"height":194 , 
+			"text":"Buying"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Regular",
+			"justification":"center",
+			"lineHeight":90,
+			"color":"0xB8202D", 
+			"size":182, 
+			"name":"text_1", 
+			"x":2335, 
+			"y":416, 
+			"width":727, 
+			"height":194 , 
+			"text":"Renting vs"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":2371, 
+			"y":123, 
+			"width":653, 
+			"height":138  
+		}
+
+	]
+}

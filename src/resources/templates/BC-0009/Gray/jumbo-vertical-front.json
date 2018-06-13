@@ -1,0 +1,192 @@
+{
+	"name":"jumbo-vertical-front",
+	"path":" jumbo-horizontal-front/jumbo-vertical-back/jumbo-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-vertical-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":653, 
+			"height":1088  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"addr_multiline", 
+			"x":130, 
+			"y":878, 
+			"width":284, 
+			"height":50 , 
+			"text":"3963 West Side Avenue\rNew Brunswick, NJ 08901"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"website", 
+			"x":171, 
+			"y":811, 
+			"width":220, 
+			"height":17 , 
+			"text":"www.realestate.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"email", 
+			"x":172, 
+			"y":781, 
+			"width":243, 
+			"height":19 , 
+			"text":"emmanuel@email.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"mobile", 
+			"x":172, 
+			"y":751, 
+			"width":169, 
+			"height":17 , 
+			"text":"077 5005 3489"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"phone", 
+			"x":172, 
+			"y":721, 
+			"width":161, 
+			"height":22 , 
+			"text":"(301) 555-0100"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4F", 
+			"size":17, 
+			"name":"text_1", 
+			"x":210, 
+			"y":965, 
+			"width":215, 
+			"height":36 , 
+			"text":"Each office is independently \rowned and operated"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/img_1.png", 
+			"name":"img_1", 
+			"x":89, 
+			"y":967, 
+			"width":55, 
+			"height":29  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/img_2.png", 
+			"name":"img_2", 
+			"x":154, 
+			"y":966, 
+			"width":32, 
+			"height":31  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xC62038", 
+			"size":26, 
+			"name":"brenumber", 
+			"x":369, 
+			"y":656, 
+			"width":118, 
+			"height":18 , 
+			"text":"01998060"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Bold",
+			"justification":"left",
+			"color":"0xC62038", 
+			"size":26, 
+			"name":"bre_", 
+			"x":297, 
+			"y":656, 
+			"width":64, 
+			"height":18 , 
+			"text":"BRE#"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xC62038", 
+			"size":26, 
+			"name":"text_2", 
+			"x":165, 
+			"y":656, 
+			"width":121, 
+			"height":19 , 
+			"text":"REALTOR |"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Bold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0x383838", 
+			"size":38, 
+			"name":"name", 
+			"x":214, 
+			"y":617, 
+			"width":223, 
+			"height":25 , 
+			"text":"John Smith"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":123, 
+			"y":92, 
+			"width":412, 
+			"height":86  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/userimg_camera.png", 
+			"name":"userimg_camera", 
+			"x":187, 
+			"y":219, 
+			"width":278, 
+			"height":377  
+		}
+
+	]
+}

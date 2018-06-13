@@ -1,0 +1,193 @@
+{
+	"name":"large-horizontal-front",
+	"path":" jumbo-vertical-front/jumbo-vertical-back/jumbo-horizontal-front/large-vertical-back/large-horizontal-back/large-vertical-front/large-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"large-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":2775, 
+			"height":1875  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Light",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":191, 
+			"name":"txt_9", 
+			"x":1583, 
+			"y":208, 
+			"width":894, 
+			"height":157 , 
+			"text":"Looking for"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-SemiBold",
+			"justification":"left",
+			"uppercase":true,
+			"color":"0xFFFFFF", 
+			"size":191, 
+			"name":"txt_8", 
+			"x":1581, 
+			"y":438, 
+			"width":947, 
+			"height":159 , 
+			"text":"dream job?"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0xFFFFFF", 
+			"size":53, 
+			"name":"txt_7", 
+			"x":1581, 
+			"y":720, 
+			"width":937, 
+			"height":426 , 
+			"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo \rconsequat. "  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0xFFFFFF", 
+			"size":53, 
+			"name":"txt_3", 
+			"x":1869, 
+			"y":1234, 
+			"width":337, 
+			"height":105 , 
+			"text":"Your text here"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0xFFFFFF", 
+			"size":53, 
+			"name":"txt_4", 
+			"x":1890, 
+			"y":1309, 
+			"width":337, 
+			"height":105 , 
+			"text":"Your text here"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0xFFFFFF", 
+			"size":53, 
+			"name":"txt_5", 
+			"x":1911, 
+			"y":1383, 
+			"width":337, 
+			"height":105 , 
+			"text":"Your text here"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"lineHeight":58,
+			"color":"0xFFFFFF", 
+			"size":53, 
+			"name":"txt_6", 
+			"x":1933, 
+			"y":1456, 
+			"width":337, 
+			"height":105 , 
+			"text":"Your text here"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/icon_check.png", 
+			"name":"icon_check", 
+			"x":1757, 
+			"y":1240, 
+			"width":49, 
+			"height":42  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/icon_check_1.png", 
+			"name":"icon_check_1", 
+			"x":1778, 
+			"y":1313, 
+			"width":49, 
+			"height":42  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/icon_check_2.png", 
+			"name":"icon_check_2", 
+			"x":1799, 
+			"y":1387, 
+			"width":49, 
+			"height":42  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/icon_check_3.png", 
+			"name":"icon_check_3", 
+			"x":1820, 
+			"y":1461, 
+			"width":49, 
+			"height":42  
+		},
+		{ 
+			"type":"text", 
+			"font":"Oswald-Light",
+			"justification":"left",
+			"color":"0x343434", 
+			"size":187, 
+			"name":"txt_2", 
+			"x":187, 
+			"y":1558, 
+			"width":451, 
+			"height":153 , 
+			"text":"We Are"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Alamain",
+			"justification":"left",
+			"color":"0xC60036", 
+			"size":112, 
+			"name":"txt_1", 
+			"x":723, 
+			"y":1546, 
+			"width":433, 
+			"height":239 , 
+			"text":"Hiring"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":153, 
+			"y":132, 
+			"width":714, 
+			"height":149  
+		}
+
+	]
+}

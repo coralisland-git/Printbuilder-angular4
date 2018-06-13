@@ -1,0 +1,104 @@
+{
+	"name":"jumbo-vertical-front",
+	"path":" jumbo-horizontal-back/jumbo-horizontal-front/jumbo-vertical-front/jumbo-vertical-back/large-vertical-front/large-vertical-back/large-horizontal-back/large-horizontal-front/regular-horizontal-front/regular-horizontal-back/regular-vertical-front/regular-vertical-back/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-vertical-front",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1875, 
+			"height":3375  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Light",
+			"justification":"left",
+			"lineHeight":33,
+			"color":"0xD31E47", 
+			"size":139, 
+			"name":"text_3", 
+			"x":398, 
+			"y":346, 
+			"width":1067, 
+			"height":101 , 
+			"text":"WISING YOU AN"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaRustSlab-BlackShadow01",
+			"justification":"left",
+			"lineHeight":33,
+			"color":"0xD31E47", 
+			"size":262, 
+			"name":"text_2", 
+			"x":100, 
+			"y":507, 
+			"width":1680, 
+			"height":212 , 
+			"text":"EGGCITING"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaRustSlab-BlackShadow01",
+			"justification":"left",
+			"lineHeight":33,
+			"color":"0xD31E47", 
+			"size":169, 
+			"name":"text_1", 
+			"x":99, 
+			"y":773, 
+			"width":1679, 
+			"height":137 , 
+			"text":"EASTER SUNDAY"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Light",
+			"justification":"left",
+			"lineHeight":33,
+			"color":"0xFFFFFF", 
+			"size":60, 
+			"name":"website", 
+			"x":953, 
+			"y":3233, 
+			"width":823, 
+			"height":43 , 
+			"text":"JohnsonB.KellerWilliams.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"left",
+			"lineHeight":33,
+			"color":"0xD31E47", 
+			"size":79, 
+			"name":"name", 
+			"x":1192, 
+			"y":3141, 
+			"width":591, 
+			"height":73 , 
+			"text":"Johnson Barry"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":105, 
+			"y":3141, 
+			"width":444, 
+			"height":138  
+		}
+
+	]
+}

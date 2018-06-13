@@ -1,0 +1,168 @@
+.edit-bar-container {
+    padding: 10px 0px;
+    outline: 1px solid #efefef;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    height: 25px;
+    border-right: 1px solid #ababab;
+}
+
+.option.global {
+    margin-left: auto;
+    border-right: none;
+}
+
+.custom-select {
+    min-width: 150px;
+    height: 25px;
+    line-height: 15px;
+    padding: 4px 10px;
+}
+
+span.icon {
+    display: flex;
+    align-items: center;
+    margin: auto 5px;
+    font-size: 15px;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+}
+
+span.icon:hover {
+    outline: 1px solid #ababab;
+}
+
+span.icon.active {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+}
+
+span.icon i {
+    margin: auto;
+}
+
+.icon.edit-text i:first-child {
+    font-size: 20px;
+}
+
+.icon.edit-text i:last-child {
+    font-size: 12px;
+}
+
+.icon.uppercase i:first-child {
+    font-size: 20px;
+}
+
+.icon.uppercase i:last-child {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.fill i,
+.arr-layers i {
+    background-color: #444444;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    width: 15px;
+    height: 15px;
+}
+
+.fill.active i,
+.arr-layers.active i {
+    background-color: #ffffff;
+}
+
+.fill i {
+    -webkit-mask-image: url(/assets/images/icons/fill.svg);
+}
+
+.arr-layers i {
+    -webkit-mask-image: url(/assets/images/icons/send-to.svg);
+}
+
+
+/* Slider */
+
+.custom-tooltip-container {
+    position: relative;
+}
+
+.custom-tooltip {
+    position: absolute;
+    left: -100px;
+    right: -100px;
+    z-index: 10;
+    background-color: #ffffff;
+    border: 1px solid #f38112;
+    border-radius: 4px;
+    top: 35px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-tooltip::before {
+    content: "";
+    top: -20px;
+    left: 50%;
+    border: solid transparent;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(243, 129, 18, 0);
+    border-bottom-color: #f38112;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+.custom-tooltip.edit-text {
+    left: -150px;
+    right: -150px;
+}
+
+.global .custom-tooltip {
+    right: 0px;
+    left: -200px;
+}
+
+.global .custom-tooltip::before {
+    left: calc(100% - 15px);
+}
+
+.attr-group {
+    display: flex;
+    align-items: center;
+}
+
+.attr-group textarea {
+    width: 100%;
+    height: 80px;
+    resize: none;
+}
+
+.attr-group textarea:focus {
+    background-color: #ffffbb;
+}
+
+.attr-group label {
+    width: 120px;
+    margin: 0px;
+}
+
+.attr-group span.value {
+    width: 50px;
+    text-align: right;
+}
+
+button.close {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+
+/* Slider */

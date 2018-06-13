@@ -1,0 +1,157 @@
+{
+	"name":"regular-vertical-front",
+	"path":" regular-vertical-front/",
+	"info":{
+		"description":"Normal",
+		"file":"regular-vertical-front",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1575, 
+			"height":2175  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":-22, 
+			"y":197, 
+			"width":1616, 
+			"height":989  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/img_2.png", 
+			"name":"img_2", 
+			"x":-3, 
+			"y":0, 
+			"width":1575, 
+			"height":336  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/img_1.png", 
+			"name":"img_1", 
+			"x":0, 
+			"y":1030, 
+			"width":1575, 
+			"height":1145  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/regular-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":424, 
+			"y":102, 
+			"width":727, 
+			"height":148  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeueLight",
+			"justification":"center",
+			"color":"0x000000", 
+			"size":146, 
+			"name":"txt_2", 
+			"x":271, 
+			"y":1447, 
+			"width":499, 
+			"height":104 , 
+			"text":"OFFERED AT"  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeueBold",
+			"justification":"center",
+			"color":"0xE31A37", 
+			"size":146, 
+			"name":"l_price", 
+			"x":802, 
+			"y":1441, 
+			"width":511, 
+			"height":116 , 
+			"text":"$1.250.000"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DINBold",
+			"justification":"center",
+			"uppercase":true,
+			"lineHeight":58,
+			"color":"0x333333", 
+			"size":117, 
+			"name":"l_addr", 
+			"x":268, 
+			"y":1171, 
+			"width":1053, 
+			"height":83 , 
+			"text":"123 wilshire blvd"  
+		},
+		{ 
+			"type":"text", 
+			"font":"DIN-Light",
+			"justification":"center",
+			"uppercase":true,
+			"lineHeight":58,
+			"color":"0x333333", 
+			"size":91, 
+			"name":"l_csz", 
+			"x":276, 
+			"y":1281, 
+			"width":1032, 
+			"height":65 , 
+			"text":"santa monica ca 90402"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Roboto-Light",
+			"justification":"left",
+			"alpha":0.5, 
+			"color":"0x000000", 
+			"size":33, 
+			"name":"l_desc", 
+			"x":261, 
+			"y":1819, 
+			"width":1052, 
+			"height":234 , 
+			"text":"Perched atop the coveted Huntington area of the Pacific Palisades, this oceanside manor is nothing short of presidential - a rare composition of remarkable stonework flush with ivy and backlit by the crimson blue of the Pacific. Entering through wrought iron gates and a palatial motor court, one is greeted by a grand entry hall, guiding you into a medley of impeccably outfitted spaces."  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeueLight",
+			"justification":"left",
+			"color":"0x000000", 
+			"size":156, 
+			"name":"modern", 
+			"x":415, 
+			"y":1666, 
+			"width":354, 
+			"height":111 , 
+			"text":"Modern"  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeueBold",
+			"justification":"left",
+			"color":"0xDD0D27", 
+			"size":156, 
+			"name":"beauty", 
+			"x":805, 
+			"y":1668, 
+			"width":357, 
+			"height":111 , 
+			"text":"Beauty"  
+		}
+
+	]
+}

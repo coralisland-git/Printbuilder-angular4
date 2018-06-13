@@ -1,0 +1,164 @@
+{
+	"name":"jumbo-horizontal-front",
+	"path":" jumbo-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1088, 
+			"height":653  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":377, 
+			"y":131, 
+			"width":333, 
+			"height":69  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"color":"0xA00036", 
+			"size":25, 
+			"name":"brenumber", 
+			"x":381, 
+			"y":424, 
+			"width":112, 
+			"height":17 , 
+			"text":"01998060"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Bold",
+			"justification":"center",
+			"color":"0xA00036", 
+			"size":25, 
+			"name":"bre_", 
+			"x":312, 
+			"y":424, 
+			"width":61, 
+			"height":17 , 
+			"text":"BRE#"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"center",
+			"color":"0xA00036", 
+			"size":25, 
+			"name":"text_2", 
+			"x":188, 
+			"y":424, 
+			"width":116, 
+			"height":18 , 
+			"text":"REALTOR | "  
+		},
+		{ 
+			"type":"text", 
+			"font":"Georgia",
+			"justification":"center",
+			"color":"0x4E4E4E", 
+			"size":46, 
+			"name":"name", 
+			"x":223, 
+			"y":371, 
+			"width":235, 
+			"height":36 , 
+			"text":"John Smith"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"addr_multiline", 
+			"x":580, 
+			"y":315, 
+			"width":284, 
+			"height":50 , 
+			"text":"3963 West Side Avenue\rNew Brunswick, NJ 08901"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"website", 
+			"x":621, 
+			"y":488, 
+			"width":220, 
+			"height":17 , 
+			"text":"www.realestate.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"email", 
+			"x":622, 
+			"y":458, 
+			"width":243, 
+			"height":19 , 
+			"text":"emmanuel@email.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"phone", 
+			"x":622, 
+			"y":428, 
+			"width":169, 
+			"height":17 , 
+			"text":"077 5005 3489"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":25, 
+			"name":"mobile", 
+			"x":622, 
+			"y":398, 
+			"width":161, 
+			"height":22 , 
+			"text":"(301) 555-0100"  
+		},
+		{ 
+			"type":"text", 
+			"font":"ProximaNova-Regular",
+			"justification":"left",
+			"color":"0x4E4E4E", 
+			"size":19, 
+			"name":"text_1", 
+			"x":344, 
+			"y":233, 
+			"width":402, 
+			"height":16 , 
+			"text":"Each office is independently owned and operated"  
+		}
+
+	]
+}

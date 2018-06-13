@@ -1,0 +1,91 @@
+{
+	"name":"large-horizontal-front",
+	"path":" jumbo-horizontal-front/jumbo-vertical-front/jumbo-horizontal-back/jumbo-vertical-back/large-vertical-back/large-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"large-horizontal-front",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":2775, 
+			"height":1875  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":1951, 
+			"y":117, 
+			"width":731, 
+			"height":148  
+		},
+		{ 
+			"type":"text", 
+			"font":"Aldine-Regular",
+			"justification":"left",
+			"lineHeight":66,
+			"color":"0xC32035", 
+			"size":292, 
+			"name":"text_2", 
+			"x":995, 
+			"y":431, 
+			"width":1681, 
+			"height":228 , 
+			"text":"Happy memorial day!"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Light",
+			"justification":"left",
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":64, 
+			"name":"text_1", 
+			"x":1600, 
+			"y":667, 
+			"width":1082, 
+			"height":52 , 
+			"text":"Land of the free, Home of the brave."  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Book",
+			"justification":"right",
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":53, 
+			"name":"website", 
+			"x":1939, 
+			"y":1009, 
+			"width":744, 
+			"height":38 , 
+			"text":"JohnsonB.KellerWilliams.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"left",
+			"uppercase":true,
+			"lineHeight":66,
+			"color":"0xC32034", 
+			"size":74, 
+			"name":"name", 
+			"x":1985, 
+			"y":935, 
+			"width":697, 
+			"height":55 , 
+			"text":"Johnson Barry"  
+		}
+
+	]
+}

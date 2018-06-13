@@ -1,0 +1,100 @@
+{
+	"name":"jumbo-horizontal-front",
+	"path":" jumbo-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-horizontal-front",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1050, 
+			"height":600  
+		},
+		{ 
+			"type":"text", 
+			"font":"MuseoSlab-900",
+			"justification":"right",
+			"lineHeight":66,
+			"color":"0xC32032", 
+			"size":29, 
+			"name":"website", 
+			"x":475, 
+			"y":487, 
+			"width":513, 
+			"height":27 , 
+			"text":"JohnsonBarry.KellerWilliams.com"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Roboto-Light",
+			"justification":"right",
+			"lineHeight":66,
+			"color":"0x211F21", 
+			"size":29, 
+			"name":"text_1", 
+			"x":475, 
+			"y":449, 
+			"width":127, 
+			"height":23 , 
+			"text":"Visit us at"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/userimg_camera.png", 
+			"name":"userimg_camera", 
+			"x":47, 
+			"y":61, 
+			"width":369, 
+			"height":514  
+		},
+		{ 
+			"type":"text", 
+			"font":"MuseoSlab-900",
+			"justification":"left",
+			"uppercase":true,
+			"lineHeight":66,
+			"color":"0xC32032", 
+			"size":58, 
+			"name":"name", 
+			"x":475, 
+			"y":291, 
+			"width":405, 
+			"height":44 , 
+			"text":"john smith"  
+		},
+		{ 
+			"type":"text", 
+			"font":"MuseoSans-100",
+			"justification":"left",
+			"lineHeight":66,
+			"color":"0xFFFFFF", 
+			"size":38, 
+			"name":"text_2", 
+			"x":476, 
+			"y":343, 
+			"width":131, 
+			"height":27 , 
+			"text":"Realtor"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":476, 
+			"y":96, 
+			"width":268, 
+			"height":122  
+		}
+
+	]
+}

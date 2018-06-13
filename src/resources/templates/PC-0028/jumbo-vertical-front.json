@@ -1,0 +1,108 @@
+{
+	"name":"jumbo-vertical-front",
+	"path":" jumbo-horizontal-back/jumbo-horizontal-front/jumbo-vertical-back/jumbo-vertical-front/large-vertical-back/large-horizontal-front/large-horizontal-back/large-vertical-front/regular-horizontal-back/regular-vertical-front/regular-horizontal-front/regular-vertical-back/",
+	"info":{
+		"description":"Normal",
+		"file":"jumbo-vertical-front",
+		"date":"Uncalibrated",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":0, 
+			"width":1875, 
+			"height":3375  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/logo.png", 
+			"name":"logo", 
+			"x":523, 
+			"y":216, 
+			"width":829, 
+			"height":175  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Book",
+			"justification":"center",
+			"lineHeight":118,
+			"color":"0x4D4D4F", 
+			"size":149, 
+			"name":"txt_4", 
+			"x":354, 
+			"y":1221, 
+			"width":1170, 
+			"height":109 , 
+			"text":"DISCOVERING A"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Nexa-Book",
+			"justification":"center",
+			"lineHeight":118,
+			"color":"0x4D4D4F", 
+			"size":125, 
+			"name":"txt_3", 
+			"x":354, 
+			"y":1627, 
+			"width":1171, 
+			"height":92 , 
+			"text":"REWARDING YOUR"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"center",
+			"lineHeight":118,
+			"color":"0xC60036", 
+			"size":272, 
+			"name":"txt_2", 
+			"x":357, 
+			"y":1378, 
+			"width":1162, 
+			"height":199 , 
+			"text":"CAREER"  
+		},
+		{ 
+			"type":"text", 
+			"font":"NexaBlack",
+			"justification":"center",
+			"lineHeight":118,
+			"color":"0xC60036", 
+			"size":282, 
+			"name":"txt_1", 
+			"x":355, 
+			"y":1766, 
+			"width":1167, 
+			"height":201 , 
+			"text":"FUTURE"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/img_2.png", 
+			"name":"img_2", 
+			"x":225, 
+			"y":1091, 
+			"width":239, 
+			"height":241  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/jumbo-vertical-front/img__.png", 
+			"name":"img__", 
+			"x":1414, 
+			"y":1864, 
+			"width":239, 
+			"height":240  
+		}
+
+	]
+}

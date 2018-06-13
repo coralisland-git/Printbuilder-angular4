@@ -1,0 +1,17 @@
+<page-hero heroType="carousel"></page-hero>
+
+<div class="box-container col-12">
+  <div class="row p-3">
+    <div class="col-4 box" *ngFor="let box of boxItems;" [id]="box.id">
+      <a class="col-12" (click)="redirectTo(box)">
+        <img class="mt-auto" [src]="box.imgURL">
+        <label class="w-100 text-center text-uppercase">{{box.title}}</label>
+        <hr class="mb-auto">
+      </a>
+
+      <div class="comming-soon" *ngIf="getCommingSoon(box.id)">
+        <label>Coming Soon</label>
+      </div>
+    </div>
+  </div>
+</div>

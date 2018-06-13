@@ -1,0 +1,117 @@
+{
+	"name":"large-horizontal-front",
+	"path":" jumbo-vertical-front/jumbo-vertical-back/jumbo-horizontal-front/jumbo-horizontal-back/large-horizontal-back/large-horizontal-front/",
+	"info":{
+		"description":"Normal",
+		"file":"large-horizontal-front",
+		"date":"sRGB",
+		"title":"",
+		"author":"",
+		"keywords":"",
+		"generator":"Export Kit v1.2.8"
+	},
+	"layers":[
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/background.png", 
+			"name":"background", 
+			"x":0, 
+			"y":-85, 
+			"width":2775, 
+			"height":1977  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/camera_1.png", 
+			"name":"camera_1", 
+			"x":303, 
+			"y":532, 
+			"width":2168, 
+			"height":1135  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/img_1.png", 
+			"name":"img_1", 
+			"x":1360, 
+			"y":1469, 
+			"width":1050, 
+			"height":253  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeue",
+			"justification":"left",
+			"color":"0xB8202D", 
+			"size":124, 
+			"name":"text_3", 
+			"x":1463, 
+			"y":1546, 
+			"width":463, 
+			"height":89 , 
+			"text":"Offering at"  
+		},
+		{ 
+			"type":"text", 
+			"font":"BebasNeue",
+			"justification":"left",
+			"color":"0xB8202D", 
+			"size":124, 
+			"name":"l_price", 
+			"x":1950, 
+			"y":1541, 
+			"width":358, 
+			"height":99 , 
+			"text":"$250.000"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Raleway-Bold",
+			"justification":"left",
+			"color":"0xB8202D", 
+			"size":140, 
+			"name":"text_2", 
+			"x":1282, 
+			"y":243, 
+			"width":592, 
+			"height":102 , 
+			"text":"MODERN"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Raleway-Regular",
+			"justification":"left",
+			"color":"0xB8202D", 
+			"size":140, 
+			"name":"text_1", 
+			"x":1931, 
+			"y":245, 
+			"width":542, 
+			"height":101 , 
+			"text":"BEAUTY"  
+		},
+		{ 
+			"type":"text", 
+			"font":"Raleway-SemiBold",
+			"justification":"left",
+			"color":"0xB8202D", 
+			"size":66, 
+			"name":"l_address", 
+			"x":1283, 
+			"y":421, 
+			"width":1183, 
+			"height":60 , 
+			"text":"1224 MONTANA AVE | SANTA MONICA"  
+		},
+		{ 
+			"type":"image",  
+			"src":"../skins/large-horizontal-front/logo.png", 
+			"name":"logo", 
+			"x":303, 
+			"y":230, 
+			"width":824, 
+			"height":173  
+		}
+
+	]
+}
